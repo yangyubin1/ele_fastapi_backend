@@ -1,0 +1,248 @@
+2020-12-09 09:25:55,556 INFO main.py[ln:397] Started server process [42488]
+2020-12-09 09:25:55,560 INFO on.py[ln:22] Waiting for application startup.
+2020-12-09 09:25:55,561 INFO on.py[ln:34] Application startup complete.
+2020-12-09 09:26:37,160 INFO main.py[ln:397] Started server process [40224]
+2020-12-09 09:26:37,161 INFO on.py[ln:22] Waiting for application startup.
+2020-12-09 09:26:37,162 INFO on.py[ln:34] Application startup complete.
+2020-12-09 09:33:15,607 INFO main.py[ln:397] Started server process [53532]
+2020-12-09 09:33:15,608 INFO on.py[ln:22] Waiting for application startup.
+2020-12-09 09:33:15,610 INFO on.py[ln:34] Application startup complete.
+2020-12-09 09:56:36,841 INFO main.py[ln:397] Started server process [40740]
+2020-12-09 09:56:36,842 INFO on.py[ln:22] Waiting for application startup.
+2020-12-09 09:56:36,843 INFO on.py[ln:34] Application startup complete.
+2020-12-09 09:56:37,608 INFO h11_impl.py[ln:454] 127.0.0.1:54726 - "GET /v1/user?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 307
+2020-12-09 09:56:37,613 INFO h11_impl.py[ln:454] 127.0.0.1:54727 - "GET /v1/cities?type=hot HTTP/1.1" 307
+2020-12-09 09:56:37,617 INFO h11_impl.py[ln:454] 127.0.0.1:54728 - "GET /v1/cities?type=group HTTP/1.1" 307
+2020-12-09 09:56:37,623 INFO h11_impl.py[ln:454] 127.0.0.1:54729 - "GET /v1/cities?type=guess HTTP/1.1" 307
+2020-12-09 09:56:37,958 INFO h11_impl.py[ln:454] 127.0.0.1:54735 - "OPTIONS /v1/user/?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 200
+2020-12-09 09:56:37,963 INFO h11_impl.py[ln:454] 127.0.0.1:54735 - "OPTIONS /v1/cities/?type=hot HTTP/1.1" 200
+2020-12-09 09:56:37,965 INFO h11_impl.py[ln:454] 127.0.0.1:54736 - "OPTIONS /v1/cities/?type=group HTTP/1.1" 200
+2020-12-09 09:56:37,968 INFO h11_impl.py[ln:454] 127.0.0.1:54737 - "OPTIONS /v1/cities/?type=guess HTTP/1.1" 200
+2020-12-09 09:56:38,280 INFO h11_impl.py[ln:454] 127.0.0.1:54747 - "GET /v1/cities/?type=group HTTP/1.1" 200
+2020-12-09 09:56:38,287 INFO views.py[ln:35] guess获取的城市信息:{'id': 1, 'name': '上海', 'abbr': 'SH', 'area_code': '021', 'sort': 1, 'latitude': 31.23037, 'longitude': 121.473701, 'is_map': True, 'pinyin': 'shanghai'}
+2020-12-09 09:56:38,296 INFO h11_impl.py[ln:454] 127.0.0.1:54748 - "GET /v1/cities/?type=guess HTTP/1.1" 200
+2020-12-09 09:56:38,302 INFO h11_impl.py[ln:454] 127.0.0.1:54750 - "GET /v1/cities/?type=hot HTTP/1.1" 200
+2020-12-09 09:56:38,356 INFO h11_impl.py[ln:454] 127.0.0.1:54749 - "GET /v1/user/?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 200
+2020-12-09 09:56:39,638 INFO h11_impl.py[ln:454] 127.0.0.1:54754 - "POST /v1/captchas HTTP/1.1" 307
+2020-12-09 09:56:39,646 INFO h11_impl.py[ln:454] 127.0.0.1:54756 - "GET /v1/user?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 307
+2020-12-09 09:56:39,651 INFO h11_impl.py[ln:454] 127.0.0.1:54737 - "OPTIONS /v1/captchas/ HTTP/1.1" 200
+2020-12-09 09:56:39,658 INFO views.py[ln:24] 验证码为:6261
+2020-12-09 09:56:39,678 INFO h11_impl.py[ln:454] 127.0.0.1:54750 - "GET /v1/user/?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 200
+2020-12-09 09:56:39,772 INFO h11_impl.py[ln:454] 127.0.0.1:54749 - "POST /v1/captchas/ HTTP/1.1" 200
+2020-12-09 09:56:52,698 INFO h11_impl.py[ln:454] 127.0.0.1:54778 - "POST /v1/captchas HTTP/1.1" 307
+2020-12-09 09:56:53,008 INFO views.py[ln:24] 验证码为:8182
+2020-12-09 09:56:53,036 INFO h11_impl.py[ln:454] 127.0.0.1:54781 - "POST /v1/captchas/ HTTP/1.1" 200
+2020-12-09 09:56:59,985 INFO h11_impl.py[ln:454] 127.0.0.1:54794 - "POST /v2/login HTTP/1.1" 200
+2020-12-09 09:57:00,311 INFO h11_impl.py[ln:454] 127.0.0.1:54808 - "GET /v1/user?user_id=ef6bf5d563684fd49460f268af97cb5c HTTP/1.1" 307
+2020-12-09 09:57:00,315 INFO h11_impl.py[ln:454] 127.0.0.1:54809 - "GET /v1/cities?type=guess HTTP/1.1" 307
+2020-12-09 09:57:00,318 INFO h11_impl.py[ln:454] 127.0.0.1:54810 - "GET /v1/cities?type=hot HTTP/1.1" 307
+2020-12-09 09:57:00,320 INFO h11_impl.py[ln:454] 127.0.0.1:54811 - "GET /v1/cities?type=group HTTP/1.1" 307
+2020-12-09 09:57:00,327 INFO views.py[ln:35] guess获取的城市信息:{'id': 1, 'name': '上海', 'abbr': 'SH', 'area_code': '021', 'sort': 1, 'latitude': 31.23037, 'longitude': 121.473701, 'is_map': True, 'pinyin': 'shanghai'}
+2020-12-09 09:57:00,340 INFO h11_impl.py[ln:454] 127.0.0.1:54782 - "GET /v1/cities/?type=guess HTTP/1.1" 200
+2020-12-09 09:57:00,353 INFO h11_impl.py[ln:454] 127.0.0.1:54805 - "GET /v1/cities/?type=group HTTP/1.1" 200
+2020-12-09 09:57:00,356 INFO h11_impl.py[ln:454] 127.0.0.1:54804 - "GET /v1/cities/?type=hot HTTP/1.1" 200
+2020-12-09 09:57:00,625 INFO h11_impl.py[ln:454] 127.0.0.1:54814 - "OPTIONS /v1/user/?user_id=ef6bf5d563684fd49460f268af97cb5c HTTP/1.1" 200
+2020-12-09 09:57:00,642 INFO h11_impl.py[ln:454] 127.0.0.1:54804 - "GET /v1/user/?user_id=ef6bf5d563684fd49460f268af97cb5c HTTP/1.1" 200
+2020-12-09 09:57:03,526 INFO h11_impl.py[ln:454] 127.0.0.1:54820 - "GET /v1/cities/1 HTTP/1.1" 404
+2020-12-09 09:57:03,543 INFO h11_impl.py[ln:454] 127.0.0.1:54822 - "GET /v1/user?user_id=ef6bf5d563684fd49460f268af97cb5c HTTP/1.1" 307
+2020-12-09 09:57:03,557 INFO h11_impl.py[ln:454] 127.0.0.1:54804 - "GET /v1/user/?user_id=ef6bf5d563684fd49460f268af97cb5c HTTP/1.1" 200
+2020-12-09 09:57:08,669 INFO h11_impl.py[ln:454] 127.0.0.1:54832 - "GET /v2/pois/31.168494,121.397796 HTTP/1.1" 404
+2020-12-09 09:57:08,698 INFO h11_impl.py[ln:454] 127.0.0.1:54835 - "GET /v1/user?user_id=ef6bf5d563684fd49460f268af97cb5c HTTP/1.1" 307
+2020-12-09 09:57:08,700 INFO h11_impl.py[ln:454] 127.0.0.1:54836 - "GET /v2/index_entry?geohash=31.168494,121.397796&group_type=1&flags[]=F HTTP/1.1" 307
+2020-12-09 09:57:08,735 INFO h11_impl.py[ln:454] 127.0.0.1:54815 - "OPTIONS /v2/index_entry/?geohash=31.168494,121.397796&group_type=1&flags[]=F HTTP/1.1" 200
+2020-12-09 09:57:08,744 INFO h11_impl.py[ln:454] 127.0.0.1:54806 - "GET /v1/user/?user_id=ef6bf5d563684fd49460f268af97cb5c HTTP/1.1" 200
+2020-12-09 09:57:08,755 INFO h11_impl.py[ln:454] 127.0.0.1:54838 - "GET /shopping/restaurants?latitude=undefined&longitude=undefined&offset=0&limit=20&extras[]=activities&keyword=&restaurant_category_id=&restaurant_category_ids[]=&order_by=&delivery_mode[]= HTTP/1.1" 404
+2020-12-09 09:57:08,764 INFO h11_impl.py[ln:454] 127.0.0.1:54806 - "GET /v2/index_entry/?geohash=31.168494,121.397796&group_type=1&flags[]=F HTTP/1.1" 200
+2020-12-09 10:46:32,766 INFO h11_impl.py[ln:454] 127.0.0.1:59710 - "GET /v2/pois/31.168494,121.397796 HTTP/1.1" 404
+2020-12-09 10:46:32,782 INFO h11_impl.py[ln:454] 127.0.0.1:59714 - "GET /v2/index_entry?geohash=31.168494,121.397796&group_type=1&flags[]=F HTTP/1.1" 307
+2020-12-09 10:46:32,843 INFO h11_impl.py[ln:454] 127.0.0.1:59713 - "GET /v1/user?user_id=ef6bf5d563684fd49460f268af97cb5c HTTP/1.1" 307
+2020-12-09 10:46:32,871 INFO h11_impl.py[ln:454] 127.0.0.1:59716 - "GET /shopping/restaurants?latitude=undefined&longitude=undefined&offset=0&limit=20&extras[]=activities&keyword=&restaurant_category_id=&restaurant_category_ids[]=&order_by=&delivery_mode[]= HTTP/1.1" 404
+2020-12-09 10:46:33,170 INFO h11_impl.py[ln:454] 127.0.0.1:59720 - "OPTIONS /v2/index_entry/?geohash=31.168494,121.397796&group_type=1&flags[]=F HTTP/1.1" 200
+2020-12-09 10:46:33,173 INFO h11_impl.py[ln:454] 127.0.0.1:59721 - "OPTIONS /v1/user/?user_id=ef6bf5d563684fd49460f268af97cb5c HTTP/1.1" 200
+2020-12-09 10:46:33,519 INFO h11_impl.py[ln:454] 127.0.0.1:59728 - "GET /v2/index_entry/?geohash=31.168494,121.397796&group_type=1&flags[]=F HTTP/1.1" 200
+2020-12-09 10:46:33,566 INFO h11_impl.py[ln:454] 127.0.0.1:59729 - "GET /v1/user/?user_id=ef6bf5d563684fd49460f268af97cb5c HTTP/1.1" 200
+2020-12-09 10:46:38,264 INFO h11_impl.py[ln:454] 127.0.0.1:59742 - "GET /v2/pois/31.168494,121.397796 HTTP/1.1" 404
+2020-12-09 10:46:38,311 INFO h11_impl.py[ln:454] 127.0.0.1:59743 - "GET /v1/user?user_id=ef6bf5d563684fd49460f268af97cb5c HTTP/1.1" 307
+2020-12-09 10:46:38,315 INFO h11_impl.py[ln:454] 127.0.0.1:59744 - "GET /v2/index_entry?geohash=31.168494,121.397796&group_type=1&flags[]=F HTTP/1.1" 307
+2020-12-09 10:46:38,396 INFO h11_impl.py[ln:454] 127.0.0.1:59728 - "GET /v2/index_entry/?geohash=31.168494,121.397796&group_type=1&flags[]=F HTTP/1.1" 200
+2020-12-09 10:46:38,399 INFO h11_impl.py[ln:454] 127.0.0.1:59729 - "GET /v1/user/?user_id=ef6bf5d563684fd49460f268af97cb5c HTTP/1.1" 200
+2020-12-09 10:46:38,429 INFO h11_impl.py[ln:454] 127.0.0.1:59745 - "GET /shopping/restaurants?latitude=undefined&longitude=undefined&offset=0&limit=20&extras[]=activities&keyword=&restaurant_category_id=&restaurant_category_ids[]=&order_by=&delivery_mode[]= HTTP/1.1" 404
+2020-12-09 10:48:16,739 INFO h11_impl.py[ln:454] 127.0.0.1:59887 - "GET /v2/pois/31.168494,121.397796 HTTP/1.1" 404
+2020-12-09 10:48:16,760 INFO h11_impl.py[ln:454] 127.0.0.1:59890 - "GET /v1/user?user_id=ef6bf5d563684fd49460f268af97cb5c HTTP/1.1" 307
+2020-12-09 10:48:16,767 INFO h11_impl.py[ln:454] 127.0.0.1:59891 - "GET /v2/index_entry?geohash=31.168494,121.397796&group_type=1&flags[]=F HTTP/1.1" 307
+2020-12-09 10:48:16,820 INFO h11_impl.py[ln:454] 127.0.0.1:59895 - "GET /shopping/restaurants?latitude=undefined&longitude=undefined&offset=0&limit=20&extras[]=activities&keyword=&restaurant_category_id=&restaurant_category_ids[]=&order_by=&delivery_mode[]= HTTP/1.1" 404
+2020-12-09 10:48:17,101 INFO h11_impl.py[ln:454] 127.0.0.1:59898 - "GET /v2/index_entry/?geohash=31.168494,121.397796&group_type=1&flags[]=F HTTP/1.1" 200
+2020-12-09 10:48:17,104 INFO h11_impl.py[ln:454] 127.0.0.1:59897 - "GET /v1/user/?user_id=ef6bf5d563684fd49460f268af97cb5c HTTP/1.1" 200
+2020-12-09 10:48:23,178 INFO h11_impl.py[ln:454] 127.0.0.1:59920 - "GET /v2/pois/31.168494,121.397796 HTTP/1.1" 404
+2020-12-09 10:48:23,219 INFO h11_impl.py[ln:454] 127.0.0.1:59921 - "GET /v1/user?user_id=ef6bf5d563684fd49460f268af97cb5c HTTP/1.1" 307
+2020-12-09 10:48:23,223 INFO h11_impl.py[ln:454] 127.0.0.1:59922 - "GET /v2/index_entry?geohash=31.168494,121.397796&group_type=1&flags[]=F HTTP/1.1" 307
+2020-12-09 10:48:23,289 INFO h11_impl.py[ln:454] 127.0.0.1:59917 - "GET /v2/index_entry/?geohash=31.168494,121.397796&group_type=1&flags[]=F HTTP/1.1" 200
+2020-12-09 10:48:23,298 INFO h11_impl.py[ln:454] 127.0.0.1:59899 - "GET /v1/user/?user_id=ef6bf5d563684fd49460f268af97cb5c HTTP/1.1" 200
+2020-12-09 10:48:23,317 INFO h11_impl.py[ln:454] 127.0.0.1:59923 - "GET /shopping/restaurants?latitude=undefined&longitude=undefined&offset=0&limit=20&extras[]=activities&keyword=&restaurant_category_id=&restaurant_category_ids[]=&order_by=&delivery_mode[]= HTTP/1.1" 404
+2020-12-09 13:33:23,260 INFO h11_impl.py[ln:454] 127.0.0.1:58831 - "GET /v1/cities/1 HTTP/1.1" 404
+2020-12-09 13:33:23,303 INFO h11_impl.py[ln:454] 127.0.0.1:58832 - "GET /v1/user?user_id=null HTTP/1.1" 307
+2020-12-09 13:33:23,614 INFO h11_impl.py[ln:454] 127.0.0.1:58835 - "OPTIONS /v1/user/?user_id=null HTTP/1.1" 200
+2020-12-09 13:33:23,938 INFO h11_impl.py[ln:454] 127.0.0.1:58839 - "GET /v1/user/?user_id=null HTTP/1.1" 200
+2020-12-09 13:33:27,833 INFO h11_impl.py[ln:454] 127.0.0.1:58848 - "GET /v1/pois?type=search&city_id=1&keyword=%E4%B8%87%E8%8D%A3 HTTP/1.1" 307
+2020-12-09 13:33:27,839 INFO h11_impl.py[ln:454] 127.0.0.1:58835 - "OPTIONS /v1/pois/?type=search&city_id=1&keyword=%E4%B8%87%E8%8D%A3 HTTP/1.1" 200
+2020-12-09 13:33:28,145 INFO views.py[ln:25] 查询的位置信息为:{'status': 0, 'message': 'query ok', 'count': 1365, 'request_id': '180169136242ae6796e141d062ffa07d2cce1483b0c1', 'data': [{'id': '3496936052768178373', 'title': '万荣路', 'address': '上海市静安区 ', 'tel': '', 'category': '地名地址:道路名', 'type': 0, 'location': {'lat': 31.284903, 'lng': 121.442421}, 'ad_info': {'adcode': 310106, 'province': '上海市', 'city': '上海市', 'district': '静安区'}}, {'id': '8399238443353177069', 'title': '万荣村', 'address': '上海市静安区 ', 'tel': '', 'category': '地名地址:行政地名', 'type': 0, 'location': {'lat': 31.291393, 'lng': 121.440751}, 'ad_info': {'adcode': 310106, 'province': '上海市', 'city': '上海市', 'district': '静安区'}}, {'id': '4690122693851994850', 'title': '万荣小区', 'address': '上海市静安区灵石路737弄1-36号', 'tel': '', 'category': '房产小区:住宅区:住宅小区', 'type': 0, 'location': {'lat': 31.284991, 'lng': 121.437163}, 'ad_info': {'adcode': 310106, 'province': '上海市', 'city': '上海市', 'district': '静安区'}}, {'id': '5444678542760641384', 'title': '万荣阳光苑', 'address': '上海市静安区万荣路1050弄', 'tel': '', 'category': '房产小区:住宅区:住宅小区', 'type': 0, 'location': {'lat': 31.289871, 'lng': 121.440948}, 'ad_info': {'adcode': 310106, 'province': '上海市', 'city': '上海市', 'district': '静安区'}}, {'id': '15475385573256209643', 'title': '万荣街坊', 'address': '上海市静安区灵石路733~739弄', 'tel': '', 'category': '房产小区:住宅区:其它住宅区', 'type': 0, 'location': {'lat': 31.287055, 'lng': 121.438778}, 'ad_info': {'adcode': 310106, 'province': '上海市', 'city': '上海市', 'district': '静安区'}}, {'id': '2017093738847917218', 'title': '万荣新苑', 'address': '上海市静安区灵石路739弄', 'tel': '', 'category': '房产小区:住宅区:住宅小区', 'type': 0, 'location': {'lat': 31.286435, 'lng': 121.437202}, 'ad_info': {'adcode': 310106, 'province': '上海市', 'city': '上海市', 'district': '静安区'}}, {'id': '3654057431233228858', 'title': '大宁音乐广场', 'address': '上海市静安区万荣路777号', 'tel': '021-56319201;021-66280158', 'category': '购物:综合商场:购物中心', 'type': 0, 'location': {'lat': 31.28087, 'lng': 121.443961}, 'ad_info': {'adcode': 310106, 'province': '上海市', 'city': '上海市', 'district': '静安区'}}, {'id': '7094792260173779154', 'title': '万荣东怡小区', 'address': '上海市静安区宁盛路', 'tel': '', 'category': '房产小区:住宅区:住宅小区', 'type': 0, 'location': {'lat': 31.285219, 'lng': 121.439792}, 'ad_info': {'adcode': 310106, 'province': '上海市', 'city': '上海市', 'district': '静安区'}}, {'id': '16195583441048845223', 'title': '大宁中心广场', 'address': '上海市静安区万荣路700号', 'tel': '021-66309999', 'category': '购物:其它购物', 'type': 0, 'location': {'lat': 31.280934, 'lng': 121.441666}, 'ad_info': {'adcode': 310106, 'province': '上海市', 'city': '上海市', 'district': '静安区'}}, {'id': '12955830792354101855', 'title': '万荣菜市场', 'address': '上海市静安区永和路与宁盛路交叉路口西侧(雍和创智广场)', 'tel': '', 'category': '购物:农贸市场', 'type': 0, 'location': {'lat': 31.287341, 'lng': 121.438124}, 'ad_info': {'adcode': 310106, 'province': '上海市', 'city': '上海市', 'district': '静安区'}}], 'region': {'title': '上海市'}}
+2020-12-09 13:33:28,148 INFO h11_impl.py[ln:454] 127.0.0.1:58839 - "GET /v1/pois/?type=search&city_id=1&keyword=%E4%B8%87%E8%8D%A3 HTTP/1.1" 200
+2020-12-09 13:33:40,771 INFO h11_impl.py[ln:454] 127.0.0.1:58869 - "GET /v1/cities/1 HTTP/1.1" 404
+2020-12-09 13:33:40,793 INFO h11_impl.py[ln:454] 127.0.0.1:58871 - "GET /v1/user?user_id=null HTTP/1.1" 307
+2020-12-09 13:33:41,112 INFO h11_impl.py[ln:454] 127.0.0.1:58876 - "GET /v1/user/?user_id=null HTTP/1.1" 200
+2020-12-09 13:33:44,956 INFO h11_impl.py[ln:454] 127.0.0.1:58883 - "GET /v1/cities/1 HTTP/1.1" 404
+2020-12-09 13:33:44,973 INFO h11_impl.py[ln:454] 127.0.0.1:58885 - "GET /v1/user?user_id=null HTTP/1.1" 307
+2020-12-09 13:33:44,982 INFO h11_impl.py[ln:454] 127.0.0.1:58876 - "GET /v1/user/?user_id=null HTTP/1.1" 200
+2020-12-09 13:33:49,479 INFO h11_impl.py[ln:454] 127.0.0.1:58894 - "GET /v1/pois?type=search&city_id=1&keyword=%E4%B8%87%E8%8D%A3%E4%BA%8C%E8%B7%AF HTTP/1.1" 307
+2020-12-09 13:33:49,788 INFO h11_impl.py[ln:454] 127.0.0.1:58897 - "OPTIONS /v1/pois/?type=search&city_id=1&keyword=%E4%B8%87%E8%8D%A3%E4%BA%8C%E8%B7%AF HTTP/1.1" 200
+2020-12-09 13:33:49,891 INFO views.py[ln:25] 查询的位置信息为:{'status': 0, 'message': 'query ok', 'count': 15, 'request_id': '180169136242a8c99eef24e5e54a391d20d37c48892f', 'data': [{'id': '14882490051856404142', 'title': '江场二路与万荣一路交叉口', 'address': '上海市静安区 ', 'tel': '', 'category': '基础设施:道路附属:路口', 'type': 0, 'location': {'lat': 31.299064, 'lng': 121.444229}, 'ad_info': {'adcode': 310106, 'province': '上海市', 'city': '上海市', 'district': '静安区'}}, {'id': '18407594912661908091', 'title': '万荣园林', 'address': '上海市静安区万荣二路1号', 'tel': '', 'category': '公司企业:公司企业', 'type': 0, 'location': {'lat': 31.296784, 'lng': 121.444465}, 'ad_info': {'adcode': 310106, 'province': '上海市', 'city': '上海市', 'district': '静安区'}}, {'id': '13354420365190681942', 'title': '万荣二路1号4号楼', 'address': '上海市静安区 ', 'tel': '', 'category': '房产小区:房产小区附属', 'type': 0, 'location': {'lat': 31.297, 'lng': 121.443994}, 'ad_info': {'adcode': 310106, 'province': '上海市', 'city': '上海市', 'district': '静安区'}}, {'id': '4568562928392617324', 'title': '中华人民共和国上海海关缉私局', 'address': '上海市静安区万荣二路19号', 'tel': '021-66529643', 'category': '机构团体:政府机关', 'type': 0, 'location': {'lat': 31.296734, 'lng': 121.444173}, 'ad_info': {'adcode': 310106, 'province': '上海市', 'city': '上海市', 'district': '静安区'}}, {'id': '8563253286578103289', 'title': '锦森欧洲大楼', 'address': '上海市静安区万荣二路18号', 'tel': '', 'category': '房产小区:商务楼宇', 'type': 0, 'location': {'lat': 31.297051, 'lng': 121.44402}, 'ad_info': {'adcode': 310106, 'province': '上海市', 'city': '上海市', 'district': '静安区'}}, {'id': '6310602178672570210', 'title': '华发华润静安府-东门', 'address': '上海市静安区万荣二路', 'tel': '', 'category': '室内及附属设施:通行设施类:门/出入口', 'type': 0, 'location': {'lat': 31.294673, 'lng': 121.446038}, 'ad_info': {'adcode': 310106, 'province': '上海市', 'city': '上海市', 'district': '静安区'}}, {'id': '3293708157976624620', 'title': '中铁中环时代广场5号楼-东南门', 'address': '上海市静安区万荣二路', 'tel': '', 'category': '室内及附属设施:通行设施类:门/出入口', 'type': 0, 'location': {'lat': 31.296112, 'lng': 121.443008}, 'ad_info': {'adcode': 310106, 'province': '上海市', 'city': '上海市', 'district': '静安区'}}, {'id': '11909432728931691817', 'title': '榕升广告', 'address': '上海市静安区万荣二路', 'tel': '', 'category': '生活服务:其它生活服务', 'type': 0, 'location': {'lat': 31.29618, 'lng': 121.44304}, 'ad_info': {'adcode': 310106, 'province': '上海市', 'city': '上海市', 'district': '静安区'}}, {'id': '17771481919423500011', 'title': '中铁中环时代广场6-西北门', 'address': '上海市静安区万荣二路', 'tel': '', 'category': '室内及附属设施:通行设施类:门/出入口', 'type': 0, 'location': {'lat': 31.296255, 'lng': 121.442811}, 'ad_info': {'adcode': 310106, 'province': '上海市', 'city': '上海市', 'district': '静安区'}}, {'id': '8283494163340366080', 'title': '百彤培训&咨询', 'address': '上海市静安区万荣二路1号4号楼2层', 'tel': '', 'category': '教育学校:培训', 'type': 0, 'location': {'lat': 31.296397, 'lng': 121.444445}, 'ad_info': {'adcode': 310106, 'province': '上海市', 'city': '上海市', 'district': '静安区'}}], 'region': {'title': '上海市'}}
+2020-12-09 13:33:49,893 INFO h11_impl.py[ln:454] 127.0.0.1:58876 - "GET /v1/pois/?type=search&city_id=1&keyword=%E4%B8%87%E8%8D%A3%E4%BA%8C%E8%B7%AF HTTP/1.1" 200
+2020-12-09 13:33:59,566 INFO h11_impl.py[ln:454] 127.0.0.1:58916 - "POST /v1/captchas HTTP/1.1" 307
+2020-12-09 13:33:59,586 INFO h11_impl.py[ln:454] 127.0.0.1:58918 - "GET /v1/user?user_id=null HTTP/1.1" 307
+2020-12-09 13:33:59,601 INFO h11_impl.py[ln:454] 127.0.0.1:58899 - "OPTIONS /v1/captchas/ HTTP/1.1" 200
+2020-12-09 13:33:59,907 INFO h11_impl.py[ln:454] 127.0.0.1:58922 - "GET /v1/user/?user_id=null HTTP/1.1" 200
+2020-12-09 13:33:59,919 INFO views.py[ln:24] 验证码为:1049
+2020-12-09 13:33:59,979 INFO h11_impl.py[ln:454] 127.0.0.1:58922 - "POST /v1/captchas/ HTTP/1.1" 200
+2020-12-09 13:34:15,212 INFO h11_impl.py[ln:454] 127.0.0.1:58951 - "POST /v2/login HTTP/1.1" 200
+2020-12-09 13:34:15,242 INFO h11_impl.py[ln:454] 127.0.0.1:58953 - "POST /v1/captchas HTTP/1.1" 307
+2020-12-09 13:34:15,553 INFO views.py[ln:24] 验证码为:8852
+2020-12-09 13:34:15,570 INFO h11_impl.py[ln:454] 127.0.0.1:58958 - "POST /v1/captchas/ HTTP/1.1" 200
+2020-12-09 13:34:29,672 INFO h11_impl.py[ln:454] 127.0.0.1:58979 - "POST /v2/login HTTP/1.1" 200
+2020-12-09 13:34:29,759 INFO h11_impl.py[ln:454] 127.0.0.1:58981 - "POST /v1/captchas HTTP/1.1" 307
+2020-12-09 13:34:30,066 INFO views.py[ln:24] 验证码为:4302
+2020-12-09 13:34:30,082 INFO h11_impl.py[ln:454] 127.0.0.1:58984 - "POST /v1/captchas/ HTTP/1.1" 200
+2020-12-09 13:34:40,422 INFO h11_impl.py[ln:454] 127.0.0.1:59002 - "POST /v2/login HTTP/1.1" 200
+2020-12-09 13:34:47,264 INFO h11_impl.py[ln:454] 127.0.0.1:59015 - "GET /v1/user?user_id=ef6bf5d563684fd49460f268af97cb5c HTTP/1.1" 307
+2020-12-09 13:34:47,591 INFO h11_impl.py[ln:454] 127.0.0.1:59020 - "OPTIONS /v1/user/?user_id=ef6bf5d563684fd49460f268af97cb5c HTTP/1.1" 200
+2020-12-09 13:34:47,905 INFO h11_impl.py[ln:454] 127.0.0.1:59024 - "GET /v1/user/?user_id=ef6bf5d563684fd49460f268af97cb5c HTTP/1.1" 200
+2020-12-09 13:34:59,446 INFO h11_impl.py[ln:454] 127.0.0.1:59042 - "GET /v1/user?user_id=ef6bf5d563684fd49460f268af97cb5c HTTP/1.1" 307
+2020-12-09 13:34:59,766 INFO h11_impl.py[ln:454] 127.0.0.1:59047 - "GET /v1/user/?user_id=ef6bf5d563684fd49460f268af97cb5c HTTP/1.1" 200
+2020-12-09 13:35:00,964 INFO h11_impl.py[ln:454] 127.0.0.1:59053 - "GET /bos/v2/users/ef6bf5d563684fd49460f268af97cb5c/orders?limit=10&offset=0 HTTP/1.1" 404
+2020-12-09 13:35:00,975 INFO h11_impl.py[ln:454] 127.0.0.1:59054 - "GET /v1/user?user_id=ef6bf5d563684fd49460f268af97cb5c HTTP/1.1" 307
+2020-12-09 13:35:00,999 INFO h11_impl.py[ln:454] 127.0.0.1:59047 - "GET /v1/user/?user_id=ef6bf5d563684fd49460f268af97cb5c HTTP/1.1" 200
+2020-12-09 13:35:02,911 INFO h11_impl.py[ln:454] 127.0.0.1:59058 - "GET /v1/user?user_id=ef6bf5d563684fd49460f268af97cb5c HTTP/1.1" 307
+2020-12-09 13:35:02,918 INFO h11_impl.py[ln:454] 127.0.0.1:59060 - "GET /img/null HTTP/1.1" 404
+2020-12-09 13:35:02,957 INFO h11_impl.py[ln:454] 127.0.0.1:59047 - "GET /v1/user/?user_id=ef6bf5d563684fd49460f268af97cb5c HTTP/1.1" 200
+2020-12-09 14:12:29,312 INFO h11_impl.py[ln:454] 127.0.0.1:62441 - "GET /v1/user?user_id=ef6bf5d563684fd49460f268af97cb5c HTTP/1.1" 307
+2020-12-09 14:12:29,318 INFO h11_impl.py[ln:454] 127.0.0.1:62442 - "GET /v2/index_entry?geohash=31.168494,121.397796&group_type=1&flags[]=F HTTP/1.1" 307
+2020-12-09 14:12:29,327 INFO h11_impl.py[ln:454] 127.0.0.1:62443 - "GET /v2/pois/31.168494,121.397796 HTTP/1.1" 404
+2020-12-09 14:12:29,408 INFO h11_impl.py[ln:454] 127.0.0.1:62447 - "GET /shopping/restaurants?latitude=undefined&longitude=undefined&offset=0&limit=20&extras[]=activities&keyword=&restaurant_category_id=&restaurant_category_ids[]=&order_by=&delivery_mode[]= HTTP/1.1" 404
+2020-12-09 14:12:29,684 INFO h11_impl.py[ln:454] 127.0.0.1:62449 - "OPTIONS /v1/user/?user_id=ef6bf5d563684fd49460f268af97cb5c HTTP/1.1" 200
+2020-12-09 14:12:29,689 INFO h11_impl.py[ln:454] 127.0.0.1:62450 - "OPTIONS /v2/index_entry/?geohash=31.168494,121.397796&group_type=1&flags[]=F HTTP/1.1" 200
+2020-12-09 14:12:30,036 INFO h11_impl.py[ln:454] 127.0.0.1:62456 - "GET /v2/index_entry/?geohash=31.168494,121.397796&group_type=1&flags[]=F HTTP/1.1" 200
+2020-12-09 14:12:30,057 INFO h11_impl.py[ln:454] 127.0.0.1:62455 - "GET /v1/user/?user_id=ef6bf5d563684fd49460f268af97cb5c HTTP/1.1" 200
+2020-12-09 14:18:58,117 INFO h11_impl.py[ln:454] 127.0.0.1:63014 - "GET /v2/pois/31.168494,121.397796 HTTP/1.1" 404
+2020-12-09 14:18:58,130 INFO h11_impl.py[ln:454] 127.0.0.1:63016 - "GET /v1/user?user_id=ef6bf5d563684fd49460f268af97cb5c HTTP/1.1" 307
+2020-12-09 14:18:58,181 INFO h11_impl.py[ln:454] 127.0.0.1:63021 - "GET /v2/index_entry?geohash=31.168494,121.397796&group_type=1&flags[]=F HTTP/1.1" 307
+2020-12-09 14:18:58,185 INFO h11_impl.py[ln:454] 127.0.0.1:63022 - "GET /shopping/restaurants?latitude=undefined&longitude=undefined&offset=0&limit=20&extras[]=activities&keyword=&restaurant_category_id=&restaurant_category_ids[]=&order_by=&delivery_mode[]= HTTP/1.1" 404
+2020-12-09 14:18:58,496 INFO h11_impl.py[ln:454] 127.0.0.1:63026 - "GET /v1/user/?user_id=ef6bf5d563684fd49460f268af97cb5c HTTP/1.1" 200
+2020-12-09 14:18:58,506 INFO h11_impl.py[ln:454] 127.0.0.1:63027 - "GET /v2/index_entry/?geohash=31.168494,121.397796&group_type=1&flags[]=F HTTP/1.1" 200
+2020-12-09 14:19:31,906 INFO h11_impl.py[ln:454] 127.0.0.1:63088 - "GET /v1/user?user_id=ef6bf5d563684fd49460f268af97cb5c HTTP/1.1" 307
+2020-12-09 14:19:32,144 INFO h11_impl.py[ln:454] 127.0.0.1:63090 - "GET /v1/user/?user_id=ef6bf5d563684fd49460f268af97cb5c HTTP/1.1" 200
+2020-12-09 14:19:38,947 INFO h11_impl.py[ln:454] 127.0.0.1:63106 - "GET /v1/user?user_id=ef6bf5d563684fd49460f268af97cb5c HTTP/1.1" 307
+2020-12-09 14:19:38,963 INFO h11_impl.py[ln:454] 127.0.0.1:63091 - "GET /v1/user/?user_id=ef6bf5d563684fd49460f268af97cb5c HTTP/1.1" 200
+2020-12-09 14:19:40,148 INFO h11_impl.py[ln:454] 127.0.0.1:63107 - "GET /v1/user?user_id=ef6bf5d563684fd49460f268af97cb5c HTTP/1.1" 307
+2020-12-09 14:19:40,162 INFO h11_impl.py[ln:454] 127.0.0.1:63091 - "GET /v1/user/?user_id=ef6bf5d563684fd49460f268af97cb5c HTTP/1.1" 200
+2020-12-09 14:19:50,020 INFO h11_impl.py[ln:454] 127.0.0.1:63129 - "GET /v1/user?user_id=ef6bf5d563684fd49460f268af97cb5c HTTP/1.1" 307
+2020-12-09 14:19:50,028 INFO h11_impl.py[ln:454] 127.0.0.1:63133 - "GET /v1/cities?type=guess HTTP/1.1" 307
+2020-12-09 14:19:50,033 INFO h11_impl.py[ln:454] 127.0.0.1:63134 - "GET /v1/cities?type=hot HTTP/1.1" 307
+2020-12-09 14:19:50,036 INFO h11_impl.py[ln:454] 127.0.0.1:63135 - "GET /v1/cities?type=group HTTP/1.1" 307
+2020-12-09 14:19:50,080 INFO h11_impl.py[ln:454] 127.0.0.1:63127 - "GET /v1/user/?user_id=ef6bf5d563684fd49460f268af97cb5c HTTP/1.1" 200
+2020-12-09 14:19:50,375 INFO h11_impl.py[ln:454] 127.0.0.1:63140 - "OPTIONS /v1/cities/?type=guess HTTP/1.1" 200
+2020-12-09 14:19:50,377 INFO h11_impl.py[ln:454] 127.0.0.1:63141 - "OPTIONS /v1/cities/?type=hot HTTP/1.1" 200
+2020-12-09 14:19:50,380 INFO h11_impl.py[ln:454] 127.0.0.1:63142 - "OPTIONS /v1/cities/?type=group HTTP/1.1" 200
+2020-12-09 14:19:50,384 INFO views.py[ln:35] guess获取的城市信息:{'id': 1, 'name': '上海', 'abbr': 'SH', 'area_code': '021', 'sort': 1, 'latitude': 31.23037, 'longitude': 121.473701, 'is_map': True, 'pinyin': 'shanghai'}
+2020-12-09 14:19:50,388 INFO h11_impl.py[ln:454] 127.0.0.1:63128 - "GET /v1/cities/?type=hot HTTP/1.1" 200
+2020-12-09 14:19:50,390 INFO h11_impl.py[ln:454] 127.0.0.1:63127 - "GET /v1/cities/?type=guess HTTP/1.1" 200
+2020-12-09 14:19:50,395 INFO h11_impl.py[ln:454] 127.0.0.1:63128 - "GET /v1/cities/?type=group HTTP/1.1" 200
+2020-12-09 14:20:25,657 INFO h11_impl.py[ln:454] 127.0.0.1:63201 - "POST /v1/captchas HTTP/1.1" 307
+2020-12-09 14:20:25,671 INFO h11_impl.py[ln:454] 127.0.0.1:63203 - "GET /v1/user?user_id=ef6bf5d563684fd49460f268af97cb5c HTTP/1.1" 307
+2020-12-09 14:20:25,987 INFO h11_impl.py[ln:454] 127.0.0.1:63208 - "OPTIONS /v1/captchas/ HTTP/1.1" 200
+2020-12-09 14:20:26,003 INFO h11_impl.py[ln:454] 127.0.0.1:63209 - "GET /v1/user/?user_id=ef6bf5d563684fd49460f268af97cb5c HTTP/1.1" 200
+2020-12-09 14:20:26,008 INFO views.py[ln:24] 验证码为:1703
+2020-12-09 14:20:26,073 INFO h11_impl.py[ln:454] 127.0.0.1:63209 - "POST /v1/captchas/ HTTP/1.1" 200
+2020-12-09 14:21:34,662 INFO h11_impl.py[ln:454] 127.0.0.1:63313 - "POST /v2/login HTTP/1.1" 200
+2020-12-09 14:21:34,672 INFO h11_impl.py[ln:454] 127.0.0.1:63315 - "POST /v1/captchas HTTP/1.1" 307
+2020-12-09 14:21:35,059 INFO views.py[ln:24] 验证码为:9997
+2020-12-09 14:21:35,084 INFO h11_impl.py[ln:454] 127.0.0.1:63320 - "POST /v1/captchas/ HTTP/1.1" 200
+2020-12-09 14:21:42,424 INFO h11_impl.py[ln:454] 127.0.0.1:63333 - "POST /v2/login HTTP/1.1" 200
+2020-12-09 14:21:42,832 INFO h11_impl.py[ln:454] 127.0.0.1:63353 - "GET /v1/user?user_id=ef6bf5d563684fd49460f268af97cb5c HTTP/1.1" 307
+2020-12-09 14:21:42,837 INFO h11_impl.py[ln:454] 127.0.0.1:63354 - "GET /v1/cities?type=guess HTTP/1.1" 307
+2020-12-09 14:21:42,840 INFO h11_impl.py[ln:454] 127.0.0.1:63355 - "GET /v1/cities?type=group HTTP/1.1" 307
+2020-12-09 14:21:42,852 INFO views.py[ln:35] guess获取的城市信息:{'id': 1, 'name': '上海', 'abbr': 'SH', 'area_code': '021', 'sort': 1, 'latitude': 31.23037, 'longitude': 121.473701, 'is_map': True, 'pinyin': 'shanghai'}
+2020-12-09 14:21:42,856 INFO h11_impl.py[ln:454] 127.0.0.1:63350 - "GET /v1/cities/?type=group HTTP/1.1" 200
+2020-12-09 14:21:42,862 INFO h11_impl.py[ln:454] 127.0.0.1:63349 - "GET /v1/cities/?type=guess HTTP/1.1" 200
+2020-12-09 14:21:42,863 INFO h11_impl.py[ln:454] 127.0.0.1:63321 - "GET /v1/user/?user_id=ef6bf5d563684fd49460f268af97cb5c HTTP/1.1" 200
+2020-12-09 14:21:42,866 INFO h11_impl.py[ln:454] 127.0.0.1:63356 - "GET /v1/cities?type=hot HTTP/1.1" 307
+2020-12-09 14:21:42,881 INFO h11_impl.py[ln:454] 127.0.0.1:63321 - "GET /v1/cities/?type=hot HTTP/1.1" 200
+2020-12-09 14:21:49,652 INFO h11_impl.py[ln:454] 127.0.0.1:63368 - "GET /v1/cities/1 HTTP/1.1" 404
+2020-12-09 14:21:49,665 INFO h11_impl.py[ln:454] 127.0.0.1:63370 - "GET /v1/user?user_id=ef6bf5d563684fd49460f268af97cb5c HTTP/1.1" 307
+2020-12-09 14:21:49,679 INFO h11_impl.py[ln:454] 127.0.0.1:63351 - "GET /v1/user/?user_id=ef6bf5d563684fd49460f268af97cb5c HTTP/1.1" 200
+2020-12-09 14:21:57,724 INFO h11_impl.py[ln:454] 127.0.0.1:63386 - "GET /v1/pois?type=search&city_id=1&keyword=%E5%8D%8E%E4%B8%9C%E7%90%86%E5%B7%A5 HTTP/1.1" 307
+2020-12-09 14:21:58,030 INFO h11_impl.py[ln:454] 127.0.0.1:63389 - "OPTIONS /v1/pois/?type=search&city_id=1&keyword=%E5%8D%8E%E4%B8%9C%E7%90%86%E5%B7%A5 HTTP/1.1" 200
+2020-12-09 14:21:58,567 INFO views.py[ln:25] 查询的位置信息为:{'status': 0, 'message': 'query ok', 'count': 610, 'request_id': '18016913624240e49fe5b88cca08f6f46562c596bbd1', 'data': [{'id': '1791845241753294191', 'title': '华东理工大学', 'address': '上海市徐汇区梅陇路130号', 'tel': '021-64253300', 'category': '教育学校:大学', 'type': 0, 'location': {'lat': 31.143234, 'lng': 121.423575}, 'ad_info': {'adcode': 310104, 'province': '上海市', 'city': '上海市', 'district': '徐汇区'}}, {'id': '7432268554011491352', 'title': '华东理工大学(奉贤校区)', 'address': '上海市奉贤区海思路999号', 'tel': '021-33612038', 'category': '教育学校:大学', 'type': 0, 'location': {'lat': 30.831081, 'lng': 121.503759}, 'ad_info': {'adcode': 310120, 'province': '上海市', 'city': '上海市', 'district': '奉贤区'}}, {'id': '13203867970901883120', 'title': '华东理工大学田径场', 'address': '上海市徐汇区梅陇路130号', 'tel': '021-64253300', 'category': '运动健身:综合体育场馆', 'type': 0, 'location': {'lat': 31.143176, 'lng': 121.421215}, 'ad_info': {'adcode': 310104, 'province': '上海市', 'city': '上海市', 'district': '徐汇区'}}, {'id': '9608730523335711795', 'title': '华东理工大学研究生院', 'address': '上海市徐汇区攀登路', 'tel': '', 'category': '教育学校:教育学校附属', 'type': 0, 'location': {'lat': 31.142181, 'lng': 121.42624}, 'ad_info': {'adcode': 310104, 'province': '上海市', 'city': '上海市', 'district': '徐汇区'}}, {'id': '985237457741500706', 'title': '华东理工大学继续教育学院', 'address': '上海市徐汇区梅陇路138号', 'tel': '021-64252761', 'category': '教育学校:成人教育', 'type': 0, 'location': {'lat': 31.140812, 'lng': 121.42485}, 'ad_info': {'adcode': 310104, 'province': '上海市', 'city': '上海市', 'district': '徐汇区'}}, {'id': '270995174641994069', 'title': '华东理工大学国家大学科技园', 'address': '上海市金山区学府路1300号', 'tel': '', 'category': '房产小区:产业园区', 'type': 0, 'location': {'lat': 30.739644, 'lng': 121.320633}, 'ad_info': {'adcode': 310116, 'province': '上海市', 'city': '上海市', 'district': '金山区'}}, {'id': '10804254275096175410', 'title': '华东理工大学[公交站]', 'address': '海湾1线,奉贤29路,海航专线', 'tel': '', 'category': '基础设施:交通设施:公交车站', 'type': 1, 'location': {'lat': 30.827992, 'lng': 121.507236}, 'ad_info': {'adcode': 310120, 'province': '上海市', 'city': '上海市', 'district': '奉贤区'}}, {'id': '10804254275096900370', 'title': '华东理工大学[公交站]', 'address': '157路,50路,957路,729路,720路,326路,973路,192路,156路,867路,111路', 'tel': '', 'category': '基础设施:交通设施:公交车站', 'type': 1, 'location': {'lat': 31.140758, 'lng': 121.425077}, 'ad_info': {'adcode': 310104, 'province': '上海市', 'city': '上海市', 'district': '徐汇区'}}, {'id': '9708608808586264792', 'title': '华东理工大学附属中学', 'address': '上海市徐汇区梅陇十村76号', 'tel': '021-64530830', 'category': '教育学校:中学', 'type': 0, 'location': {'lat': 31.131974, 'lng': 121.424632}, 'ad_info': {'adcode': 310104, 'province': '上海市', 'city': '上海市', 'district': '徐汇区'}}, {'id': '7471832538324922383', 'title': '华东理工大学徐汇校区-体育馆', 'address': '上海市徐汇区梅陇路130号', 'tel': '021-64251523', 'category': '运动健身:综合体育场馆', 'type': 0, 'location': {'lat': 31.142174, 'lng': 121.419959}, 'ad_info': {'adcode': 310104, 'province': '上海市', 'city': '上海市', 'district': '徐汇区'}}], 'region': {'title': '上海市'}}
+2020-12-09 14:21:58,569 INFO h11_impl.py[ln:454] 127.0.0.1:63393 - "GET /v1/pois/?type=search&city_id=1&keyword=%E5%8D%8E%E4%B8%9C%E7%90%86%E5%B7%A5 HTTP/1.1" 200
+2020-12-09 14:22:51,640 INFO h11_impl.py[ln:454] 127.0.0.1:63472 - "GET /v1/pois?type=search&city_id=1&keyword=%E5%8D%8E%E4%B8%9C%E7%90%86%E5%B7%A5 HTTP/1.1" 307
+2020-12-09 14:22:52,186 INFO views.py[ln:25] 查询的位置信息为:{'status': 0, 'message': 'query ok', 'count': 610, 'request_id': '18016913624299cd9ba182cafbea87aabf3408d39922', 'data': [{'id': '1791845241753294191', 'title': '华东理工大学', 'address': '上海市徐汇区梅陇路130号', 'tel': '021-64253300', 'category': '教育学校:大学', 'type': 0, 'location': {'lat': 31.143234, 'lng': 121.423575}, 'ad_info': {'adcode': 310104, 'province': '上海市', 'city': '上海市', 'district': '徐汇区'}}, {'id': '7432268554011491352', 'title': '华东理工大学(奉贤校区)', 'address': '上海市奉贤区海思路999号', 'tel': '021-33612038', 'category': '教育学校:大学', 'type': 0, 'location': {'lat': 30.831081, 'lng': 121.503759}, 'ad_info': {'adcode': 310120, 'province': '上海市', 'city': '上海市', 'district': '奉贤区'}}, {'id': '13203867970901883120', 'title': '华东理工大学田径场', 'address': '上海市徐汇区梅陇路130号', 'tel': '021-64253300', 'category': '运动健身:综合体育场馆', 'type': 0, 'location': {'lat': 31.143176, 'lng': 121.421215}, 'ad_info': {'adcode': 310104, 'province': '上海市', 'city': '上海市', 'district': '徐汇区'}}, {'id': '9608730523335711795', 'title': '华东理工大学研究生院', 'address': '上海市徐汇区攀登路', 'tel': '', 'category': '教育学校:教育学校附属', 'type': 0, 'location': {'lat': 31.142181, 'lng': 121.42624}, 'ad_info': {'adcode': 310104, 'province': '上海市', 'city': '上海市', 'district': '徐汇区'}}, {'id': '985237457741500706', 'title': '华东理工大学继续教育学院', 'address': '上海市徐汇区梅陇路138号', 'tel': '021-64252761', 'category': '教育学校:成人教育', 'type': 0, 'location': {'lat': 31.140812, 'lng': 121.42485}, 'ad_info': {'adcode': 310104, 'province': '上海市', 'city': '上海市', 'district': '徐汇区'}}, {'id': '270995174641994069', 'title': '华东理工大学国家大学科技园', 'address': '上海市金山区学府路1300号', 'tel': '', 'category': '房产小区:产业园区', 'type': 0, 'location': {'lat': 30.739644, 'lng': 121.320633}, 'ad_info': {'adcode': 310116, 'province': '上海市', 'city': '上海市', 'district': '金山区'}}, {'id': '10804254275096175410', 'title': '华东理工大学[公交站]', 'address': '海湾1线,奉贤29路,海航专线', 'tel': '', 'category': '基础设施:交通设施:公交车站', 'type': 1, 'location': {'lat': 30.827992, 'lng': 121.507236}, 'ad_info': {'adcode': 310120, 'province': '上海市', 'city': '上海市', 'district': '奉贤区'}}, {'id': '10804254275096900370', 'title': '华东理工大学[公交站]', 'address': '157路,50路,957路,729路,720路,326路,973路,192路,156路,867路,111路', 'tel': '', 'category': '基础设施:交通设施:公交车站', 'type': 1, 'location': {'lat': 31.140758, 'lng': 121.425077}, 'ad_info': {'adcode': 310104, 'province': '上海市', 'city': '上海市', 'district': '徐汇区'}}, {'id': '9708608808586264792', 'title': '华东理工大学附属中学', 'address': '上海市徐汇区梅陇十村76号', 'tel': '021-64530830', 'category': '教育学校:中学', 'type': 0, 'location': {'lat': 31.131974, 'lng': 121.424632}, 'ad_info': {'adcode': 310104, 'province': '上海市', 'city': '上海市', 'district': '徐汇区'}}, {'id': '7471832538324922383', 'title': '华东理工大学徐汇校区-体育馆', 'address': '上海市徐汇区梅陇路130号', 'tel': '021-64251523', 'category': '运动健身:综合体育场馆', 'type': 0, 'location': {'lat': 31.142174, 'lng': 121.419959}, 'ad_info': {'adcode': 310104, 'province': '上海市', 'city': '上海市', 'district': '徐汇区'}}], 'region': {'title': '上海市'}}
+2020-12-09 14:22:52,188 INFO h11_impl.py[ln:454] 127.0.0.1:63475 - "GET /v1/pois/?type=search&city_id=1&keyword=%E5%8D%8E%E4%B8%9C%E7%90%86%E5%B7%A5 HTTP/1.1" 200
+2020-12-09 14:22:53,046 INFO h11_impl.py[ln:454] 127.0.0.1:63479 - "GET /v2/pois/31.143234,121.423575 HTTP/1.1" 404
+2020-12-09 14:22:53,076 INFO h11_impl.py[ln:454] 127.0.0.1:63482 - "GET /v1/user?user_id=ef6bf5d563684fd49460f268af97cb5c HTTP/1.1" 307
+2020-12-09 14:22:53,079 INFO h11_impl.py[ln:454] 127.0.0.1:63483 - "GET /v2/index_entry?geohash=31.143234,121.423575&group_type=1&flags[]=F HTTP/1.1" 307
+2020-12-09 14:22:53,138 INFO h11_impl.py[ln:454] 127.0.0.1:63487 - "GET /shopping/restaurants?latitude=undefined&longitude=undefined&offset=0&limit=20&extras[]=activities&keyword=&restaurant_category_id=&restaurant_category_ids[]=&order_by=&delivery_mode[]= HTTP/1.1" 404
+2020-12-09 14:22:53,422 INFO h11_impl.py[ln:454] 127.0.0.1:63491 - "OPTIONS /v1/user/?user_id=ef6bf5d563684fd49460f268af97cb5c HTTP/1.1" 200
+2020-12-09 14:22:53,427 INFO h11_impl.py[ln:454] 127.0.0.1:63492 - "OPTIONS /v2/index_entry/?geohash=31.143234,121.423575&group_type=1&flags[]=F HTTP/1.1" 200
+2020-12-09 14:22:53,448 INFO h11_impl.py[ln:454] 127.0.0.1:63477 - "GET /v2/index_entry/?geohash=31.143234,121.423575&group_type=1&flags[]=F HTTP/1.1" 200
+2020-12-09 14:22:53,454 INFO h11_impl.py[ln:454] 127.0.0.1:63475 - "GET /v1/user/?user_id=ef6bf5d563684fd49460f268af97cb5c HTTP/1.1" 200
+2020-12-09 14:31:15,954 INFO main.py[ln:397] Started server process [53404]
+2020-12-09 14:31:15,956 INFO on.py[ln:22] Waiting for application startup.
+2020-12-09 14:31:15,956 INFO on.py[ln:34] Application startup complete.
+2020-12-09 14:32:59,101 INFO main.py[ln:397] Started server process [35432]
+2020-12-09 14:32:59,102 INFO on.py[ln:22] Waiting for application startup.
+2020-12-09 14:32:59,103 INFO on.py[ln:34] Application startup complete.
+2020-12-09 14:33:04,236 INFO h11_impl.py[ln:454] 127.0.0.1:64422 - "GET /v1/cities/1 HTTP/1.1" 404
+2020-12-09 14:33:04,274 INFO h11_impl.py[ln:454] 127.0.0.1:64423 - "GET /v1/user?user_id=ef6bf5d563684fd49460f268af97cb5c HTTP/1.1" 307
+2020-12-09 14:33:04,588 INFO h11_impl.py[ln:454] 127.0.0.1:64429 - "OPTIONS /v1/user/?user_id=ef6bf5d563684fd49460f268af97cb5c HTTP/1.1" 200
+2020-12-09 14:33:04,647 INFO h11_impl.py[ln:454] 127.0.0.1:64425 - "GET /v1/user/?user_id=ef6bf5d563684fd49460f268af97cb5c HTTP/1.1" 200
+2020-12-09 14:37:04,075 INFO main.py[ln:397] Started server process [68056]
+2020-12-09 14:37:04,077 INFO on.py[ln:22] Waiting for application startup.
+2020-12-09 14:37:04,078 INFO on.py[ln:34] Application startup complete.
+2020-12-09 16:10:03,669 INFO main.py[ln:397] Started server process [52804]
+2020-12-09 16:10:03,672 INFO on.py[ln:22] Waiting for application startup.
+2020-12-09 16:10:03,673 INFO on.py[ln:34] Application startup complete.
+2020-12-09 16:10:16,618 INFO h11_impl.py[ln:454] 127.0.0.1:57432 - "GET /v1/user?user_id=ef6bf5d563684fd49460f268af97cb5c HTTP/1.1" 307
+2020-12-09 16:10:16,625 INFO h11_impl.py[ln:454] 127.0.0.1:57434 - "GET /v1/cities?type=guess HTTP/1.1" 307
+2020-12-09 16:10:16,629 INFO h11_impl.py[ln:454] 127.0.0.1:57436 - "GET /v1/cities?type=group HTTP/1.1" 307
+2020-12-09 16:10:16,631 INFO h11_impl.py[ln:454] 127.0.0.1:57435 - "GET /v1/cities?type=hot HTTP/1.1" 307
+2020-12-09 16:10:16,959 INFO h11_impl.py[ln:454] 127.0.0.1:57442 - "OPTIONS /v1/user/?user_id=ef6bf5d563684fd49460f268af97cb5c HTTP/1.1" 200
+2020-12-09 16:10:16,963 INFO h11_impl.py[ln:454] 127.0.0.1:57442 - "OPTIONS /v1/cities/?type=guess HTTP/1.1" 200
+2020-12-09 16:10:16,973 INFO h11_impl.py[ln:454] 127.0.0.1:57442 - "OPTIONS /v1/cities/?type=group HTTP/1.1" 200
+2020-12-09 16:10:16,976 INFO h11_impl.py[ln:454] 127.0.0.1:57443 - "OPTIONS /v1/cities/?type=hot HTTP/1.1" 200
+2020-12-09 16:10:17,284 INFO views.py[ln:35] guess获取的城市信息:{'id': 1, 'name': '上海', 'abbr': 'SH', 'area_code': '021', 'sort': 1, 'latitude': 31.23037, 'longitude': 121.473701, 'is_map': True, 'pinyin': 'shanghai'}
+2020-12-09 16:10:17,287 INFO h11_impl.py[ln:454] 127.0.0.1:57454 - "GET /v1/cities/?type=guess HTTP/1.1" 200
+2020-12-09 16:10:17,292 INFO h11_impl.py[ln:454] 127.0.0.1:57455 - "GET /v1/cities/?type=group HTTP/1.1" 200
+2020-12-09 16:10:17,311 INFO h11_impl.py[ln:454] 127.0.0.1:57454 - "GET /v1/cities/?type=hot HTTP/1.1" 200
+2020-12-09 16:10:17,333 INFO h11_impl.py[ln:454] 127.0.0.1:57452 - "GET /v1/user/?user_id=ef6bf5d563684fd49460f268af97cb5c HTTP/1.1" 200
+2020-12-09 16:10:21,278 INFO h11_impl.py[ln:454] 127.0.0.1:57466 - "GET /v1/cities/1 HTTP/1.1" 404
+2020-12-09 16:10:21,296 INFO h11_impl.py[ln:454] 127.0.0.1:57468 - "GET /v1/user?user_id=ef6bf5d563684fd49460f268af97cb5c HTTP/1.1" 307
+2020-12-09 16:10:21,320 INFO h11_impl.py[ln:454] 127.0.0.1:57452 - "GET /v1/user/?user_id=ef6bf5d563684fd49460f268af97cb5c HTTP/1.1" 200
+2020-12-09 16:10:28,787 INFO h11_impl.py[ln:454] 127.0.0.1:57485 - "GET /v2/index_entry?geohash=31.143234,121.423575&group_type=1&flags[]=F HTTP/1.1" 307
+2020-12-09 16:10:28,792 INFO h11_impl.py[ln:454] 127.0.0.1:57486 - "GET /v1/user?user_id=ef6bf5d563684fd49460f268af97cb5c HTTP/1.1" 307
+2020-12-09 16:10:28,872 INFO h11_impl.py[ln:454] 127.0.0.1:57482 - "GET /v2/pois/31.143234,121.423575 HTTP/1.1" 200
+2020-12-09 16:10:28,910 INFO h11_impl.py[ln:454] 127.0.0.1:57491 - "GET /shopping/restaurants?latitude=undefined&longitude=undefined&offset=0&limit=20&extras[]=activities&keyword=&restaurant_category_id=&restaurant_category_ids[]=&order_by=&delivery_mode[]= HTTP/1.1" 404
+2020-12-09 16:10:29,135 INFO h11_impl.py[ln:454] 127.0.0.1:57494 - "OPTIONS /v2/index_entry/?geohash=31.143234,121.423575&group_type=1&flags[]=F HTTP/1.1" 200
+2020-12-09 16:10:29,148 INFO h11_impl.py[ln:454] 127.0.0.1:57495 - "GET /v1/user/?user_id=ef6bf5d563684fd49460f268af97cb5c HTTP/1.1" 200
+2020-12-09 16:10:29,158 INFO h11_impl.py[ln:454] 127.0.0.1:57495 - "GET /v2/index_entry/?geohash=31.143234,121.423575&group_type=1&flags[]=F HTTP/1.1" 200
+2020-12-09 17:04:36,731 INFO main.py[ln:397] Started server process [18756]
+2020-12-09 17:04:36,732 INFO on.py[ln:22] Waiting for application startup.
+2020-12-09 17:04:36,733 INFO on.py[ln:34] Application startup complete.
+2020-12-09 18:17:46,909 INFO main.py[ln:397] Started server process [41720]
+2020-12-09 18:17:46,913 INFO on.py[ln:22] Waiting for application startup.
+2020-12-09 18:17:46,926 INFO on.py[ln:34] Application startup complete.
+2020-12-09 18:17:47,947 INFO h11_impl.py[ln:454] 127.0.0.1:53802 - "GET /v2/index_entry?geohash=31.143234,121.423575&group_type=1&flags[]=F HTTP/1.1" 307
+2020-12-09 18:17:47,962 INFO h11_impl.py[ln:454] 127.0.0.1:53801 - "GET /v1/user?user_id=ef6bf5d563684fd49460f268af97cb5c HTTP/1.1" 307
+2020-12-09 18:17:48,159 INFO h11_impl.py[ln:454] 127.0.0.1:53800 - "GET /v2/pois/31.143234,121.423575 HTTP/1.1" 200
+2020-12-09 18:17:48,194 INFO h11_impl.py[ln:454] 127.0.0.1:53807 - "GET /shopping/restaurants?latitude=31.143234&longitude=121.423575&offset=0&limit=20&extras[]=activities&keyword=&restaurant_category_id=&restaurant_category_ids[]=&order_by=&delivery_mode[]= HTTP/1.1" 404
+2020-12-09 18:17:48,295 INFO h11_impl.py[ln:454] 127.0.0.1:53809 - "OPTIONS /v2/index_entry/?geohash=31.143234,121.423575&group_type=1&flags[]=F HTTP/1.1" 200
+2020-12-09 18:17:48,302 INFO h11_impl.py[ln:454] 127.0.0.1:53809 - "OPTIONS /v1/user/?user_id=ef6bf5d563684fd49460f268af97cb5c HTTP/1.1" 200
+2020-12-09 18:17:48,614 INFO h11_impl.py[ln:454] 127.0.0.1:53817 - "GET /v2/index_entry/?geohash=31.143234,121.423575&group_type=1&flags[]=F HTTP/1.1" 200
+2020-12-09 18:17:48,670 INFO h11_impl.py[ln:454] 127.0.0.1:53818 - "GET /v1/user/?user_id=ef6bf5d563684fd49460f268af97cb5c HTTP/1.1" 200

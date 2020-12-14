@@ -1,0 +1,749 @@
+2020-12-10 12:29:42,004 INFO h11_impl.py[ln:454] 127.0.0.1:59294 - "GET /admin/info HTTP/1.1" 404
+2020-12-10 13:44:32,960 INFO h11_impl.py[ln:454] 127.0.0.1:50152 - "POST /admin/login HTTP/1.1" 404
+2020-12-10 13:44:45,667 INFO h11_impl.py[ln:454] 127.0.0.1:50173 - "POST /admin/login HTTP/1.1" 404
+2020-12-10 13:44:58,332 INFO h11_impl.py[ln:454] 127.0.0.1:50204 - "GET /admin/login HTTP/1.1" 404
+2020-12-10 13:45:03,205 INFO h11_impl.py[ln:454] 127.0.0.1:50211 - "GET /admin/login HTTP/1.1" 404
+2020-12-10 15:12:46,692 INFO main.py[ln:397] Started server process [59808]
+2020-12-10 15:12:46,693 INFO on.py[ln:22] Waiting for application startup.
+2020-12-10 15:12:46,694 INFO on.py[ln:34] Application startup complete.
+2020-12-10 15:13:07,684 INFO h11_impl.py[ln:454] 127.0.0.1:61904 - "GET /shopping/restaurants HTTP/1.1" 500
+2020-12-10 15:13:07,685 ERROR h11_impl.py[ln:388] Exception in ASGI application
+Traceback (most recent call last):
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 385, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\middleware\debug.py", line 81, in __call__
+    raise exc from None
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\middleware\debug.py", line 78, in __call__
+    await self.app(scope, receive, inner_send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\fastapi\applications.py", line 149, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\applications.py", line 102, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc from None
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\sessions.py", line 75, in __call__
+    await self.app(scope, receive, send_wrapper)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\cors.py", line 76, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\exceptions.py", line 82, in __call__
+    raise exc from None
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\routing.py", line 550, in __call__
+    await route.handle(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\routing.py", line 227, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\routing.py", line 41, in app
+    response = await func(request)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\fastapi\routing.py", line 197, in app
+    dependant=dependant, values=values, is_coroutine=is_coroutine
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\fastapi\routing.py", line 150, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\concurrency.py", line 34, in run_in_threadpool
+    return await loop.run_in_executor(None, func, *args)
+  File "C:\Users\yubin.yang\AppData\Local\Continuum\Anaconda3\envs\python37\Lib\concurrent\futures\thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\yubin.yang\PycharmProjects\ele_backend\apis\v1\shops\views.py", line 18, in shopping_restaurants
+    mongo_client = MongoClient(collection='shops')
+  File "C:\Users\yubin.yang\PycharmProjects\ele_backend\middlewares.py", line 24, in __init__
+    self.mongo_client = pymongo.MongoClient(host=self.host, port=self.port)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\pymongo\mongo_client.py", line 614, in __init__
+    raise TypeError("port must be an instance of int")
+TypeError: port must be an instance of int
+2020-12-10 15:13:07,724 INFO h11_impl.py[ln:454] 127.0.0.1:61905 - "GET /favicon.ico HTTP/1.1" 404
+2020-12-10 15:13:28,943 INFO main.py[ln:397] Started server process [22916]
+2020-12-10 15:13:28,944 INFO on.py[ln:22] Waiting for application startup.
+2020-12-10 15:13:28,946 INFO on.py[ln:34] Application startup complete.
+2020-12-10 15:13:31,224 INFO h11_impl.py[ln:454] 127.0.0.1:61961 - "GET /shopping/restaurants HTTP/1.1" 500
+2020-12-10 15:13:31,225 ERROR h11_impl.py[ln:388] Exception in ASGI application
+Traceback (most recent call last):
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 385, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\middleware\debug.py", line 81, in __call__
+    raise exc from None
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\middleware\debug.py", line 78, in __call__
+    await self.app(scope, receive, inner_send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\fastapi\applications.py", line 149, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\applications.py", line 102, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc from None
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\sessions.py", line 75, in __call__
+    await self.app(scope, receive, send_wrapper)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\cors.py", line 76, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\exceptions.py", line 82, in __call__
+    raise exc from None
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\routing.py", line 550, in __call__
+    await route.handle(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\routing.py", line 227, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\routing.py", line 41, in app
+    response = await func(request)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\fastapi\routing.py", line 197, in app
+    dependant=dependant, values=values, is_coroutine=is_coroutine
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\fastapi\routing.py", line 150, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\concurrency.py", line 34, in run_in_threadpool
+    return await loop.run_in_executor(None, func, *args)
+  File "C:\Users\yubin.yang\AppData\Local\Continuum\Anaconda3\envs\python37\Lib\concurrent\futures\thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\yubin.yang\PycharmProjects\ele_backend\apis\v1\shops\views.py", line 19, in shopping_restaurants
+    result = list(mongo_client.collection.find())
+TypeError: find() takes at least 1 argument (0 given)
+2020-12-10 15:14:45,054 INFO main.py[ln:397] Started server process [12296]
+2020-12-10 15:14:45,055 INFO on.py[ln:22] Waiting for application startup.
+2020-12-10 15:14:45,056 INFO on.py[ln:34] Application startup complete.
+2020-12-10 15:14:51,675 INFO main.py[ln:397] Started server process [52068]
+2020-12-10 15:14:51,676 INFO on.py[ln:22] Waiting for application startup.
+2020-12-10 15:14:51,678 INFO on.py[ln:34] Application startup complete.
+2020-12-10 15:16:03,674 INFO main.py[ln:397] Started server process [56256]
+2020-12-10 15:16:03,675 INFO on.py[ln:22] Waiting for application startup.
+2020-12-10 15:16:03,676 INFO on.py[ln:34] Application startup complete.
+2020-12-10 15:16:12,102 INFO h11_impl.py[ln:454] 127.0.0.1:62339 - "GET /shopping/restaurants HTTP/1.1" 500
+2020-12-10 15:16:12,103 ERROR h11_impl.py[ln:388] Exception in ASGI application
+Traceback (most recent call last):
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 385, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\middleware\debug.py", line 81, in __call__
+    raise exc from None
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\middleware\debug.py", line 78, in __call__
+    await self.app(scope, receive, inner_send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\fastapi\applications.py", line 149, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\applications.py", line 102, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc from None
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\sessions.py", line 75, in __call__
+    await self.app(scope, receive, send_wrapper)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\cors.py", line 76, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\exceptions.py", line 82, in __call__
+    raise exc from None
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\routing.py", line 550, in __call__
+    await route.handle(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\routing.py", line 227, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\routing.py", line 41, in app
+    response = await func(request)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\fastapi\routing.py", line 197, in app
+    dependant=dependant, values=values, is_coroutine=is_coroutine
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\fastapi\routing.py", line 150, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\concurrency.py", line 34, in run_in_threadpool
+    return await loop.run_in_executor(None, func, *args)
+  File "C:\Users\yubin.yang\AppData\Local\Continuum\Anaconda3\envs\python37\Lib\concurrent\futures\thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\yubin.yang\PycharmProjects\ele_backend\apis\v1\shops\views.py", line 19, in shopping_restaurants
+    result = list(mongo_client.db.find())
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\pymongo\collection.py", line 3444, in __call__
+    self.__name)
+TypeError: 'Collection' object is not callable. If you meant to call the 'find' method on a 'Database' object it is failing because no such method exists.
+2020-12-10 15:18:21,344 INFO main.py[ln:397] Started server process [43740]
+2020-12-10 15:18:21,346 INFO on.py[ln:22] Waiting for application startup.
+2020-12-10 15:18:21,348 INFO on.py[ln:34] Application startup complete.
+2020-12-10 15:18:24,736 INFO h11_impl.py[ln:454] 127.0.0.1:62635 - "GET /shopping/restaurants HTTP/1.1" 500
+2020-12-10 15:18:24,738 ERROR h11_impl.py[ln:388] Exception in ASGI application
+Traceback (most recent call last):
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 385, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\middleware\debug.py", line 81, in __call__
+    raise exc from None
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\middleware\debug.py", line 78, in __call__
+    await self.app(scope, receive, inner_send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\fastapi\applications.py", line 149, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\applications.py", line 102, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc from None
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\sessions.py", line 75, in __call__
+    await self.app(scope, receive, send_wrapper)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\cors.py", line 76, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\exceptions.py", line 82, in __call__
+    raise exc from None
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\routing.py", line 550, in __call__
+    await route.handle(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\routing.py", line 227, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\routing.py", line 41, in app
+    response = await func(request)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\fastapi\routing.py", line 213, in app
+    is_coroutine=is_coroutine,
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\fastapi\routing.py", line 137, in serialize_response
+    return jsonable_encoder(response_content)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\fastapi\encoders.py", line 130, in jsonable_encoder
+    sqlalchemy_safe=sqlalchemy_safe,
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\fastapi\encoders.py", line 113, in jsonable_encoder
+    sqlalchemy_safe=sqlalchemy_safe,
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\fastapi\encoders.py", line 158, in jsonable_encoder
+    raise ValueError(errors)
+ValueError: [TypeError("'ObjectId' object is not iterable"), TypeError('vars() argument must have __dict__ attribute')]
+2020-12-10 15:18:57,865 INFO main.py[ln:397] Started server process [67736]
+2020-12-10 15:18:57,866 INFO on.py[ln:22] Waiting for application startup.
+2020-12-10 15:18:57,867 INFO on.py[ln:34] Application startup complete.
+2020-12-10 15:19:00,699 INFO h11_impl.py[ln:454] 127.0.0.1:62714 - "GET /shopping/restaurants HTTP/1.1" 500
+2020-12-10 15:19:00,701 ERROR h11_impl.py[ln:388] Exception in ASGI application
+Traceback (most recent call last):
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 385, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\middleware\debug.py", line 81, in __call__
+    raise exc from None
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\middleware\debug.py", line 78, in __call__
+    await self.app(scope, receive, inner_send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\fastapi\applications.py", line 149, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\applications.py", line 102, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc from None
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\sessions.py", line 75, in __call__
+    await self.app(scope, receive, send_wrapper)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\cors.py", line 76, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\exceptions.py", line 82, in __call__
+    raise exc from None
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\routing.py", line 550, in __call__
+    await route.handle(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\routing.py", line 227, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\routing.py", line 41, in app
+    response = await func(request)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\fastapi\routing.py", line 213, in app
+    is_coroutine=is_coroutine,
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\fastapi\routing.py", line 137, in serialize_response
+    return jsonable_encoder(response_content)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\fastapi\encoders.py", line 130, in jsonable_encoder
+    sqlalchemy_safe=sqlalchemy_safe,
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\fastapi\encoders.py", line 113, in jsonable_encoder
+    sqlalchemy_safe=sqlalchemy_safe,
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\fastapi\encoders.py", line 158, in jsonable_encoder
+    raise ValueError(errors)
+ValueError: [TypeError("'ObjectId' object is not iterable"), TypeError('vars() argument must have __dict__ attribute')]
+2020-12-10 15:19:46,462 INFO main.py[ln:397] Started server process [60944]
+2020-12-10 15:19:46,463 INFO on.py[ln:22] Waiting for application startup.
+2020-12-10 15:19:46,464 INFO on.py[ln:34] Application startup complete.
+2020-12-10 15:20:54,048 INFO main.py[ln:397] Started server process [22700]
+2020-12-10 15:20:54,049 INFO on.py[ln:22] Waiting for application startup.
+2020-12-10 15:20:54,050 INFO on.py[ln:34] Application startup complete.
+2020-12-10 15:23:09,183 INFO h11_impl.py[ln:454] 127.0.0.1:63324 - "GET /shopping/restaurants HTTP/1.1" 200
+2020-12-10 15:23:22,435 INFO main.py[ln:397] Started server process [4156]
+2020-12-10 15:23:22,438 INFO on.py[ln:22] Waiting for application startup.
+2020-12-10 15:23:22,439 INFO on.py[ln:34] Application startup complete.
+2020-12-10 15:23:22,697 INFO h11_impl.py[ln:454] 127.0.0.1:63364 - "GET /shopping/restaurants HTTP/1.1" 200
+2020-12-10 15:23:54,207 INFO main.py[ln:397] Started server process [27752]
+2020-12-10 15:23:54,208 INFO on.py[ln:22] Waiting for application startup.
+2020-12-10 15:23:54,210 INFO on.py[ln:34] Application startup complete.
+2020-12-10 15:23:58,277 INFO h11_impl.py[ln:454] 127.0.0.1:63448 - "GET /shopping/restaurants HTTP/1.1" 500
+2020-12-10 15:23:58,278 ERROR h11_impl.py[ln:388] Exception in ASGI application
+Traceback (most recent call last):
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 385, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\middleware\debug.py", line 81, in __call__
+    raise exc from None
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\middleware\debug.py", line 78, in __call__
+    await self.app(scope, receive, inner_send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\fastapi\applications.py", line 149, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\applications.py", line 102, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc from None
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\sessions.py", line 75, in __call__
+    await self.app(scope, receive, send_wrapper)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\cors.py", line 76, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\exceptions.py", line 82, in __call__
+    raise exc from None
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\routing.py", line 550, in __call__
+    await route.handle(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\routing.py", line 227, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\routing.py", line 41, in app
+    response = await func(request)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\fastapi\routing.py", line 213, in app
+    is_coroutine=is_coroutine,
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\fastapi\routing.py", line 137, in serialize_response
+    return jsonable_encoder(response_content)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\fastapi\encoders.py", line 130, in jsonable_encoder
+    sqlalchemy_safe=sqlalchemy_safe,
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\fastapi\encoders.py", line 113, in jsonable_encoder
+    sqlalchemy_safe=sqlalchemy_safe,
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\fastapi\encoders.py", line 158, in jsonable_encoder
+    raise ValueError(errors)
+ValueError: [TypeError("'ObjectId' object is not iterable"), TypeError('vars() argument must have __dict__ attribute')]
+2020-12-10 15:36:43,136 INFO main.py[ln:397] Started server process [28680]
+2020-12-10 15:36:43,137 INFO on.py[ln:22] Waiting for application startup.
+2020-12-10 15:36:43,138 INFO on.py[ln:34] Application startup complete.
+2020-12-10 15:36:43,906 INFO h11_impl.py[ln:454] 127.0.0.1:49380 - "GET /shopping/restaurants HTTP/1.1" 500
+2020-12-10 15:36:43,907 ERROR h11_impl.py[ln:388] Exception in ASGI application
+Traceback (most recent call last):
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 385, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\middleware\debug.py", line 81, in __call__
+    raise exc from None
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\middleware\debug.py", line 78, in __call__
+    await self.app(scope, receive, inner_send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\fastapi\applications.py", line 149, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\applications.py", line 102, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc from None
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\sessions.py", line 75, in __call__
+    await self.app(scope, receive, send_wrapper)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\cors.py", line 76, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\exceptions.py", line 82, in __call__
+    raise exc from None
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\routing.py", line 550, in __call__
+    await route.handle(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\routing.py", line 227, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\routing.py", line 41, in app
+    response = await func(request)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\fastapi\routing.py", line 213, in app
+    is_coroutine=is_coroutine,
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\fastapi\routing.py", line 137, in serialize_response
+    return jsonable_encoder(response_content)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\fastapi\encoders.py", line 130, in jsonable_encoder
+    sqlalchemy_safe=sqlalchemy_safe,
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\fastapi\encoders.py", line 113, in jsonable_encoder
+    sqlalchemy_safe=sqlalchemy_safe,
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\fastapi\encoders.py", line 158, in jsonable_encoder
+    raise ValueError(errors)
+ValueError: [TypeError("'ObjectId' object is not iterable"), TypeError('vars() argument must have __dict__ attribute')]
+2020-12-10 15:37:43,245 INFO main.py[ln:397] Started server process [24776]
+2020-12-10 15:37:43,247 INFO on.py[ln:22] Waiting for application startup.
+2020-12-10 15:37:43,248 INFO on.py[ln:34] Application startup complete.
+2020-12-10 15:37:46,102 INFO h11_impl.py[ln:454] 127.0.0.1:49534 - "GET /shopping/restaurants HTTP/1.1" 200
+2020-12-10 15:38:12,430 INFO main.py[ln:397] Started server process [22980]
+2020-12-10 15:38:12,431 INFO on.py[ln:22] Waiting for application startup.
+2020-12-10 15:38:12,432 INFO on.py[ln:34] Application startup complete.
+2020-12-10 15:58:30,355 INFO main.py[ln:397] Started server process [62980]
+2020-12-10 15:58:30,357 INFO on.py[ln:22] Waiting for application startup.
+2020-12-10 15:58:30,360 INFO on.py[ln:34] Application startup complete.
+2020-12-10 15:58:31,522 INFO h11_impl.py[ln:454] 127.0.0.1:52759 - "GET /v1/user?user_id=ef6bf5d563684fd49460f268af97cb5c HTTP/1.1" 307
+2020-12-10 15:58:31,527 INFO h11_impl.py[ln:454] 127.0.0.1:52760 - "GET /v1/cities?type=guess HTTP/1.1" 307
+2020-12-10 15:58:31,529 INFO h11_impl.py[ln:454] 127.0.0.1:52761 - "GET /v1/cities?type=hot HTTP/1.1" 307
+2020-12-10 15:58:31,532 INFO h11_impl.py[ln:454] 127.0.0.1:52762 - "GET /v1/cities?type=group HTTP/1.1" 307
+2020-12-10 15:58:31,839 INFO h11_impl.py[ln:454] 127.0.0.1:52770 - "OPTIONS /v1/user/?user_id=ef6bf5d563684fd49460f268af97cb5c HTTP/1.1" 200
+2020-12-10 15:58:31,852 INFO h11_impl.py[ln:454] 127.0.0.1:52772 - "OPTIONS /v1/cities/?type=hot HTTP/1.1" 200
+2020-12-10 15:58:31,858 INFO h11_impl.py[ln:454] 127.0.0.1:52771 - "OPTIONS /v1/cities/?type=guess HTTP/1.1" 200
+2020-12-10 15:58:31,864 INFO h11_impl.py[ln:454] 127.0.0.1:52770 - "OPTIONS /v1/cities/?type=group HTTP/1.1" 200
+2020-12-10 15:58:31,953 INFO views.py[ln:35] guess获取的城市信息:{'id': 1, 'name': '上海', 'abbr': 'SH', 'area_code': '021', 'sort': 1, 'latitude': 31.23037, 'longitude': 121.473701, 'is_map': True, 'pinyin': 'shanghai'}
+2020-12-10 15:58:31,963 INFO h11_impl.py[ln:454] 127.0.0.1:52756 - "GET /v1/cities/?type=group HTTP/1.1" 200
+2020-12-10 15:58:31,967 INFO h11_impl.py[ln:454] 127.0.0.1:52755 - "GET /v1/cities/?type=guess HTTP/1.1" 200
+2020-12-10 15:58:31,982 INFO h11_impl.py[ln:454] 127.0.0.1:52754 - "GET /v1/cities/?type=hot HTTP/1.1" 200
+2020-12-10 15:58:31,992 INFO h11_impl.py[ln:454] 127.0.0.1:52753 - "GET /v1/user/?user_id=ef6bf5d563684fd49460f268af97cb5c HTTP/1.1" 200
+2020-12-10 15:58:34,530 INFO h11_impl.py[ln:454] 127.0.0.1:52805 - "POST /v1/captchas HTTP/1.1" 307
+2020-12-10 15:58:34,539 INFO h11_impl.py[ln:454] 127.0.0.1:52807 - "GET /v1/user?user_id=ef6bf5d563684fd49460f268af97cb5c HTTP/1.1" 307
+2020-12-10 15:58:34,553 INFO h11_impl.py[ln:454] 127.0.0.1:52770 - "OPTIONS /v1/captchas/ HTTP/1.1" 200
+2020-12-10 15:58:34,565 INFO views.py[ln:23] 验证码为:8639
+2020-12-10 15:58:34,579 INFO h11_impl.py[ln:454] 127.0.0.1:52753 - "GET /v1/user/?user_id=ef6bf5d563684fd49460f268af97cb5c HTTP/1.1" 200
+2020-12-10 15:58:34,655 INFO h11_impl.py[ln:454] 127.0.0.1:52754 - "POST /v1/captchas/ HTTP/1.1" 200
+2020-12-10 15:58:50,547 INFO h11_impl.py[ln:454] 127.0.0.1:52844 - "POST /v2/login HTTP/1.1" 307
+2020-12-10 15:58:50,857 INFO h11_impl.py[ln:454] 127.0.0.1:52847 - "OPTIONS /v2/login/ HTTP/1.1" 200
+2020-12-10 15:58:51,178 INFO h11_impl.py[ln:454] 127.0.0.1:52851 - "POST /v2/login/ HTTP/1.1" 200
+2020-12-10 15:58:51,504 INFO h11_impl.py[ln:454] 127.0.0.1:52866 - "GET /v1/user?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 307
+2020-12-10 15:58:51,508 INFO h11_impl.py[ln:454] 127.0.0.1:52867 - "GET /v1/cities?type=guess HTTP/1.1" 307
+2020-12-10 15:58:51,515 INFO h11_impl.py[ln:454] 127.0.0.1:52868 - "GET /v1/cities?type=group HTTP/1.1" 307
+2020-12-10 15:58:51,518 INFO h11_impl.py[ln:454] 127.0.0.1:52847 - "OPTIONS /v1/user/?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 200
+2020-12-10 15:58:51,523 INFO views.py[ln:35] guess获取的城市信息:{'id': 1, 'name': '上海', 'abbr': 'SH', 'area_code': '021', 'sort': 1, 'latitude': 31.23037, 'longitude': 121.473701, 'is_map': True, 'pinyin': 'shanghai'}
+2020-12-10 15:58:51,531 INFO h11_impl.py[ln:454] 127.0.0.1:52851 - "GET /v1/cities/?type=guess HTTP/1.1" 200
+2020-12-10 15:58:51,546 INFO h11_impl.py[ln:454] 127.0.0.1:52861 - "GET /v1/cities/?type=group HTTP/1.1" 200
+2020-12-10 15:58:51,549 INFO h11_impl.py[ln:454] 127.0.0.1:52869 - "GET /v1/cities?type=hot HTTP/1.1" 307
+2020-12-10 15:58:51,555 INFO h11_impl.py[ln:454] 127.0.0.1:52862 - "GET /v1/user/?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 200
+2020-12-10 15:58:51,602 INFO h11_impl.py[ln:454] 127.0.0.1:52861 - "GET /v1/cities/?type=hot HTTP/1.1" 200
+2020-12-10 15:58:55,735 INFO h11_impl.py[ln:454] 127.0.0.1:52877 - "GET /v1/cities/1 HTTP/1.1" 404
+2020-12-10 15:59:01,579 INFO h11_impl.py[ln:454] 127.0.0.1:52897 - "GET /v1/user?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 307
+2020-12-10 15:59:01,582 INFO h11_impl.py[ln:454] 127.0.0.1:52898 - "GET /v1/cities?type=guess HTTP/1.1" 307
+2020-12-10 15:59:01,585 INFO h11_impl.py[ln:454] 127.0.0.1:52899 - "GET /v1/cities?type=hot HTTP/1.1" 307
+2020-12-10 15:59:01,590 INFO h11_impl.py[ln:454] 127.0.0.1:52900 - "GET /v1/cities?type=group HTTP/1.1" 307
+2020-12-10 15:59:01,861 INFO views.py[ln:35] guess获取的城市信息:{'id': 1, 'name': '上海', 'abbr': 'SH', 'area_code': '021', 'sort': 1, 'latitude': 31.23037, 'longitude': 121.473701, 'is_map': True, 'pinyin': 'shanghai'}
+2020-12-10 15:59:01,867 INFO h11_impl.py[ln:454] 127.0.0.1:52904 - "GET /v1/cities/?type=guess HTTP/1.1" 200
+2020-12-10 15:59:01,869 INFO h11_impl.py[ln:454] 127.0.0.1:52905 - "GET /v1/cities/?type=hot HTTP/1.1" 200
+2020-12-10 15:59:01,872 INFO h11_impl.py[ln:454] 127.0.0.1:52906 - "GET /v1/cities/?type=group HTTP/1.1" 200
+2020-12-10 15:59:01,875 INFO h11_impl.py[ln:454] 127.0.0.1:52903 - "GET /v1/user/?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 200
+2020-12-10 15:59:03,383 INFO h11_impl.py[ln:454] 127.0.0.1:52909 - "GET /v1/cities/1 HTTP/1.1" 404
+2020-12-10 15:59:34,551 INFO h11_impl.py[ln:454] 127.0.0.1:52984 - "GET /v1/user?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 307
+2020-12-10 15:59:34,556 INFO h11_impl.py[ln:454] 127.0.0.1:52985 - "GET /v1/cities?type=guess HTTP/1.1" 307
+2020-12-10 15:59:34,559 INFO h11_impl.py[ln:454] 127.0.0.1:52986 - "GET /v1/cities?type=hot HTTP/1.1" 307
+2020-12-10 15:59:34,562 INFO h11_impl.py[ln:454] 127.0.0.1:52987 - "GET /v1/cities?type=group HTTP/1.1" 307
+2020-12-10 15:59:34,839 INFO views.py[ln:35] guess获取的城市信息:{'id': 1, 'name': '上海', 'abbr': 'SH', 'area_code': '021', 'sort': 1, 'latitude': 31.23037, 'longitude': 121.473701, 'is_map': True, 'pinyin': 'shanghai'}
+2020-12-10 15:59:34,845 INFO h11_impl.py[ln:454] 127.0.0.1:52991 - "GET /v1/cities/?type=hot HTTP/1.1" 200
+2020-12-10 15:59:34,850 INFO h11_impl.py[ln:454] 127.0.0.1:52990 - "GET /v1/cities/?type=guess HTTP/1.1" 200
+2020-12-10 15:59:34,855 INFO h11_impl.py[ln:454] 127.0.0.1:52992 - "GET /v1/cities/?type=group HTTP/1.1" 200
+2020-12-10 15:59:34,858 INFO h11_impl.py[ln:454] 127.0.0.1:52989 - "GET /v1/user/?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 200
+2020-12-10 15:59:38,317 INFO h11_impl.py[ln:454] 127.0.0.1:53002 - "GET /v1/cities/1 HTTP/1.1" 404
+2020-12-10 16:02:29,466 INFO main.py[ln:397] Started server process [49496]
+2020-12-10 16:02:29,467 INFO on.py[ln:22] Waiting for application startup.
+2020-12-10 16:02:29,473 INFO on.py[ln:34] Application startup complete.
+2020-12-10 16:03:48,539 INFO main.py[ln:397] Started server process [20648]
+2020-12-10 16:03:48,540 INFO on.py[ln:22] Waiting for application startup.
+2020-12-10 16:03:48,542 INFO on.py[ln:34] Application startup complete.
+2020-12-10 16:03:53,569 INFO h11_impl.py[ln:454] 127.0.0.1:53532 - "GET /v1/user?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 307
+2020-12-10 16:03:53,572 INFO h11_impl.py[ln:454] 127.0.0.1:53533 - "GET /v1/cities?type=guess HTTP/1.1" 307
+2020-12-10 16:03:53,574 INFO h11_impl.py[ln:454] 127.0.0.1:53534 - "GET /v1/cities?type=hot HTTP/1.1" 307
+2020-12-10 16:03:53,577 INFO h11_impl.py[ln:454] 127.0.0.1:53535 - "GET /v1/cities?type=group HTTP/1.1" 307
+2020-12-10 16:03:53,815 INFO views.py[ln:35] guess获取的城市信息:{'id': 1, 'name': '上海', 'abbr': 'SH', 'area_code': '021', 'sort': 1, 'latitude': 31.23037, 'longitude': 121.473701, 'is_map': True, 'pinyin': 'shanghai'}
+2020-12-10 16:03:53,819 INFO h11_impl.py[ln:454] 127.0.0.1:53539 - "GET /v1/cities/?type=guess HTTP/1.1" 200
+2020-12-10 16:03:53,821 INFO h11_impl.py[ln:454] 127.0.0.1:53540 - "GET /v1/cities/?type=hot HTTP/1.1" 200
+2020-12-10 16:03:53,826 INFO h11_impl.py[ln:454] 127.0.0.1:53539 - "GET /v1/cities/?type=group HTTP/1.1" 200
+2020-12-10 16:03:53,860 INFO h11_impl.py[ln:454] 127.0.0.1:53538 - "GET /v1/user/?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 200
+2020-12-10 16:03:57,440 INFO h11_impl.py[ln:454] 127.0.0.1:53552 - "GET /v1/cities/1 HTTP/1.1" 500
+2020-12-10 16:03:57,442 ERROR h11_impl.py[ln:388] Exception in ASGI application
+Traceback (most recent call last):
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 385, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\middleware\debug.py", line 81, in __call__
+    raise exc from None
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\middleware\debug.py", line 78, in __call__
+    await self.app(scope, receive, inner_send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\fastapi\applications.py", line 149, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\applications.py", line 102, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc from None
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\sessions.py", line 75, in __call__
+    await self.app(scope, receive, send_wrapper)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\cors.py", line 76, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\exceptions.py", line 82, in __call__
+    raise exc from None
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\routing.py", line 550, in __call__
+    await route.handle(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\routing.py", line 227, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\routing.py", line 41, in app
+    response = await func(request)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\fastapi\routing.py", line 197, in app
+    dependant=dependant, values=values, is_coroutine=is_coroutine
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\fastapi\routing.py", line 150, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\concurrency.py", line 34, in run_in_threadpool
+    return await loop.run_in_executor(None, func, *args)
+  File "C:\Users\yubin.yang\AppData\Local\Continuum\Anaconda3\envs\python37\Lib\concurrent\futures\thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\yubin.yang\PycharmProjects\ele_backend\apis\v1\cities\views.py", line 52, in get_cities
+    city_info = get_city_info_by_id(id,cities)
+  File "C:\Users\yubin.yang\PycharmProjects\ele_backend\tools\myTools.py", line 62, in get_city_info_by_id
+    for k, v in city_dict.items():
+AttributeError: module 'data.cities' has no attribute 'items'
+2020-12-10 16:04:15,726 INFO main.py[ln:397] Started server process [50204]
+2020-12-10 16:04:15,729 INFO on.py[ln:22] Waiting for application startup.
+2020-12-10 16:04:15,730 INFO on.py[ln:34] Application startup complete.
+2020-12-10 16:04:16,300 INFO h11_impl.py[ln:454] 127.0.0.1:53602 - "GET /v1/user?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 307
+2020-12-10 16:04:16,304 INFO h11_impl.py[ln:454] 127.0.0.1:53603 - "GET /v1/cities?type=guess HTTP/1.1" 307
+2020-12-10 16:04:16,328 INFO h11_impl.py[ln:454] 127.0.0.1:53606 - "GET /v1/cities?type=hot HTTP/1.1" 307
+2020-12-10 16:04:16,341 INFO h11_impl.py[ln:454] 127.0.0.1:53607 - "GET /v1/cities?type=group HTTP/1.1" 307
+2020-12-10 16:04:16,594 INFO views.py[ln:35] guess获取的城市信息:{'id': 1, 'name': '上海', 'abbr': 'SH', 'area_code': '021', 'sort': 1, 'latitude': 31.23037, 'longitude': 121.473701, 'is_map': True, 'pinyin': 'shanghai'}
+2020-12-10 16:04:16,606 INFO h11_impl.py[ln:454] 127.0.0.1:53611 - "GET /v1/cities/?type=guess HTTP/1.1" 200
+2020-12-10 16:04:16,608 INFO h11_impl.py[ln:454] 127.0.0.1:53612 - "GET /v1/cities/?type=hot HTTP/1.1" 200
+2020-12-10 16:04:16,654 INFO h11_impl.py[ln:454] 127.0.0.1:53610 - "GET /v1/user/?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 200
+2020-12-10 16:04:16,665 INFO h11_impl.py[ln:454] 127.0.0.1:53611 - "GET /v1/cities/?type=group HTTP/1.1" 200
+2020-12-10 16:04:21,295 INFO h11_impl.py[ln:454] 127.0.0.1:53626 - "GET /v1/cities/1 HTTP/1.1" 200
+2020-12-10 16:04:30,250 INFO h11_impl.py[ln:454] 127.0.0.1:53647 - "GET /v1/user?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 307
+2020-12-10 16:04:30,253 INFO h11_impl.py[ln:454] 127.0.0.1:53648 - "GET /v1/cities?type=guess HTTP/1.1" 307
+2020-12-10 16:04:30,270 INFO h11_impl.py[ln:454] 127.0.0.1:53651 - "GET /v1/cities?type=hot HTTP/1.1" 307
+2020-12-10 16:04:30,284 INFO h11_impl.py[ln:454] 127.0.0.1:53653 - "GET /v1/cities?type=group HTTP/1.1" 307
+2020-12-10 16:04:30,547 INFO views.py[ln:35] guess获取的城市信息:{'id': 1, 'name': '上海', 'abbr': 'SH', 'area_code': '021', 'sort': 1, 'latitude': 31.23037, 'longitude': 121.473701, 'is_map': True, 'pinyin': 'shanghai'}
+2020-12-10 16:04:30,563 INFO h11_impl.py[ln:454] 127.0.0.1:53659 - "GET /v1/cities/?type=guess HTTP/1.1" 200
+2020-12-10 16:04:30,570 INFO h11_impl.py[ln:454] 127.0.0.1:53658 - "GET /v1/user/?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 200
+2020-12-10 16:04:30,582 INFO h11_impl.py[ln:454] 127.0.0.1:53659 - "GET /v1/cities/?type=hot HTTP/1.1" 200
+2020-12-10 16:04:30,586 INFO h11_impl.py[ln:454] 127.0.0.1:53658 - "GET /v1/cities/?type=group HTTP/1.1" 200
+2020-12-10 16:04:33,408 INFO h11_impl.py[ln:454] 127.0.0.1:53670 - "GET /v1/cities/1 HTTP/1.1" 200
+2020-12-10 16:04:46,548 INFO h11_impl.py[ln:454] 127.0.0.1:53694 - "GET /v1/user?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 307
+2020-12-10 16:04:46,552 INFO h11_impl.py[ln:454] 127.0.0.1:53695 - "GET /v1/cities?type=hot HTTP/1.1" 307
+2020-12-10 16:04:46,555 INFO h11_impl.py[ln:454] 127.0.0.1:53696 - "GET /v1/cities?type=guess HTTP/1.1" 307
+2020-12-10 16:04:46,561 INFO h11_impl.py[ln:454] 127.0.0.1:53698 - "GET /v1/cities?type=group HTTP/1.1" 307
+2020-12-10 16:04:46,867 INFO h11_impl.py[ln:454] 127.0.0.1:53704 - "GET /v1/user/?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 200
+2020-12-10 16:04:46,873 INFO views.py[ln:35] guess获取的城市信息:{'id': 1, 'name': '上海', 'abbr': 'SH', 'area_code': '021', 'sort': 1, 'latitude': 31.23037, 'longitude': 121.473701, 'is_map': True, 'pinyin': 'shanghai'}
+2020-12-10 16:04:46,876 INFO h11_impl.py[ln:454] 127.0.0.1:53704 - "GET /v1/cities/?type=guess HTTP/1.1" 200
+2020-12-10 16:04:46,878 INFO h11_impl.py[ln:454] 127.0.0.1:53705 - "GET /v1/cities/?type=hot HTTP/1.1" 200
+2020-12-10 16:04:46,889 INFO h11_impl.py[ln:454] 127.0.0.1:53706 - "GET /v1/cities/?type=group HTTP/1.1" 200
+2020-12-10 16:04:51,865 INFO h11_impl.py[ln:454] 127.0.0.1:53725 - "GET /v1/user?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 307
+2020-12-10 16:04:51,871 INFO h11_impl.py[ln:454] 127.0.0.1:53727 - "GET /img/null HTTP/1.1" 404
+2020-12-10 16:04:51,890 INFO h11_impl.py[ln:454] 127.0.0.1:53707 - "GET /v1/user/?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 200
+2020-12-10 16:04:53,954 INFO h11_impl.py[ln:454] 127.0.0.1:53742 - "GET /v1/user?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 307
+2020-12-10 16:04:53,957 INFO h11_impl.py[ln:454] 127.0.0.1:53743 - "GET /v2/index_entry?geohash=31.22299,121.36025&group_type=1&flags[]=F HTTP/1.1" 307
+2020-12-10 16:04:53,999 INFO h11_impl.py[ln:454] 127.0.0.1:53707 - "GET /v1/user/?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 200
+2020-12-10 16:04:54,102 INFO h11_impl.py[ln:454] 127.0.0.1:53739 - "GET /v2/pois/31.22299,121.36025 HTTP/1.1" 200
+2020-12-10 16:04:54,138 INFO h11_impl.py[ln:454] 127.0.0.1:53748 - "GET /shopping/restaurants?latitude=31.22299&longitude=121.36025&offset=0&limit=20&extras[]=activities&keyword=&restaurant_category_id=&restaurant_category_ids[]=&order_by=&delivery_mode[]= HTTP/1.1" 422
+2020-12-10 16:04:54,297 INFO h11_impl.py[ln:454] 127.0.0.1:53750 - "OPTIONS /v2/index_entry/?geohash=31.22299,121.36025&group_type=1&flags[]=F HTTP/1.1" 200
+2020-12-10 16:04:54,307 INFO h11_impl.py[ln:454] 127.0.0.1:53707 - "GET /v2/index_entry/?geohash=31.22299,121.36025&group_type=1&flags[]=F HTTP/1.1" 200
+2020-12-10 16:05:24,033 INFO h11_impl.py[ln:454] 127.0.0.1:53808 - "GET /shopping/restaurants?latitude=31.22299&longitude=121.36025&offset=0&limit=20&extras[]=activities&keyword=&restaurant_category_id=&restaurant_category_ids[]=&order_by=&delivery_mode[]= HTTP/1.1" 422
+2020-12-10 16:05:24,075 INFO h11_impl.py[ln:454] 127.0.0.1:53808 - "GET /favicon.ico HTTP/1.1" 404
+2020-12-10 16:06:09,997 INFO h11_impl.py[ln:454] 127.0.0.1:53902 - "GET /shopping/restaurants?latitude=31.22299&longitude=121.36025&offset=0&limit=20&extras[]=activities&keyword=&restaurant_category_id=&restaurant_category_ids[]=&order_by=1&delivery_mode[]= HTTP/1.1" 200
+2020-12-10 16:06:16,135 INFO h11_impl.py[ln:454] 127.0.0.1:53903 - "GET /shopping/restaurants?latitude=31.22299&longitude=121.36025&offset=0&limit=20&extras[]=activities&keyword=&restaurant_category_id=&restaurant_category_ids[]=&order_by=&delivery_mode[]= HTTP/1.1" 422
+2020-12-10 16:06:46,297 INFO main.py[ln:397] Started server process [24800]
+2020-12-10 16:06:46,298 INFO on.py[ln:22] Waiting for application startup.
+2020-12-10 16:06:46,299 INFO on.py[ln:34] Application startup complete.
+2020-12-10 16:06:50,920 INFO h11_impl.py[ln:454] 127.0.0.1:54007 - "GET /shopping/restaurants?latitude=31.22299&longitude=121.36025&offset=0&limit=20&extras[]=activities&keyword=&restaurant_category_id=&restaurant_category_ids[]=&order_by=&delivery_mode[]= HTTP/1.1" 422
+2020-12-10 16:07:10,538 INFO main.py[ln:397] Started server process [41384]
+2020-12-10 16:07:10,539 INFO on.py[ln:22] Waiting for application startup.
+2020-12-10 16:07:10,540 INFO on.py[ln:34] Application startup complete.
+2020-12-10 16:07:12,522 INFO h11_impl.py[ln:454] 127.0.0.1:54055 - "GET /shopping/restaurants?latitude=31.22299&longitude=121.36025&offset=0&limit=20&extras[]=activities&keyword=&restaurant_category_id=&restaurant_category_ids[]=&order_by=&delivery_mode[]= HTTP/1.1" 200
+2020-12-10 16:07:19,858 INFO h11_impl.py[ln:454] 127.0.0.1:54071 - "GET /v1/user?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 307
+2020-12-10 16:07:19,874 INFO h11_impl.py[ln:454] 127.0.0.1:54073 - "GET /img/null HTTP/1.1" 404
+2020-12-10 16:07:19,984 INFO h11_impl.py[ln:454] 127.0.0.1:54058 - "GET /v1/user/?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 200
+2020-12-10 16:07:37,755 INFO h11_impl.py[ln:454] 127.0.0.1:54132 - "GET /v1/cities?type=guess HTTP/1.1" 307
+2020-12-10 16:07:37,759 INFO h11_impl.py[ln:454] 127.0.0.1:54134 - "GET /v1/cities?type=group HTTP/1.1" 307
+2020-12-10 16:07:37,761 INFO h11_impl.py[ln:454] 127.0.0.1:54133 - "GET /v1/cities?type=hot HTTP/1.1" 307
+2020-12-10 16:07:37,765 INFO h11_impl.py[ln:454] 127.0.0.1:54135 - "GET /v1/user?user_id=null HTTP/1.1" 307
+2020-12-10 16:07:38,077 INFO views.py[ln:35] guess获取的城市信息:{'id': 1, 'name': '上海', 'abbr': 'SH', 'area_code': '021', 'sort': 1, 'latitude': 31.23037, 'longitude': 121.473701, 'is_map': True, 'pinyin': 'shanghai'}
+2020-12-10 16:07:38,079 INFO h11_impl.py[ln:454] 127.0.0.1:54142 - "GET /v1/cities/?type=guess HTTP/1.1" 200
+2020-12-10 16:07:38,084 INFO h11_impl.py[ln:454] 127.0.0.1:54143 - "OPTIONS /v1/user/?user_id=null HTTP/1.1" 200
+2020-12-10 16:07:38,088 INFO h11_impl.py[ln:454] 127.0.0.1:54144 - "GET /v1/cities/?type=group HTTP/1.1" 200
+2020-12-10 16:07:38,090 INFO h11_impl.py[ln:454] 127.0.0.1:54145 - "GET /v1/cities/?type=hot HTTP/1.1" 200
+2020-12-10 16:07:38,102 INFO h11_impl.py[ln:454] 127.0.0.1:54145 - "GET /v1/user/?user_id=null HTTP/1.1" 200
+2020-12-10 16:07:42,156 INFO h11_impl.py[ln:454] 127.0.0.1:54153 - "POST /v1/captchas HTTP/1.1" 307
+2020-12-10 16:07:42,165 INFO views.py[ln:23] 验证码为:3360
+2020-12-10 16:07:42,172 INFO h11_impl.py[ln:454] 127.0.0.1:54155 - "GET /v1/user?user_id=null HTTP/1.1" 307
+2020-12-10 16:07:42,192 INFO h11_impl.py[ln:454] 127.0.0.1:54144 - "GET /v1/user/?user_id=null HTTP/1.1" 200
+2020-12-10 16:07:42,288 INFO h11_impl.py[ln:454] 127.0.0.1:54145 - "POST /v1/captchas/ HTTP/1.1" 200
+2020-12-10 16:07:59,468 INFO h11_impl.py[ln:454] 127.0.0.1:54193 - "POST /v2/login HTTP/1.1" 307
+2020-12-10 16:07:59,781 INFO h11_impl.py[ln:454] 127.0.0.1:54197 - "POST /v2/login/ HTTP/1.1" 200
+2020-12-10 16:08:00,107 INFO h11_impl.py[ln:454] 127.0.0.1:54214 - "GET /v1/user?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 307
+2020-12-10 16:08:00,111 INFO h11_impl.py[ln:454] 127.0.0.1:54215 - "GET /v1/cities?type=guess HTTP/1.1" 307
+2020-12-10 16:08:00,114 INFO h11_impl.py[ln:454] 127.0.0.1:54216 - "GET /v1/cities?type=group HTTP/1.1" 307
+2020-12-10 16:08:00,140 INFO views.py[ln:35] guess获取的城市信息:{'id': 1, 'name': '上海', 'abbr': 'SH', 'area_code': '021', 'sort': 1, 'latitude': 31.23037, 'longitude': 121.473701, 'is_map': True, 'pinyin': 'shanghai'}
+2020-12-10 16:08:00,142 INFO h11_impl.py[ln:454] 127.0.0.1:54210 - "GET /v1/cities/?type=group HTTP/1.1" 200
+2020-12-10 16:08:00,149 INFO h11_impl.py[ln:454] 127.0.0.1:54217 - "GET /v1/cities?type=hot HTTP/1.1" 307
+2020-12-10 16:08:00,152 INFO h11_impl.py[ln:454] 127.0.0.1:54197 - "GET /v1/user/?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 200
+2020-12-10 16:08:00,154 INFO h11_impl.py[ln:454] 127.0.0.1:54209 - "GET /v1/cities/?type=guess HTTP/1.1" 200
+2020-12-10 16:08:00,172 INFO h11_impl.py[ln:454] 127.0.0.1:54209 - "GET /v1/cities/?type=hot HTTP/1.1" 200
+2020-12-10 16:08:01,801 INFO h11_impl.py[ln:454] 127.0.0.1:54223 - "GET /v1/cities/1 HTTP/1.1" 200
+2020-12-10 16:08:01,819 INFO h11_impl.py[ln:454] 127.0.0.1:54225 - "GET /v1/user?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 307
+2020-12-10 16:08:01,832 INFO h11_impl.py[ln:454] 127.0.0.1:54209 - "GET /v1/user/?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 200
+2020-12-10 16:08:23,087 INFO h11_impl.py[ln:454] 127.0.0.1:54266 - "GET /v1/pois?type=search&city_id=1&keyword=%E5%AE%9C%E5%B1%B1%E8%B7%AF600%E5%8F%B7 HTTP/1.1" 307
+2020-12-10 16:08:23,395 INFO h11_impl.py[ln:454] 127.0.0.1:54270 - "OPTIONS /v1/pois/?type=search&city_id=1&keyword=%E5%AE%9C%E5%B1%B1%E8%B7%AF600%E5%8F%B7 HTTP/1.1" 200
+2020-12-10 16:08:23,860 INFO views.py[ln:25] 查询的位置信息为:{'status': 0, 'message': 'query ok', 'count': 30, 'request_id': '18016913624253ee6e9f1582eda14753fb2e7eb97f0b', 'data': [{'id': '10152134850278727022', 'title': '上海交通大学附属第六人民医院', 'address': '上海市徐汇区宜山路600号', 'tel': '021-64369181', 'category': '医疗保健:综合医院', 'type': 0, 'location': {'lat': 31.178139, 'lng': 121.422717}, 'ad_info': {'adcode': 310104, 'province': '上海市', 'city': '上海市', 'district': '徐汇区'}}, {'id': '5868435462154776581', 'title': '上海交通大学附属第六人民医院门诊楼', 'address': '上海市徐汇区宜山路600号', 'tel': '', 'category': '医疗保健:医疗保健附属:其它医疗保健附属', 'type': 0, 'location': {'lat': 31.179013, 'lng': 121.423735}, 'ad_info': {'adcode': 310104, 'province': '上海市', 'city': '上海市', 'district': '徐汇区'}}, {'id': '17520437868473404116', 'title': '上海市第六人民医院-3号病房楼(南区)', 'address': '上海市徐汇区宜山路600号', 'tel': '', 'category': '房产小区:住宅区:住宅小区', 'type': 0, 'location': {'lat': 31.179009, 'lng': 121.422305}, 'ad_info': {'adcode': 310104, 'province': '上海市', 'city': '上海市', 'district': '徐汇区'}}, {'id': '4126966754885144262', 'title': '上海交通大学医学影像研究所', 'address': '上海市徐汇区宜山路600号', 'tel': '', 'category': '机构团体:科研机构', 'type': 0, 'location': {'lat': 31.178929, 'lng': 121.424149}, 'ad_info': {'adcode': 310104, 'province': '上海市', 'city': '上海市', 'district': '徐汇区'}}, {'id': '11388723251105833326', 'title': '上海交通大学创伤骨科研究所', 'address': '上海市徐汇区宜山路600号', 'tel': '', 'category': '机构团体:科研机构', 'type': 0, 'location': {'lat': 31.178938, 'lng': 121.424153}, 'ad_info': {'adcode': 310104, 'province': '上海市', 'city': '上海市', 'district': '徐汇区'}}, {'id': '8836483178328642552', 'title': '上海市第六人民医院-肠内肠外营养研究室', 'address': '上海市徐汇区宜山路600号', 'tel': '', 'category': '机构团体:科研机构', 'type': 0, 'location': {'lat': 31.178851, 'lng': 121.42299}, 'ad_info': {'adcode': 310104, 'province': '上海市', 'city': '上海市', 'district': '徐汇区'}}, {'id': '9870698088587484671', 'title': '上海市第六人民医院发热门诊', 'address': '上海市徐汇区宜山路600号', 'tel': '', 'category': '医疗保健:医疗保健附属:门诊部', 'type': 0, 'location': {'lat': 31.179221, 'lng': 121.423}, 'ad_info': {'adcode': 310104, 'province': '上海市', 'city': '上海市', 'district': '徐汇区'}}, {'id': '2473478332655807172', 'title': '上海市第六人民医院肠道门诊', 'address': '上海市徐汇区宜山路600号', 'tel': '', 'category': '医疗保健:医疗保健附属:门诊部', 'type': 0, 'location': {'lat': 31.179321, 'lng': 121.423438}, 'ad_info': {'adcode': 310104, 'province': '上海市', 'city': '上海市', 'district': '徐汇区'}}, {'id': '5101384786893775310', 'title': '上海市危重孕产妇会诊抢救中心(宜山路)', 'address': '上海市徐汇区宜山路600号', 'tel': '', 'category': '医疗保健:急救中心', 'type': 0, 'location': {'lat': 31.178864, 'lng': 121.42412}, 'ad_info': {'adcode': 310104, 'province': '上海市', 'city': '上海市', 'district': '徐汇区'}}, {'id': '9174341028423276036', 'title': '上海市脑卒中临床救治中心', 'address': '上海市徐汇区宜山路600号', 'tel': '', 'category': '医疗保健:其它医疗保健', 'type': 0, 'location': {'lat': 31.179037, 'lng': 121.423889}, 'ad_info': {'adcode': 310104, 'province': '上海市', 'city': '上海市', 'district': '徐汇区'}}], 'region': {'title': '上海市'}}
+2020-12-10 16:08:23,870 INFO h11_impl.py[ln:454] 127.0.0.1:54274 - "GET /v1/pois/?type=search&city_id=1&keyword=%E5%AE%9C%E5%B1%B1%E8%B7%AF600%E5%8F%B7 HTTP/1.1" 200
+2020-12-10 16:08:25,247 INFO h11_impl.py[ln:454] 127.0.0.1:54285 - "GET /v1/user?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 307
+2020-12-10 16:08:25,252 INFO h11_impl.py[ln:454] 127.0.0.1:54286 - "GET /v2/index_entry?geohash=31.178139,121.422717&group_type=1&flags[]=F HTTP/1.1" 307
+2020-12-10 16:08:25,277 INFO h11_impl.py[ln:454] 127.0.0.1:54281 - "GET /v2/pois/31.178139,121.422717 HTTP/1.1" 200
+2020-12-10 16:08:25,287 INFO h11_impl.py[ln:454] 127.0.0.1:54270 - "OPTIONS /v2/index_entry/?geohash=31.178139,121.422717&group_type=1&flags[]=F HTTP/1.1" 200
+2020-12-10 16:08:25,295 INFO h11_impl.py[ln:454] 127.0.0.1:54274 - "GET /v1/user/?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 200
+2020-12-10 16:08:25,307 INFO h11_impl.py[ln:454] 127.0.0.1:54274 - "GET /v2/index_entry/?geohash=31.178139,121.422717&group_type=1&flags[]=F HTTP/1.1" 200
+2020-12-10 16:08:25,356 INFO h11_impl.py[ln:454] 127.0.0.1:54288 - "GET /shopping/restaurants?latitude=31.178139&longitude=121.422717&offset=0&limit=20&extras[]=activities&keyword=&restaurant_category_id=&restaurant_category_ids[]=&order_by=&delivery_mode[]= HTTP/1.1" 200
+2020-12-10 16:08:25,383 INFO h11_impl.py[ln:454] 127.0.0.1:54293 - "GET /img/175d40ee1bb1.jpg HTTP/1.1" 404
+2020-12-10 16:08:25,386 INFO h11_impl.py[ln:454] 127.0.0.1:54294 - "GET /img/1764b42f3ea4.jpg HTTP/1.1" 404
+2020-12-10 16:21:10,120 INFO h11_impl.py[ln:454] 127.0.0.1:55732 - "GET /v1/user?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 307
+2020-12-10 16:21:10,126 INFO h11_impl.py[ln:454] 127.0.0.1:55733 - "GET /v2/index_entry?geohash=31.178139,121.422717&group_type=1&flags[]=F HTTP/1.1" 307
+2020-12-10 16:21:10,141 INFO h11_impl.py[ln:454] 127.0.0.1:55728 - "GET /v2/pois/31.178139,121.422717 HTTP/1.1" 200
+2020-12-10 16:21:10,269 INFO h11_impl.py[ln:454] 127.0.0.1:55737 - "GET /shopping/restaurants?latitude=31.178139&longitude=121.422717&offset=0&limit=20&extras[]=activities&keyword=&restaurant_category_id=&restaurant_category_ids[]=&order_by=&delivery_mode[]= HTTP/1.1" 200
+2020-12-10 16:21:10,295 INFO h11_impl.py[ln:454] 127.0.0.1:55742 - "GET /img/175d40ee1bb1.jpg HTTP/1.1" 404
+2020-12-10 16:21:10,298 INFO h11_impl.py[ln:454] 127.0.0.1:55743 - "GET /img/1764b42f3ea4.jpg HTTP/1.1" 404
+2020-12-10 16:21:10,486 INFO h11_impl.py[ln:454] 127.0.0.1:55745 - "OPTIONS /v1/user/?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 200
+2020-12-10 16:21:10,490 INFO h11_impl.py[ln:454] 127.0.0.1:55746 - "OPTIONS /v2/index_entry/?geohash=31.178139,121.422717&group_type=1&flags[]=F HTTP/1.1" 200
+2020-12-10 16:21:10,816 INFO h11_impl.py[ln:454] 127.0.0.1:55754 - "GET /v2/index_entry/?geohash=31.178139,121.422717&group_type=1&flags[]=F HTTP/1.1" 200
+2020-12-10 16:21:10,832 INFO h11_impl.py[ln:454] 127.0.0.1:55753 - "GET /v1/user/?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 200
+2020-12-10 16:29:34,185 INFO main.py[ln:397] Started server process [32016]
+2020-12-10 16:29:34,187 INFO on.py[ln:22] Waiting for application startup.
+2020-12-10 16:29:34,188 INFO on.py[ln:34] Application startup complete.
+2020-12-10 16:30:02,687 INFO h11_impl.py[ln:454] 127.0.0.1:56911 - "GET /v1/user?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 307
+2020-12-10 16:30:02,863 INFO h11_impl.py[ln:454] 127.0.0.1:56909 - "GET /v2/pois/31.178139,121.422717 HTTP/1.1" 200
+2020-12-10 16:30:02,877 INFO h11_impl.py[ln:454] 127.0.0.1:56915 - "GET /shopping/v2/restaurant/category?latitude=31.178139&longitude=121.422717 HTTP/1.1" 404
+2020-12-10 16:30:02,932 INFO h11_impl.py[ln:454] 127.0.0.1:56917 - "GET /shopping/restaurants?latitude=31.178139&longitude=121.422717&offset=0&limit=20&extras[]=activities&keyword=&restaurant_category_id=244&restaurant_category_ids[]=&order_by=&delivery_mode[]= HTTP/1.1" 200
+2020-12-10 16:30:02,971 INFO h11_impl.py[ln:454] 127.0.0.1:56923 - "GET /img/175d40ee1bb1.jpg HTTP/1.1" 404
+2020-12-10 16:30:02,974 INFO h11_impl.py[ln:454] 127.0.0.1:56924 - "GET /img/1764b42f3ea4.jpg HTTP/1.1" 404
+2020-12-10 16:30:03,098 INFO h11_impl.py[ln:454] 127.0.0.1:56926 - "GET /v1/user/?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 200
+2020-12-10 16:30:35,835 INFO h11_impl.py[ln:454] 127.0.0.1:57016 - "GET /v1/user?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 307
+2020-12-10 16:30:35,838 INFO h11_impl.py[ln:454] 127.0.0.1:57018 - "GET /v1/cities?type=hot HTTP/1.1" 307
+2020-12-10 16:30:35,840 INFO h11_impl.py[ln:454] 127.0.0.1:57019 - "GET /v1/cities?type=group HTTP/1.1" 307
+2020-12-10 16:30:35,845 INFO h11_impl.py[ln:454] 127.0.0.1:57020 - "GET /v1/cities?type=guess HTTP/1.1" 307
+2020-12-10 16:30:35,858 INFO h11_impl.py[ln:454] 127.0.0.1:57010 - "GET /v1/user/?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 200
+2020-12-10 16:30:36,151 INFO h11_impl.py[ln:454] 127.0.0.1:57027 - "OPTIONS /v1/cities/?type=hot HTTP/1.1" 200
+2020-12-10 16:30:36,154 INFO h11_impl.py[ln:454] 127.0.0.1:57028 - "OPTIONS /v1/cities/?type=group HTTP/1.1" 200
+2020-12-10 16:30:36,156 INFO h11_impl.py[ln:454] 127.0.0.1:57027 - "OPTIONS /v1/cities/?type=guess HTTP/1.1" 200
+2020-12-10 16:30:36,472 INFO h11_impl.py[ln:454] 127.0.0.1:57035 - "GET /v1/cities/?type=hot HTTP/1.1" 200
+2020-12-10 16:30:36,479 INFO views.py[ln:35] guess获取的城市信息:{'id': 1, 'name': '上海', 'abbr': 'SH', 'area_code': '021', 'sort': 1, 'latitude': 31.23037, 'longitude': 121.473701, 'is_map': True, 'pinyin': 'shanghai'}
+2020-12-10 16:30:36,481 INFO h11_impl.py[ln:454] 127.0.0.1:57037 - "GET /v1/cities/?type=group HTTP/1.1" 200
+2020-12-10 16:30:36,484 INFO h11_impl.py[ln:454] 127.0.0.1:57036 - "GET /v1/cities/?type=guess HTTP/1.1" 200
+2020-12-10 16:30:37,695 INFO h11_impl.py[ln:454] 127.0.0.1:57046 - "GET /v1/cities/1 HTTP/1.1" 200
+2020-12-10 16:30:37,714 INFO h11_impl.py[ln:454] 127.0.0.1:57048 - "GET /v1/user?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 307
+2020-12-10 16:30:37,725 INFO h11_impl.py[ln:454] 127.0.0.1:57036 - "GET /v1/user/?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 200
+2020-12-10 16:30:41,041 INFO h11_impl.py[ln:454] 127.0.0.1:57061 - "GET /v1/user?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 307
+2020-12-10 16:30:41,045 INFO h11_impl.py[ln:454] 127.0.0.1:57062 - "GET /v2/index_entry?geohash=31.178139,121.422717&group_type=1&flags[]=F HTTP/1.1" 307
+2020-12-10 16:30:41,048 INFO h11_impl.py[ln:454] 127.0.0.1:57057 - "GET /v2/pois/31.178139,121.422717 HTTP/1.1" 200
+2020-12-10 16:30:41,080 INFO h11_impl.py[ln:454] 127.0.0.1:57036 - "GET /v1/user/?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 200
+2020-12-10 16:30:41,088 INFO h11_impl.py[ln:454] 127.0.0.1:57037 - "GET /v2/index_entry/?geohash=31.178139,121.422717&group_type=1&flags[]=F HTTP/1.1" 200
+2020-12-10 16:30:41,120 INFO h11_impl.py[ln:454] 127.0.0.1:57064 - "GET /shopping/restaurants?latitude=31.178139&longitude=121.422717&offset=0&limit=20&extras[]=activities&keyword=&restaurant_category_id=&restaurant_category_ids[]=&order_by=&delivery_mode[]= HTTP/1.1" 200
+2020-12-10 16:30:41,156 INFO h11_impl.py[ln:454] 127.0.0.1:57069 - "GET /img/175d40ee1bb1.jpg HTTP/1.1" 404
+2020-12-10 16:30:41,163 INFO h11_impl.py[ln:454] 127.0.0.1:57070 - "GET /img/1764b42f3ea4.jpg HTTP/1.1" 404
+2020-12-10 16:38:17,385 INFO h11_impl.py[ln:454] 127.0.0.1:57953 - "GET /v1/user?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 307
+2020-12-10 16:38:17,389 INFO h11_impl.py[ln:454] 127.0.0.1:57954 - "GET /v2/index_entry?geohash=31.178139,121.422717&group_type=1&flags[]=F HTTP/1.1" 307
+2020-12-10 16:38:17,444 INFO h11_impl.py[ln:454] 127.0.0.1:57952 - "GET /v2/pois/31.178139,121.422717 HTTP/1.1" 200
+2020-12-10 16:38:17,570 INFO h11_impl.py[ln:454] 127.0.0.1:57959 - "GET /shopping/restaurants?latitude=31.178139&longitude=121.422717&offset=0&limit=20&extras[]=activities&keyword=&restaurant_category_id=&restaurant_category_ids[]=&order_by=&delivery_mode[]= HTTP/1.1" 200
+2020-12-10 16:38:17,601 INFO h11_impl.py[ln:454] 127.0.0.1:57964 - "GET /img/1764b42f3ea4.jpg HTTP/1.1" 404
+2020-12-10 16:38:17,626 INFO h11_impl.py[ln:454] 127.0.0.1:57965 - "GET /img/175d40ee1bb1.jpg HTTP/1.1" 404
+2020-12-10 16:38:17,711 INFO h11_impl.py[ln:454] 127.0.0.1:57967 - "OPTIONS /v1/user/?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 200
+2020-12-10 16:38:17,715 INFO h11_impl.py[ln:454] 127.0.0.1:57967 - "OPTIONS /v2/index_entry/?geohash=31.178139,121.422717&group_type=1&flags[]=F HTTP/1.1" 200
+2020-12-10 16:38:18,034 INFO h11_impl.py[ln:454] 127.0.0.1:57973 - "GET /v2/index_entry/?geohash=31.178139,121.422717&group_type=1&flags[]=F HTTP/1.1" 200
+2020-12-10 16:38:18,041 INFO h11_impl.py[ln:454] 127.0.0.1:57974 - "GET /v1/user/?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 200
+2020-12-10 16:38:22,671 INFO h11_impl.py[ln:454] 127.0.0.1:57984 - "GET /v2/pois/31.178139,121.422717 HTTP/1.1" 200
+2020-12-10 16:38:22,685 INFO h11_impl.py[ln:454] 127.0.0.1:57987 - "GET /v1/user?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 307
+2020-12-10 16:38:22,696 INFO h11_impl.py[ln:454] 127.0.0.1:57989 - "GET /v2/index_entry?geohash=31.178139,121.422717&group_type=1&flags[]=F HTTP/1.1" 307
+2020-12-10 16:38:22,767 INFO h11_impl.py[ln:454] 127.0.0.1:57973 - "GET /v2/index_entry/?geohash=31.178139,121.422717&group_type=1&flags[]=F HTTP/1.1" 200
+2020-12-10 16:38:22,775 INFO h11_impl.py[ln:454] 127.0.0.1:57974 - "GET /v1/user/?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 200
+2020-12-10 16:38:22,830 INFO h11_impl.py[ln:454] 127.0.0.1:57991 - "GET /shopping/restaurants?latitude=31.178139&longitude=121.422717&offset=0&limit=20&extras[]=activities&keyword=&restaurant_category_id=&restaurant_category_ids[]=&order_by=&delivery_mode[]= HTTP/1.1" 200
+2020-12-10 16:38:22,887 INFO h11_impl.py[ln:454] 127.0.0.1:57996 - "GET /img/175d40ee1bb1.jpg HTTP/1.1" 404
+2020-12-10 16:38:22,891 INFO h11_impl.py[ln:454] 127.0.0.1:57997 - "GET /img/1764b42f3ea4.jpg HTTP/1.1" 404
+2020-12-10 16:42:39,352 INFO h11_impl.py[ln:454] 127.0.0.1:58477 - "GET /v1/user?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 307
+2020-12-10 16:42:39,356 INFO h11_impl.py[ln:454] 127.0.0.1:58478 - "GET /v2/index_entry?geohash=31.178139,121.422717&group_type=1&flags[]=F HTTP/1.1" 307
+2020-12-10 16:42:39,366 INFO h11_impl.py[ln:454] 127.0.0.1:58473 - "GET /v2/pois/31.178139,121.422717 HTTP/1.1" 200
+2020-12-10 16:42:39,508 INFO h11_impl.py[ln:454] 127.0.0.1:58482 - "GET /shopping/restaurants?latitude=31.178139&longitude=121.422717&offset=0&limit=20&extras[]=activities&keyword=&restaurant_category_id=&restaurant_category_ids[]=&order_by=&delivery_mode[]= HTTP/1.1" 200
+2020-12-10 16:42:39,534 INFO h11_impl.py[ln:454] 127.0.0.1:58486 - "GET /img/175d40ee1bb1.jpg HTTP/1.1" 404
+2020-12-10 16:42:39,539 INFO h11_impl.py[ln:454] 127.0.0.1:58488 - "GET /img/1764b42f3ea4.jpg HTTP/1.1" 404
+2020-12-10 16:42:39,730 INFO h11_impl.py[ln:454] 127.0.0.1:58491 - "GET /v2/index_entry/?geohash=31.178139,121.422717&group_type=1&flags[]=F HTTP/1.1" 200
+2020-12-10 16:42:39,737 INFO h11_impl.py[ln:454] 127.0.0.1:58490 - "GET /v1/user/?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 200
+2020-12-10 16:43:08,944 INFO h11_impl.py[ln:454] 127.0.0.1:58556 - "GET /v1/user?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 307
+2020-12-10 16:43:08,947 INFO h11_impl.py[ln:454] 127.0.0.1:58552 - "GET /v2/pois/31.178139,121.422717 HTTP/1.1" 200
+2020-12-10 16:43:08,950 INFO h11_impl.py[ln:454] 127.0.0.1:58557 - "GET /v2/index_entry?geohash=31.178139,121.422717&group_type=1&flags[]=F HTTP/1.1" 307
+2020-12-10 16:43:09,097 INFO h11_impl.py[ln:454] 127.0.0.1:58561 - "GET /shopping/restaurants?latitude=31.178139&longitude=121.422717&offset=0&limit=20&extras[]=activities&keyword=&restaurant_category_id=&restaurant_category_ids[]=&order_by=&delivery_mode[]= HTTP/1.1" 200
+2020-12-10 16:43:09,132 INFO h11_impl.py[ln:454] 127.0.0.1:58565 - "GET /img/175d40ee1bb1.jpg HTTP/1.1" 404
+2020-12-10 16:43:09,144 INFO h11_impl.py[ln:454] 127.0.0.1:58567 - "GET /img/1764b42f3ea4.jpg HTTP/1.1" 404
+2020-12-10 16:43:09,321 INFO h11_impl.py[ln:454] 127.0.0.1:58570 - "GET /v2/index_entry/?geohash=31.178139,121.422717&group_type=1&flags[]=F HTTP/1.1" 200
+2020-12-10 16:43:09,327 INFO h11_impl.py[ln:454] 127.0.0.1:58569 - "GET /v1/user/?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 200
+2020-12-10 16:43:53,567 INFO h11_impl.py[ln:454] 127.0.0.1:58695 - "GET /v1/user?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 307
+2020-12-10 16:43:53,570 INFO h11_impl.py[ln:454] 127.0.0.1:58696 - "GET /v2/index_entry?geohash=31.178139,121.422717&group_type=1&flags[]=F HTTP/1.1" 307
+2020-12-10 16:43:53,611 INFO h11_impl.py[ln:454] 127.0.0.1:58694 - "GET /v2/pois/31.178139,121.422717 HTTP/1.1" 200
+2020-12-10 16:43:53,695 INFO h11_impl.py[ln:454] 127.0.0.1:58701 - "GET /shopping/restaurants?latitude=31.178139&longitude=121.422717&offset=0&limit=20&extras[]=activities&keyword=&restaurant_category_id=&restaurant_category_ids[]=&order_by=&delivery_mode[]= HTTP/1.1" 200
+2020-12-10 16:43:53,723 INFO h11_impl.py[ln:454] 127.0.0.1:58706 - "GET /img/175d40ee1bb1.jpg HTTP/1.1" 404
+2020-12-10 16:43:53,727 INFO h11_impl.py[ln:454] 127.0.0.1:58707 - "GET /img/1764b42f3ea4.jpg HTTP/1.1" 404
+2020-12-10 16:43:53,923 INFO h11_impl.py[ln:454] 127.0.0.1:58712 - "GET /v2/index_entry/?geohash=31.178139,121.422717&group_type=1&flags[]=F HTTP/1.1" 200
+2020-12-10 16:43:53,930 INFO h11_impl.py[ln:454] 127.0.0.1:58711 - "GET /v1/user/?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 200
+2020-12-10 16:56:41,599 INFO main.py[ln:397] Started server process [51232]
+2020-12-10 16:56:41,603 INFO on.py[ln:22] Waiting for application startup.
+2020-12-10 16:56:41,604 INFO on.py[ln:34] Application startup complete.
+2020-12-10 17:07:22,250 INFO h11_impl.py[ln:454] 127.0.0.1:61518 - "GET /v2/index_entry?geohash=31.178139,121.422717&group_type=1&flags[]=F HTTP/1.1" 307
+2020-12-10 17:07:22,268 INFO h11_impl.py[ln:454] 127.0.0.1:61516 - "GET /v1/user?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 307
+2020-12-10 17:07:22,479 INFO h11_impl.py[ln:454] 127.0.0.1:61514 - "GET /v2/pois/31.178139,121.422717 HTTP/1.1" 200
+2020-12-10 17:07:22,603 INFO h11_impl.py[ln:454] 127.0.0.1:61523 - "GET /shopping/restaurants?latitude=31.178139&longitude=121.422717&offset=0&limit=20&extras[]=activities&keyword=&restaurant_category_id=&restaurant_category_ids[]=&order_by=&delivery_mode[]= HTTP/1.1" 200
+2020-12-10 17:07:22,629 INFO h11_impl.py[ln:454] 127.0.0.1:61527 - "OPTIONS /v2/index_entry/?geohash=31.178139,121.422717&group_type=1&flags[]=F HTTP/1.1" 200
+2020-12-10 17:07:22,632 INFO h11_impl.py[ln:454] 127.0.0.1:61528 - "OPTIONS /v1/user/?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 200
+2020-12-10 17:07:22,646 INFO h11_impl.py[ln:454] 127.0.0.1:61531 - "GET /img/175d40ee1bb1.jpg HTTP/1.1" 404
+2020-12-10 17:07:22,650 INFO h11_impl.py[ln:454] 127.0.0.1:61532 - "GET /img/1764b42f3ea4.jpg HTTP/1.1" 404
+2020-12-10 17:07:23,003 INFO h11_impl.py[ln:454] 127.0.0.1:61539 - "GET /v2/index_entry/?geohash=31.178139,121.422717&group_type=1&flags[]=F HTTP/1.1" 200
+2020-12-10 17:07:23,050 INFO h11_impl.py[ln:454] 127.0.0.1:61543 - "GET /v1/user/?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 200
+2020-12-10 17:16:41,033 INFO main.py[ln:397] Started server process [24444]
+2020-12-10 17:16:41,034 INFO on.py[ln:22] Waiting for application startup.
+2020-12-10 17:16:41,035 INFO on.py[ln:34] Application startup complete.
+2020-12-10 17:16:45,510 INFO h11_impl.py[ln:454] 127.0.0.1:62752 - "GET /v1/user?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 307
+2020-12-10 17:16:45,513 INFO h11_impl.py[ln:454] 127.0.0.1:62753 - "GET /v2/index_entry?geohash=31.178139,121.422717&group_type=1&flags[]=F HTTP/1.1" 307
+2020-12-10 17:16:45,560 INFO h11_impl.py[ln:454] 127.0.0.1:62750 - "GET /v2/pois/31.178139,121.422717 HTTP/1.1" 200
+2020-12-10 17:16:45,661 INFO h11_impl.py[ln:454] 127.0.0.1:62744 - "GET /v1/user/?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 200
+2020-12-10 17:16:45,696 INFO h11_impl.py[ln:454] 127.0.0.1:62745 - "GET /v2/index_entry/?geohash=31.178139,121.422717&group_type=1&flags[]=F HTTP/1.1" 200
+2020-12-10 17:16:45,716 INFO h11_impl.py[ln:454] 127.0.0.1:62758 - "GET /shopping/restaurants?latitude=31.178139&longitude=121.422717&offset=0&limit=20&extras[]=activities&keyword=&restaurant_category_id=&restaurant_category_ids[]=&order_by=&delivery_mode[]= HTTP/1.1" 200
+2020-12-10 17:16:45,935 INFO h11_impl.py[ln:454] 127.0.0.1:62764 - "GET /img/1764b42f3ea4.jpg HTTP/1.1" 404
+2020-12-10 17:16:45,938 INFO h11_impl.py[ln:454] 127.0.0.1:62765 - "GET /img/175d40ee1bb1.jpg HTTP/1.1" 404
+2020-12-10 17:23:00,861 INFO main.py[ln:397] Started server process [23808]
+2020-12-10 17:23:00,862 INFO on.py[ln:22] Waiting for application startup.
+2020-12-10 17:23:00,863 INFO on.py[ln:34] Application startup complete.
+2020-12-10 17:23:52,631 INFO h11_impl.py[ln:454] 127.0.0.1:63635 - "GET /static HTTP/1.1" 307
+2020-12-10 17:23:52,644 INFO h11_impl.py[ln:454] 127.0.0.1:63635 - "GET /static/ HTTP/1.1" 404
+2020-12-10 17:23:55,777 INFO h11_impl.py[ln:454] 127.0.0.1:63635 - "GET /static/img HTTP/1.1" 404
+2020-12-10 17:24:27,678 INFO h11_impl.py[ln:454] 127.0.0.1:63707 - "GET /static/img/175d40ee1bb1.jpg HTTP/1.1" 200
+2020-12-10 17:25:52,719 INFO h11_impl.py[ln:454] 127.0.0.1:63894 - "GET /v1/user?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 307
+2020-12-10 17:25:52,722 INFO h11_impl.py[ln:454] 127.0.0.1:63895 - "GET /v2/index_entry?geohash=31.178139,121.422717&group_type=1&flags[]=F HTTP/1.1" 307
+2020-12-10 17:25:52,769 INFO h11_impl.py[ln:454] 127.0.0.1:63890 - "GET /v2/pois/31.178139,121.422717 HTTP/1.1" 200
+2020-12-10 17:25:52,934 INFO h11_impl.py[ln:454] 127.0.0.1:63901 - "GET /shopping/restaurants?latitude=31.178139&longitude=121.422717&offset=0&limit=20&extras[]=activities&keyword=&restaurant_category_id=&restaurant_category_ids[]=&order_by=&delivery_mode[]= HTTP/1.1" 200
+2020-12-10 17:25:52,968 INFO h11_impl.py[ln:454] 127.0.0.1:63906 - "GET /img/175d40ee1bb1.jpg HTTP/1.1" 404
+2020-12-10 17:25:52,972 INFO h11_impl.py[ln:454] 127.0.0.1:63907 - "GET /img/1764b42f3ea4.jpg HTTP/1.1" 404
+2020-12-10 17:25:53,126 INFO h11_impl.py[ln:454] 127.0.0.1:63909 - "OPTIONS /v1/user/?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 200
+2020-12-10 17:25:53,128 INFO h11_impl.py[ln:454] 127.0.0.1:63910 - "OPTIONS /v2/index_entry/?geohash=31.178139,121.422717&group_type=1&flags[]=F HTTP/1.1" 200
+2020-12-10 17:25:53,481 INFO h11_impl.py[ln:454] 127.0.0.1:63915 - "GET /v1/user/?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 200
+2020-12-10 17:25:53,490 INFO h11_impl.py[ln:454] 127.0.0.1:63916 - "GET /v2/index_entry/?geohash=31.178139,121.422717&group_type=1&flags[]=F HTTP/1.1" 200
+2020-12-10 17:26:23,411 INFO h11_impl.py[ln:454] 127.0.0.1:63990 - "GET /img/1764b42f3ea4.jpg HTTP/1.1" 404
+2020-12-10 17:26:27,734 INFO h11_impl.py[ln:454] 127.0.0.1:63991 - "GET /img/1764b42f3ea4.jpg HTTP/1.1" 404
+2020-12-10 17:26:45,407 INFO main.py[ln:397] Started server process [36580]
+2020-12-10 17:26:45,409 INFO on.py[ln:22] Waiting for application startup.
+2020-12-10 17:26:45,409 INFO on.py[ln:34] Application startup complete.
+2020-12-10 17:27:51,162 INFO main.py[ln:397] Started server process [24276]
+2020-12-10 17:27:51,163 INFO on.py[ln:22] Waiting for application startup.
+2020-12-10 17:27:51,164 INFO on.py[ln:34] Application startup complete.
+2020-12-10 17:27:54,069 INFO h11_impl.py[ln:454] 127.0.0.1:64168 - "GET /img/1764b42f3ea4.jpg HTTP/1.1" 200
+2020-12-10 17:27:56,460 INFO h11_impl.py[ln:454] 127.0.0.1:64168 - "GET /v1/user/?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 200
+2020-12-10 17:27:56,532 INFO h11_impl.py[ln:454] 127.0.0.1:64169 - "GET /v2/index_entry/?geohash=31.178139,121.422717&group_type=1&flags[]=F HTTP/1.1" 200
+2020-12-10 17:27:56,536 INFO h11_impl.py[ln:454] 127.0.0.1:64195 - "GET /v1/cities/1 HTTP/1.1" 200
+2020-12-10 17:27:56,557 INFO h11_impl.py[ln:454] 127.0.0.1:64190 - "GET /shopping/restaurants?latitude=31.178139&longitude=121.422717&offset=0&limit=20&extras[]=activities&keyword=&restaurant_category_id=&restaurant_category_ids[]=&order_by=&delivery_mode[]= HTTP/1.1" 200
+2020-12-10 17:27:56,777 INFO h11_impl.py[ln:454] 127.0.0.1:64199 - "GET /v1/user?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 307
+2020-12-10 17:27:56,789 INFO h11_impl.py[ln:454] 127.0.0.1:64200 - "GET /img/175d40ee1bb1.jpg HTTP/1.1" 200
+2020-12-10 17:27:56,791 INFO h11_impl.py[ln:454] 127.0.0.1:64201 - "GET /img/1764b42f3ea4.jpg HTTP/1.1" 200
+2020-12-10 17:27:57,191 INFO h11_impl.py[ln:454] 127.0.0.1:64204 - "GET /v1/user/?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 200
+2020-12-10 17:43:15,128 INFO h11_impl.py[ln:454] 127.0.0.1:49989 - "GET /shopping/restaurant/1?latitude=31.178139&longitude=121.422717&extras[]=activities&extras[]=album&extras[]=license&extras[]=identification&extras[]=statistics HTTP/1.1" 404
+2020-12-10 17:43:15,172 INFO h11_impl.py[ln:454] 127.0.0.1:49991 - "GET /shopping/v2/menu?restaurant_id=1 HTTP/1.1" 404
+2020-12-10 17:43:15,197 INFO h11_impl.py[ln:454] 127.0.0.1:49993 - "GET /ugc/v2/restaurants/1/ratings?has_content=true&offset=0&limit=10&tag_name= HTTP/1.1" 404
+2020-12-10 17:43:15,214 INFO h11_impl.py[ln:454] 127.0.0.1:49995 - "GET /ugc/v2/restaurants/1/ratings/scores HTTP/1.1" 404
+2020-12-10 17:43:15,237 INFO h11_impl.py[ln:454] 127.0.0.1:49997 - "GET /ugc/v2/restaurants/1/ratings/tags HTTP/1.1" 404
+2020-12-10 17:43:26,122 INFO h11_impl.py[ln:454] 127.0.0.1:50030 - "GET /v1/user?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 307
+2020-12-10 17:43:26,127 INFO h11_impl.py[ln:454] 127.0.0.1:50031 - "GET /v2/index_entry?geohash=31.178139,121.422717&group_type=1&flags[]=F HTTP/1.1" 307
+2020-12-10 17:43:26,242 INFO h11_impl.py[ln:454] 127.0.0.1:50029 - "GET /v2/pois/31.178139,121.422717 HTTP/1.1" 200
+2020-12-10 17:43:26,324 INFO h11_impl.py[ln:454] 127.0.0.1:50035 - "GET /shopping/restaurants?latitude=31.178139&longitude=121.422717&offset=0&limit=20&extras[]=activities&keyword=&restaurant_category_id=&restaurant_category_ids[]=&order_by=&delivery_mode[]= HTTP/1.1" 200
+2020-12-10 17:43:26,483 INFO h11_impl.py[ln:454] 127.0.0.1:50039 - "OPTIONS /v1/user/?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 200
+2020-12-10 17:43:26,486 INFO h11_impl.py[ln:454] 127.0.0.1:50040 - "OPTIONS /v2/index_entry/?geohash=31.178139,121.422717&group_type=1&flags[]=F HTTP/1.1" 200
+2020-12-10 17:43:26,524 INFO h11_impl.py[ln:454] 127.0.0.1:50021 - "GET /v1/user/?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 200
+2020-12-10 17:43:26,540 INFO h11_impl.py[ln:454] 127.0.0.1:50022 - "GET /v2/index_entry/?geohash=31.178139,121.422717&group_type=1&flags[]=F HTTP/1.1" 200
+2020-12-10 17:45:01,106 INFO h11_impl.py[ln:454] 127.0.0.1:50221 - "GET /v1/user?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 307
+2020-12-10 17:45:01,115 INFO h11_impl.py[ln:454] 127.0.0.1:50222 - "GET /v2/index_entry?geohash=31.178139,121.422717&group_type=1&flags[]=F HTTP/1.1" 307
+2020-12-10 17:45:01,147 INFO h11_impl.py[ln:454] 127.0.0.1:50217 - "GET /v2/pois/31.178139,121.422717 HTTP/1.1" 200
+2020-12-10 17:45:01,259 INFO h11_impl.py[ln:454] 127.0.0.1:50226 - "GET /shopping/restaurants?latitude=31.178139&longitude=121.422717&offset=0&limit=20&extras[]=activities&keyword=&restaurant_category_id=&restaurant_category_ids[]=&order_by=&delivery_mode[]= HTTP/1.1" 200
+2020-12-10 17:45:01,440 INFO h11_impl.py[ln:454] 127.0.0.1:50231 - "GET /v1/user/?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 200
+2020-12-10 17:45:01,458 INFO h11_impl.py[ln:454] 127.0.0.1:50232 - "GET /v2/index_entry/?geohash=31.178139,121.422717&group_type=1&flags[]=F HTTP/1.1" 200
+2020-12-10 17:46:06,544 INFO h11_impl.py[ln:454] 127.0.0.1:50353 - "GET /shopping/restaurants?latitude=31.178139&longitude=121.422717&offset=0&limit=20&extras[]=activities&keyword=&restaurant_category_id=&restaurant_category_ids[]=&order_by=&delivery_mode[]= HTTP/1.1" 200
+2020-12-10 17:46:06,690 INFO h11_impl.py[ln:454] 127.0.0.1:50357 - "GET /shopping/restaurants?latitude=31.178139&longitude=121.422717&offset=0&limit=20&extras[]=activities&keyword=&restaurant_category_id=&restaurant_category_ids[]=&order_by=&delivery_mode[]= HTTP/1.1" 200
+2020-12-10 17:51:22,017 INFO h11_impl.py[ln:454] 127.0.0.1:51022 - "GET /shopping/restaurants?latitude=31.178139&longitude=121.422717&offset=0&limit=20&extras[]=activities&keyword=&restaurant_category_id=&restaurant_category_ids[]=&order_by=&delivery_mode[]= HTTP/1.1" 200
+2020-12-10 17:51:22,126 INFO h11_impl.py[ln:454] 127.0.0.1:51028 - "GET /shopping/restaurants?latitude=31.178139&longitude=121.422717&offset=0&limit=20&extras[]=activities&keyword=&restaurant_category_id=&restaurant_category_ids[]=&order_by=&delivery_mode[]= HTTP/1.1" 200
+2020-12-10 17:51:59,491 INFO h11_impl.py[ln:454] 127.0.0.1:51100 - "GET /shopping/restaurants?latitude=31.178139&longitude=121.422717&offset=0&limit=20&extras[]=activities&keyword=&restaurant_category_id=&restaurant_category_ids[]=&order_by=&delivery_mode[]= HTTP/1.1" 200
+2020-12-10 17:51:59,585 INFO h11_impl.py[ln:454] 127.0.0.1:51104 - "GET /shopping/restaurants?latitude=31.178139&longitude=121.422717&offset=0&limit=20&extras[]=activities&keyword=&restaurant_category_id=&restaurant_category_ids[]=&order_by=&delivery_mode[]= HTTP/1.1" 200

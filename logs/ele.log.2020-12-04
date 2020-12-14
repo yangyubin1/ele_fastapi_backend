@@ -1,0 +1,721 @@
+2020-12-04 14:35:09,461 INFO main.py[ln:397] Started server process [14728]
+2020-12-04 14:35:09,464 INFO on.py[ln:22] Waiting for application startup.
+2020-12-04 14:35:09,465 INFO on.py[ln:34] Application startup complete.
+2020-12-04 14:35:16,537 INFO h11_impl.py[ln:454] 127.0.0.1:57884 - "GET / HTTP/1.1" 200
+2020-12-04 14:35:16,598 INFO h11_impl.py[ln:454] 127.0.0.1:57884 - "GET /favicon.ico HTTP/1.1" 404
+2020-12-04 14:47:51,406 INFO main.py[ln:397] Started server process [55100]
+2020-12-04 14:47:51,408 INFO on.py[ln:22] Waiting for application startup.
+2020-12-04 14:47:51,410 INFO on.py[ln:34] Application startup complete.
+2020-12-04 14:48:06,325 INFO h11_impl.py[ln:454] 127.0.0.1:58441 - "GET /v1/user/hello HTTP/1.1" 404
+2020-12-04 14:48:10,966 INFO h11_impl.py[ln:454] 127.0.0.1:58441 - "GET / HTTP/1.1" 404
+2020-12-04 14:49:10,205 INFO main.py[ln:397] Started server process [36292]
+2020-12-04 14:49:10,206 INFO on.py[ln:22] Waiting for application startup.
+2020-12-04 14:49:10,207 INFO on.py[ln:34] Application startup complete.
+2020-12-04 14:49:15,272 INFO h11_impl.py[ln:454] 127.0.0.1:58547 - "GET /v1/user/hello HTTP/1.1" 404
+2020-12-04 14:49:25,972 INFO h11_impl.py[ln:454] 127.0.0.1:58565 - "GET /v1/user/ HTTP/1.1" 404
+2020-12-04 14:49:34,194 INFO h11_impl.py[ln:454] 127.0.0.1:58582 - "GET /v1/user/hello HTTP/1.1" 404
+2020-12-04 14:49:39,680 INFO h11_impl.py[ln:454] 127.0.0.1:58589 - "GET /v1/health HTTP/1.1" 404
+2020-12-04 14:51:16,534 INFO main.py[ln:397] Started server process [27616]
+2020-12-04 14:51:16,537 INFO on.py[ln:22] Waiting for application startup.
+2020-12-04 14:51:16,539 INFO on.py[ln:34] Application startup complete.
+2020-12-04 14:51:36,193 INFO h11_impl.py[ln:454] 127.0.0.1:58777 - "GET /v1/user/hello HTTP/1.1" 200
+2020-12-04 14:53:36,726 INFO main.py[ln:397] Started server process [20760]
+2020-12-04 14:53:36,733 INFO on.py[ln:22] Waiting for application startup.
+2020-12-04 14:53:36,734 INFO on.py[ln:34] Application startup complete.
+2020-12-04 14:55:35,492 INFO main.py[ln:397] Started server process [24624]
+2020-12-04 14:55:35,493 INFO on.py[ln:22] Waiting for application startup.
+2020-12-04 14:55:35,495 INFO on.py[ln:34] Application startup complete.
+2020-12-04 15:03:24,231 INFO main.py[ln:397] Started server process [60892]
+2020-12-04 15:03:24,236 INFO on.py[ln:22] Waiting for application startup.
+2020-12-04 15:03:24,237 INFO on.py[ln:34] Application startup complete.
+2020-12-04 15:07:06,864 INFO main.py[ln:397] Started server process [14764]
+2020-12-04 15:07:06,868 INFO on.py[ln:22] Waiting for application startup.
+2020-12-04 15:07:06,869 INFO on.py[ln:34] Application startup complete.
+2020-12-04 15:09:45,130 INFO main.py[ln:397] Started server process [61060]
+2020-12-04 15:09:45,131 INFO on.py[ln:22] Waiting for application startup.
+2020-12-04 15:09:45,132 INFO on.py[ln:34] Application startup complete.
+2020-12-04 15:11:45,036 INFO main.py[ln:397] Started server process [14540]
+2020-12-04 15:11:45,037 INFO on.py[ln:22] Waiting for application startup.
+2020-12-04 15:11:45,038 INFO on.py[ln:34] Application startup complete.
+2020-12-04 15:16:43,259 INFO h11_impl.py[ln:454] 127.0.0.1:61405 - "GET /v1/user_id=123 HTTP/1.1" 404
+2020-12-04 15:16:49,140 INFO h11_impl.py[ln:454] 127.0.0.1:61416 - "GET /v1/user/?user_id=123 HTTP/1.1" 404
+2020-12-04 15:16:54,102 INFO h11_impl.py[ln:454] 127.0.0.1:61423 - "GET /v1/user/hello HTTP/1.1" 404
+2020-12-04 15:17:00,933 INFO h11_impl.py[ln:454] 127.0.0.1:61435 - "GET /v1/user/?user_id=12 HTTP/1.1" 404
+2020-12-04 15:17:26,939 INFO h11_impl.py[ln:454] 127.0.0.1:61475 - "GET /v1/user?user_id=null HTTP/1.1" 404
+2020-12-04 15:17:26,975 INFO h11_impl.py[ln:454] 127.0.0.1:61475 - "GET /favicon.ico HTTP/1.1" 404
+2020-12-04 15:17:38,525 INFO h11_impl.py[ln:454] 127.0.0.1:61498 - "GET /v1/user?user_id=%27123%27 HTTP/1.1" 404
+2020-12-04 15:17:43,254 INFO h11_impl.py[ln:454] 127.0.0.1:61516 - "GET /v1/user HTTP/1.1" 404
+2020-12-04 15:17:53,994 INFO main.py[ln:397] Started server process [57896]
+2020-12-04 15:17:53,996 INFO on.py[ln:22] Waiting for application startup.
+2020-12-04 15:17:53,996 INFO on.py[ln:34] Application startup complete.
+2020-12-04 15:17:57,163 INFO h11_impl.py[ln:454] 127.0.0.1:61555 - "GET /v1/user?user_id=%27123%27 HTTP/1.1" 307
+2020-12-04 15:17:57,181 INFO h11_impl.py[ln:454] 127.0.0.1:61555 - "GET /v1/user/?user_id=%27123%27 HTTP/1.1" 200
+2020-12-04 15:23:21,428 INFO main.py[ln:397] Started server process [11816]
+2020-12-04 15:23:21,430 INFO on.py[ln:22] Waiting for application startup.
+2020-12-04 15:23:21,431 INFO on.py[ln:34] Application startup complete.
+2020-12-04 15:26:24,155 INFO main.py[ln:397] Started server process [60508]
+2020-12-04 15:26:24,157 INFO on.py[ln:22] Waiting for application startup.
+2020-12-04 15:26:24,158 INFO on.py[ln:34] Application startup complete.
+2020-12-04 15:27:38,380 INFO main.py[ln:397] Started server process [46932]
+2020-12-04 15:27:38,382 INFO on.py[ln:22] Waiting for application startup.
+2020-12-04 15:27:38,383 INFO on.py[ln:34] Application startup complete.
+2020-12-04 15:27:45,607 INFO h11_impl.py[ln:454] 127.0.0.1:62491 - "GET /v1/user/?user_id=%27123%27 HTTP/1.1" 200
+2020-12-04 15:28:25,092 INFO main.py[ln:397] Started server process [60780]
+2020-12-04 15:28:25,094 INFO on.py[ln:22] Waiting for application startup.
+2020-12-04 15:28:25,095 INFO on.py[ln:34] Application startup complete.
+2020-12-04 15:30:44,083 INFO main.py[ln:397] Started server process [58992]
+2020-12-04 15:30:44,084 INFO on.py[ln:22] Waiting for application startup.
+2020-12-04 15:30:44,085 INFO on.py[ln:34] Application startup complete.
+2020-12-04 15:30:47,765 WARNING consts.py[ln:45] error失败
+2020-12-04 15:30:47,767 INFO h11_impl.py[ln:454] 127.0.0.1:62761 - "GET /v1/user/?user_id=%27123%27 HTTP/1.1" 400
+2020-12-04 15:31:05,844 INFO main.py[ln:397] Started server process [51004]
+2020-12-04 15:31:05,846 INFO on.py[ln:22] Waiting for application startup.
+2020-12-04 15:31:05,847 INFO on.py[ln:34] Application startup complete.
+2020-12-04 15:31:33,455 INFO main.py[ln:397] Started server process [49916]
+2020-12-04 15:31:33,457 INFO on.py[ln:22] Waiting for application startup.
+2020-12-04 15:31:33,458 INFO on.py[ln:34] Application startup complete.
+2020-12-04 15:31:58,346 INFO main.py[ln:397] Started server process [29344]
+2020-12-04 15:31:58,348 INFO on.py[ln:22] Waiting for application startup.
+2020-12-04 15:31:58,349 INFO on.py[ln:34] Application startup complete.
+2020-12-04 15:43:55,166 INFO main.py[ln:397] Started server process [28688]
+2020-12-04 15:43:55,168 INFO on.py[ln:22] Waiting for application startup.
+2020-12-04 15:43:55,170 INFO on.py[ln:34] Application startup complete.
+2020-12-04 15:43:57,178 WARNING consts.py[ln:45] error,失败原因:{REASON}
+2020-12-04 15:43:57,209 ERROR h11_impl.py[ln:388] Exception in ASGI application
+Traceback (most recent call last):
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 385, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\middleware\debug.py", line 81, in __call__
+    raise exc from None
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\middleware\debug.py", line 78, in __call__
+    await self.app(scope, receive, inner_send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\fastapi\applications.py", line 149, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\applications.py", line 102, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc from None
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\cors.py", line 76, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\exceptions.py", line 93, in __call__
+    await response(scope, receive, sender)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\responses.py", line 125, in __call__
+    "headers": self.raw_headers,
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\exceptions.py", line 68, in sender
+    await send(message)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\errors.py", line 156, in _send
+    await send(message)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\middleware\debug.py", line 75, in inner_send
+    await send(message)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 458, in send
+    reason = STATUS_PHRASES[status_code]
+TypeError: unhashable type: 'dict'
+2020-12-04 15:43:57,578 WARNING consts.py[ln:45] error,失败原因:{REASON}
+2020-12-04 15:43:57,608 ERROR h11_impl.py[ln:388] Exception in ASGI application
+Traceback (most recent call last):
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 385, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\middleware\debug.py", line 81, in __call__
+    raise exc from None
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\middleware\debug.py", line 78, in __call__
+    await self.app(scope, receive, inner_send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\fastapi\applications.py", line 149, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\applications.py", line 102, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc from None
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\cors.py", line 76, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\exceptions.py", line 93, in __call__
+    await response(scope, receive, sender)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\responses.py", line 125, in __call__
+    "headers": self.raw_headers,
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\exceptions.py", line 68, in sender
+    await send(message)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\errors.py", line 156, in _send
+    await send(message)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\middleware\debug.py", line 75, in inner_send
+    await send(message)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 458, in send
+    reason = STATUS_PHRASES[status_code]
+TypeError: unhashable type: 'dict'
+2020-12-04 15:43:57,919 WARNING consts.py[ln:45] error,失败原因:{REASON}
+2020-12-04 15:43:57,933 ERROR h11_impl.py[ln:388] Exception in ASGI application
+Traceback (most recent call last):
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 385, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\middleware\debug.py", line 81, in __call__
+    raise exc from None
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\middleware\debug.py", line 78, in __call__
+    await self.app(scope, receive, inner_send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\fastapi\applications.py", line 149, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\applications.py", line 102, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc from None
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\cors.py", line 76, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\exceptions.py", line 93, in __call__
+    await response(scope, receive, sender)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\responses.py", line 125, in __call__
+    "headers": self.raw_headers,
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\exceptions.py", line 68, in sender
+    await send(message)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\errors.py", line 156, in _send
+    await send(message)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\middleware\debug.py", line 75, in inner_send
+    await send(message)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 458, in send
+    reason = STATUS_PHRASES[status_code]
+TypeError: unhashable type: 'dict'
+2020-12-04 15:43:59,219 WARNING consts.py[ln:45] error,失败原因:{REASON}
+2020-12-04 15:43:59,235 ERROR h11_impl.py[ln:388] Exception in ASGI application
+Traceback (most recent call last):
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 385, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\middleware\debug.py", line 81, in __call__
+    raise exc from None
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\middleware\debug.py", line 78, in __call__
+    await self.app(scope, receive, inner_send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\fastapi\applications.py", line 149, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\applications.py", line 102, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc from None
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\cors.py", line 76, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\exceptions.py", line 93, in __call__
+    await response(scope, receive, sender)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\responses.py", line 125, in __call__
+    "headers": self.raw_headers,
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\exceptions.py", line 68, in sender
+    await send(message)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\errors.py", line 156, in _send
+    await send(message)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\middleware\debug.py", line 75, in inner_send
+    await send(message)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 458, in send
+    reason = STATUS_PHRASES[status_code]
+TypeError: unhashable type: 'dict'
+2020-12-04 15:43:59,542 WARNING consts.py[ln:45] error,失败原因:{REASON}
+2020-12-04 15:43:59,550 ERROR h11_impl.py[ln:388] Exception in ASGI application
+Traceback (most recent call last):
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 385, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\middleware\debug.py", line 81, in __call__
+    raise exc from None
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\middleware\debug.py", line 78, in __call__
+    await self.app(scope, receive, inner_send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\fastapi\applications.py", line 149, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\applications.py", line 102, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc from None
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\cors.py", line 76, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\exceptions.py", line 93, in __call__
+    await response(scope, receive, sender)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\responses.py", line 125, in __call__
+    "headers": self.raw_headers,
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\exceptions.py", line 68, in sender
+    await send(message)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\errors.py", line 156, in _send
+    await send(message)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\middleware\debug.py", line 75, in inner_send
+    await send(message)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 458, in send
+    reason = STATUS_PHRASES[status_code]
+TypeError: unhashable type: 'dict'
+2020-12-04 15:44:04,887 WARNING consts.py[ln:45] error,失败原因:{REASON}
+2020-12-04 15:44:04,894 ERROR h11_impl.py[ln:388] Exception in ASGI application
+Traceback (most recent call last):
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 385, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\middleware\debug.py", line 81, in __call__
+    raise exc from None
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\middleware\debug.py", line 78, in __call__
+    await self.app(scope, receive, inner_send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\fastapi\applications.py", line 149, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\applications.py", line 102, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc from None
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\cors.py", line 76, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\exceptions.py", line 93, in __call__
+    await response(scope, receive, sender)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\responses.py", line 125, in __call__
+    "headers": self.raw_headers,
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\exceptions.py", line 68, in sender
+    await send(message)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\errors.py", line 156, in _send
+    await send(message)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\middleware\debug.py", line 75, in inner_send
+    await send(message)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 458, in send
+    reason = STATUS_PHRASES[status_code]
+TypeError: unhashable type: 'dict'
+2020-12-04 15:44:35,341 WARNING consts.py[ln:45] error,失败原因:{REASON}
+2020-12-04 15:44:35,424 ERROR h11_impl.py[ln:388] Exception in ASGI application
+Traceback (most recent call last):
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 385, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\middleware\debug.py", line 81, in __call__
+    raise exc from None
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\middleware\debug.py", line 78, in __call__
+    await self.app(scope, receive, inner_send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\fastapi\applications.py", line 149, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\applications.py", line 102, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc from None
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\cors.py", line 76, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\exceptions.py", line 93, in __call__
+    await response(scope, receive, sender)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\responses.py", line 125, in __call__
+    "headers": self.raw_headers,
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\exceptions.py", line 68, in sender
+    await send(message)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\errors.py", line 156, in _send
+    await send(message)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\middleware\debug.py", line 75, in inner_send
+    await send(message)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 458, in send
+    reason = STATUS_PHRASES[status_code]
+TypeError: unhashable type: 'dict'
+2020-12-04 15:45:00,816 INFO main.py[ln:397] Started server process [14908]
+2020-12-04 15:45:00,818 INFO on.py[ln:22] Waiting for application startup.
+2020-12-04 15:45:00,821 INFO on.py[ln:34] Application startup complete.
+2020-12-04 15:45:20,900 INFO main.py[ln:397] Started server process [26504]
+2020-12-04 15:45:20,901 INFO on.py[ln:22] Waiting for application startup.
+2020-12-04 15:45:20,903 INFO on.py[ln:34] Application startup complete.
+2020-12-04 15:45:26,754 INFO main.py[ln:397] Started server process [44600]
+2020-12-04 15:45:26,756 INFO on.py[ln:22] Waiting for application startup.
+2020-12-04 15:45:26,759 INFO on.py[ln:34] Application startup complete.
+2020-12-04 15:45:28,813 WARNING consts.py[ln:45] error,失败原因:用户信息不存在
+2020-12-04 15:45:28,835 INFO h11_impl.py[ln:454] 127.0.0.1:64306 - "GET /v1/user/?user_id=%27123%27 HTTP/1.1" 400
+2020-12-04 15:45:47,675 INFO main.py[ln:397] Started server process [43088]
+2020-12-04 15:45:47,676 INFO on.py[ln:22] Waiting for application startup.
+2020-12-04 15:45:47,678 INFO on.py[ln:34] Application startup complete.
+2020-12-04 15:58:20,796 INFO main.py[ln:397] Started server process [61208]
+2020-12-04 15:58:20,798 INFO on.py[ln:22] Waiting for application startup.
+2020-12-04 15:58:20,799 INFO on.py[ln:34] Application startup complete.
+2020-12-04 15:58:42,395 INFO main.py[ln:397] Started server process [2148]
+2020-12-04 15:58:42,397 INFO on.py[ln:22] Waiting for application startup.
+2020-12-04 15:58:42,398 INFO on.py[ln:34] Application startup complete.
+2020-12-04 16:03:23,932 INFO main.py[ln:397] Started server process [60516]
+2020-12-04 16:03:23,934 INFO on.py[ln:22] Waiting for application startup.
+2020-12-04 16:03:23,935 INFO on.py[ln:34] Application startup complete.
+2020-12-04 16:07:31,406 INFO main.py[ln:397] Started server process [40444]
+2020-12-04 16:07:31,408 INFO on.py[ln:22] Waiting for application startup.
+2020-12-04 16:07:31,409 INFO on.py[ln:34] Application startup complete.
+2020-12-04 16:07:31,445 INFO h11_impl.py[ln:454] 127.0.0.1:50097 - "GET /v1/user/?user_id=%27123%27 HTTP/1.1" 422
+2020-12-04 16:07:32,797 INFO h11_impl.py[ln:454] 127.0.0.1:50100 - "GET /v1/user/?user_id=%27123%27 HTTP/1.1" 422
+2020-12-04 16:07:41,957 INFO h11_impl.py[ln:454] 127.0.0.1:50101 - "GET /v1/user/?user_id=123 HTTP/1.1" 500
+2020-12-04 16:07:41,965 ERROR h11_impl.py[ln:388] Exception in ASGI application
+Traceback (most recent call last):
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 385, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\middleware\debug.py", line 81, in __call__
+    raise exc from None
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\middleware\debug.py", line 78, in __call__
+    await self.app(scope, receive, inner_send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\fastapi\applications.py", line 149, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\applications.py", line 102, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc from None
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\cors.py", line 76, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\exceptions.py", line 82, in __call__
+    raise exc from None
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\routing.py", line 550, in __call__
+    await route.handle(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\routing.py", line 227, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\routing.py", line 41, in app
+    response = await func(request)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\fastapi\routing.py", line 197, in app
+    dependant=dependant, values=values, is_coroutine=is_coroutine
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\fastapi\routing.py", line 150, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\concurrency.py", line 34, in run_in_threadpool
+    return await loop.run_in_executor(None, func, *args)
+  File "C:\Users\yubin.yang\AppData\Local\Continuum\Anaconda3\envs\python37\Lib\concurrent\futures\thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\yubin.yang\PycharmProjects\ele_backend\apis\v1\user\views.py", line 19, in get_user_info
+    print(f"请求的session: {request.session}")
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\requests.py", line 109, in session
+    ), "SessionMiddleware must be installed to access request.session"
+AssertionError: SessionMiddleware must be installed to access request.session
+2020-12-04 16:08:17,344 INFO main.py[ln:397] Started server process [60952]
+2020-12-04 16:08:17,346 INFO on.py[ln:22] Waiting for application startup.
+2020-12-04 16:08:17,347 INFO on.py[ln:34] Application startup complete.
+2020-12-04 16:09:54,406 INFO main.py[ln:397] Started server process [9064]
+2020-12-04 16:09:54,407 INFO on.py[ln:22] Waiting for application startup.
+2020-12-04 16:09:54,408 INFO on.py[ln:34] Application startup complete.
+2020-12-04 16:10:11,952 INFO h11_impl.py[ln:454] 127.0.0.1:50589 - "GET /v1/user/?user_id=123 HTTP/1.1" 500
+2020-12-04 16:10:11,955 ERROR h11_impl.py[ln:388] Exception in ASGI application
+Traceback (most recent call last):
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 385, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\middleware\debug.py", line 81, in __call__
+    raise exc from None
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\middleware\debug.py", line 78, in __call__
+    await self.app(scope, receive, inner_send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\fastapi\applications.py", line 149, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\applications.py", line 102, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc from None
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\cors.py", line 76, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\exceptions.py", line 82, in __call__
+    raise exc from None
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\routing.py", line 550, in __call__
+    await route.handle(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\routing.py", line 227, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\routing.py", line 41, in app
+    response = await func(request)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\fastapi\routing.py", line 197, in app
+    dependant=dependant, values=values, is_coroutine=is_coroutine
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\fastapi\routing.py", line 150, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\concurrency.py", line 34, in run_in_threadpool
+    return await loop.run_in_executor(None, func, *args)
+  File "C:\Users\yubin.yang\AppData\Local\Continuum\Anaconda3\envs\python37\Lib\concurrent\futures\thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\yubin.yang\PycharmProjects\ele_backend\apis\v1\user\views.py", line 21, in get_user_info
+    user_crud.get_user_info(db, user_id=user_id)
+TypeError: get_user_info() missing 1 required positional argument: 'db'
+2020-12-04 16:10:39,039 INFO main.py[ln:397] Started server process [60652]
+2020-12-04 16:10:39,040 INFO on.py[ln:22] Waiting for application startup.
+2020-12-04 16:10:39,041 INFO on.py[ln:34] Application startup complete.
+2020-12-04 16:10:41,746 INFO h11_impl.py[ln:454] 127.0.0.1:50642 - "GET /v1/user/?user_id=123 HTTP/1.1" 500
+2020-12-04 16:10:41,749 ERROR h11_impl.py[ln:388] Exception in ASGI application
+Traceback (most recent call last):
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 385, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\middleware\debug.py", line 81, in __call__
+    raise exc from None
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\middleware\debug.py", line 78, in __call__
+    await self.app(scope, receive, inner_send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\fastapi\applications.py", line 149, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\applications.py", line 102, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc from None
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\cors.py", line 76, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\exceptions.py", line 82, in __call__
+    raise exc from None
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\routing.py", line 550, in __call__
+    await route.handle(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\routing.py", line 227, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\routing.py", line 41, in app
+    response = await func(request)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\fastapi\routing.py", line 197, in app
+    dependant=dependant, values=values, is_coroutine=is_coroutine
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\fastapi\routing.py", line 150, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\concurrency.py", line 34, in run_in_threadpool
+    return await loop.run_in_executor(None, func, *args)
+  File "C:\Users\yubin.yang\AppData\Local\Continuum\Anaconda3\envs\python37\Lib\concurrent\futures\thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\yubin.yang\PycharmProjects\ele_backend\apis\v1\user\views.py", line 21, in get_user_info
+    user_crud.get_user_info(db=db, user_id=user_id)
+TypeError: get_user_info() missing 1 required positional argument: 'self'
+2020-12-04 16:11:01,571 INFO main.py[ln:397] Started server process [44684]
+2020-12-04 16:11:01,572 INFO on.py[ln:22] Waiting for application startup.
+2020-12-04 16:11:01,573 INFO on.py[ln:34] Application startup complete.
+2020-12-04 16:11:34,815 INFO main.py[ln:397] Started server process [60784]
+2020-12-04 16:11:34,816 INFO on.py[ln:22] Waiting for application startup.
+2020-12-04 16:11:34,817 INFO on.py[ln:34] Application startup complete.
+2020-12-04 16:12:01,715 INFO h11_impl.py[ln:454] 127.0.0.1:50765 - "GET /v1/user/?user_id=123 HTTP/1.1" 200
+2020-12-04 16:16:20,491 INFO main.py[ln:397] Started server process [44388]
+2020-12-04 16:16:20,492 INFO on.py[ln:22] Waiting for application startup.
+2020-12-04 16:16:20,492 INFO on.py[ln:34] Application startup complete.
+2020-12-04 16:19:43,531 INFO main.py[ln:397] Started server process [60952]
+2020-12-04 16:19:43,532 INFO on.py[ln:22] Waiting for application startup.
+2020-12-04 16:19:43,533 INFO on.py[ln:34] Application startup complete.
+2020-12-04 16:20:30,906 INFO h11_impl.py[ln:454] 127.0.0.1:51689 - "GET /v1/user/?user_id=1 HTTP/1.1" 500
+2020-12-04 16:20:30,908 ERROR h11_impl.py[ln:388] Exception in ASGI application
+Traceback (most recent call last):
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 385, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\middleware\debug.py", line 81, in __call__
+    raise exc from None
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\middleware\debug.py", line 78, in __call__
+    await self.app(scope, receive, inner_send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\fastapi\applications.py", line 149, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\applications.py", line 102, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc from None
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\cors.py", line 76, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\exceptions.py", line 82, in __call__
+    raise exc from None
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\routing.py", line 550, in __call__
+    await route.handle(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\routing.py", line 227, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\routing.py", line 41, in app
+    response = await func(request)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\fastapi\routing.py", line 197, in app
+    dependant=dependant, values=values, is_coroutine=is_coroutine
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\fastapi\routing.py", line 150, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\concurrency.py", line 34, in run_in_threadpool
+    return await loop.run_in_executor(None, func, *args)
+  File "C:\Users\yubin.yang\AppData\Local\Continuum\Anaconda3\envs\python37\Lib\concurrent\futures\thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\yubin.yang\PycharmProjects\ele_backend\apis\v1\user\views.py", line 21, in get_user_info
+    user_crud.get_user_info(db=db, user_id=user_id)
+  File "C:\Users\yubin.yang\PycharmProjects\ele_backend\apis\v1\user\crud\user.py", line 16, in get_user_info
+    print(db.query(UserInfo).filter(id == user_id).scalar())
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\sqlalchemy\orm\query.py", line 3523, in scalar
+    ret = self.one()
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\sqlalchemy\orm\query.py", line 3490, in one
+    ret = self.one_or_none()
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\sqlalchemy\orm\query.py", line 3459, in one_or_none
+    ret = list(self)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\sqlalchemy\orm\query.py", line 3535, in __iter__
+    return self._execute_and_instances(context)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\sqlalchemy\orm\query.py", line 3560, in _execute_and_instances
+    result = conn.execute(querycontext.statement, self._params)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\sqlalchemy\engine\base.py", line 1011, in execute
+    return meth(self, multiparams, params)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\sqlalchemy\sql\elements.py", line 298, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\sqlalchemy\engine\base.py", line 1130, in _execute_clauseelement
+    distilled_params,
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\sqlalchemy\engine\base.py", line 1317, in _execute_context
+    e, statement, parameters, cursor, context
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\sqlalchemy\engine\base.py", line 1511, in _handle_dbapi_exception
+    sqlalchemy_exception, with_traceback=exc_info[2], from_=e
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\sqlalchemy\util\compat.py", line 182, in raise_
+    raise exception
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\sqlalchemy\engine\base.py", line 1277, in _execute_context
+    cursor, statement, parameters, context
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\sqlalchemy\engine\default.py", line 593, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\pymysql\connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\pymysql\connections.py", line 732, in _read_query_result
+    result.read()
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\pymysql\connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\pymysql\connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\pymysql\protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+sqlalchemy.exc.ProgrammingError: (pymysql.err.ProgrammingError) (1146, "Table 'fastadmin.user_info' doesn't exist")
+[SQL: SELECT user_info.id AS user_info_id, user_info.create_time AS user_info_create_time, user_info.update_time AS user_info_update_time, user_info.user_id AS user_info_user_id, user_info.avatar AS user_info_avatar, user_info.balance AS user_info_balance, user_info.brand_member_new AS user_info_brand_member_new, user_info.current_address_id AS user_info_current_address_id, user_info.current_invoice_id AS user_info_current_invoice_id, user_info.delivery_card_expire_days AS user_info_delivery_card_expire_days, user_info.email AS user_info_email, user_info.gift_amount AS user_info_gift_amount, user_info.city AS user_info_city, user_info.registe_time AS user_info_registe_time, user_info.is_active AS user_info_is_active, user_info.is_email_valid AS user_info_is_email_valid, user_info.is_mobile_valid AS user_info_is_mobile_valid, user_info.mobile AS user_info_mobile, user_info.point AS user_info_point, user_info.username AS user_info_username, user_info.column_desc AS user_info_column_desc 
+FROM user_info 
+WHERE false = 1]
+(Background on this error at: http://sqlalche.me/e/13/f405)
+2020-12-04 16:20:58,341 INFO main.py[ln:397] Started server process [50308]
+2020-12-04 16:20:58,342 INFO on.py[ln:22] Waiting for application startup.
+2020-12-04 16:20:58,344 INFO on.py[ln:34] Application startup complete.
+2020-12-04 16:21:07,674 INFO h11_impl.py[ln:454] 127.0.0.1:51762 - "GET /v1/user/?user_id=1 HTTP/1.1" 200
+2020-12-04 16:21:33,089 INFO main.py[ln:397] Started server process [18756]
+2020-12-04 16:21:33,091 INFO on.py[ln:22] Waiting for application startup.
+2020-12-04 16:21:33,099 INFO on.py[ln:34] Application startup complete.
+2020-12-04 16:21:39,446 INFO h11_impl.py[ln:454] 127.0.0.1:51825 - "GET /v1/user/?user_id=1 HTTP/1.1" 200
+2020-12-04 16:21:53,803 INFO main.py[ln:397] Started server process [13492]
+2020-12-04 16:21:53,807 INFO on.py[ln:22] Waiting for application startup.
+2020-12-04 16:21:53,808 INFO on.py[ln:34] Application startup complete.
+2020-12-04 16:22:52,645 INFO main.py[ln:397] Started server process [54540]
+2020-12-04 16:22:52,647 INFO on.py[ln:22] Waiting for application startup.
+2020-12-04 16:22:52,650 INFO on.py[ln:34] Application startup complete.
+2020-12-04 16:23:00,361 INFO main.py[ln:397] Started server process [11992]
+2020-12-04 16:23:00,362 INFO on.py[ln:22] Waiting for application startup.
+2020-12-04 16:23:00,363 INFO on.py[ln:34] Application startup complete.
+2020-12-04 16:23:08,491 INFO h11_impl.py[ln:454] 127.0.0.1:51991 - "GET /v1/user/?user_id=1 HTTP/1.1" 200
+2020-12-04 16:23:44,381 INFO main.py[ln:397] Started server process [30280]
+2020-12-04 16:23:44,383 INFO on.py[ln:22] Waiting for application startup.
+2020-12-04 16:23:44,386 INFO on.py[ln:34] Application startup complete.
+2020-12-04 16:39:12,887 INFO h11_impl.py[ln:454] 127.0.0.1:53609 - "GET /v1/user?user_id=null HTTP/1.1" 307
+2020-12-04 16:39:12,905 INFO h11_impl.py[ln:454] 127.0.0.1:53614 - "GET /v1/cities?type=group HTTP/1.1" 404
+2020-12-04 16:39:12,907 INFO h11_impl.py[ln:454] 127.0.0.1:53613 - "GET /v1/cities?type=guess HTTP/1.1" 404
+2020-12-04 16:39:12,913 INFO h11_impl.py[ln:454] 127.0.0.1:53615 - "GET /v1/cities?type=hot HTTP/1.1" 404
+2020-12-04 16:39:13,228 INFO h11_impl.py[ln:454] 127.0.0.1:53619 - "OPTIONS /v1/user/?user_id=null HTTP/1.1" 200
+2020-12-04 16:41:55,647 INFO main.py[ln:397] Started server process [60952]
+2020-12-04 16:41:55,648 INFO on.py[ln:22] Waiting for application startup.
+2020-12-04 16:41:55,649 INFO on.py[ln:34] Application startup complete.
+2020-12-04 16:42:09,660 INFO h11_impl.py[ln:454] 127.0.0.1:53973 - "GET /v1/user?user_id=null HTTP/1.1" 307
+2020-12-04 16:42:09,667 INFO h11_impl.py[ln:454] 127.0.0.1:53974 - "GET /v1/cities?type=guess HTTP/1.1" 404
+2020-12-04 16:42:09,670 INFO h11_impl.py[ln:454] 127.0.0.1:53975 - "GET /v1/cities?type=hot HTTP/1.1" 404
+2020-12-04 16:42:09,677 INFO h11_impl.py[ln:454] 127.0.0.1:53976 - "GET /v1/cities?type=group HTTP/1.1" 404
+2020-12-04 16:42:09,995 INFO h11_impl.py[ln:454] 127.0.0.1:53981 - "OPTIONS /v1/user/?user_id=null HTTP/1.1" 200
+2020-12-04 16:42:54,144 INFO h11_impl.py[ln:454] 127.0.0.1:54060 - "GET /v1/user?user_id=null HTTP/1.1" 307
+2020-12-04 16:42:54,157 INFO h11_impl.py[ln:454] 127.0.0.1:54060 - "GET /v1/user/?user_id=null HTTP/1.1" 422
+2020-12-04 16:46:20,743 INFO main.py[ln:397] Started server process [12784]
+2020-12-04 16:46:20,744 INFO on.py[ln:22] Waiting for application startup.
+2020-12-04 16:46:20,746 INFO on.py[ln:34] Application startup complete.
+2020-12-04 16:46:38,810 INFO main.py[ln:397] Started server process [58576]
+2020-12-04 16:46:38,814 INFO on.py[ln:22] Waiting for application startup.
+2020-12-04 16:46:38,815 INFO on.py[ln:34] Application startup complete.
+2020-12-04 16:46:44,526 INFO h11_impl.py[ln:454] 127.0.0.1:54419 - "GET /v1/user/?user_id=null HTTP/1.1" 200
+2020-12-04 16:47:20,691 INFO main.py[ln:397] Started server process [61008]
+2020-12-04 16:47:20,692 INFO on.py[ln:22] Waiting for application startup.
+2020-12-04 16:47:20,693 INFO on.py[ln:34] Application startup complete.
+2020-12-04 16:47:21,625 INFO h11_impl.py[ln:454] 127.0.0.1:54483 - "GET /v1/user/?user_id=null HTTP/1.1" 200
+2020-12-04 16:47:37,051 INFO main.py[ln:397] Started server process [60964]
+2020-12-04 16:47:37,052 INFO on.py[ln:22] Waiting for application startup.
+2020-12-04 16:47:37,053 INFO on.py[ln:34] Application startup complete.
+2020-12-04 16:49:09,291 INFO h11_impl.py[ln:454] 127.0.0.1:54663 - "GET /v1/cities?type=hot HTTP/1.1" 404
+2020-12-04 16:49:09,294 INFO h11_impl.py[ln:454] 127.0.0.1:54664 - "GET /v1/cities?type=guess HTTP/1.1" 404
+2020-12-04 16:49:09,297 INFO h11_impl.py[ln:454] 127.0.0.1:54665 - "GET /v1/cities?type=group HTTP/1.1" 404
+2020-12-04 16:49:09,300 INFO h11_impl.py[ln:454] 127.0.0.1:54666 - "GET /v1/user?user_id=null HTTP/1.1" 307
+2020-12-04 16:49:09,631 INFO h11_impl.py[ln:454] 127.0.0.1:54671 - "OPTIONS /v1/user/?user_id=null HTTP/1.1" 200
+2020-12-04 16:54:38,840 INFO main.py[ln:397] Started server process [52900]
+2020-12-04 16:54:38,842 INFO on.py[ln:22] Waiting for application startup.
+2020-12-04 16:54:38,843 INFO on.py[ln:34] Application startup complete.
+2020-12-04 16:54:45,247 INFO h11_impl.py[ln:454] 127.0.0.1:55282 - "GET /v1/cities?type=guess HTTP/1.1" 404
+2020-12-04 16:54:45,252 INFO h11_impl.py[ln:454] 127.0.0.1:55283 - "GET /v1/cities?type=hot HTTP/1.1" 404
+2020-12-04 16:54:45,256 INFO h11_impl.py[ln:454] 127.0.0.1:55284 - "GET /v1/user?user_id=null HTTP/1.1" 307
+2020-12-04 16:54:45,258 INFO h11_impl.py[ln:454] 127.0.0.1:55285 - "GET /v1/cities?type=group HTTP/1.1" 404
+2020-12-04 16:54:45,584 INFO h11_impl.py[ln:454] 127.0.0.1:55288 - "OPTIONS /v1/user/?user_id=null HTTP/1.1" 200
+2020-12-04 16:54:45,907 INFO h11_impl.py[ln:454] 127.0.0.1:55292 - "GET /v1/user/?user_id=null HTTP/1.1" 200
+2020-12-04 16:57:01,459 INFO main.py[ln:397] Started server process [2876]
+2020-12-04 16:57:01,460 INFO on.py[ln:22] Waiting for application startup.
+2020-12-04 16:57:01,462 INFO on.py[ln:34] Application startup complete.
+2020-12-04 16:57:49,220 INFO main.py[ln:397] Started server process [40444]
+2020-12-04 16:57:49,221 INFO on.py[ln:22] Waiting for application startup.
+2020-12-04 16:57:49,222 INFO on.py[ln:34] Application startup complete.
+2020-12-04 16:58:17,077 INFO main.py[ln:397] Started server process [17664]
+2020-12-04 16:58:17,078 INFO on.py[ln:22] Waiting for application startup.
+2020-12-04 16:58:17,079 INFO on.py[ln:34] Application startup complete.
+2020-12-04 17:05:52,944 INFO main.py[ln:397] Started server process [14540]
+2020-12-04 17:05:52,945 INFO on.py[ln:22] Waiting for application startup.
+2020-12-04 17:05:52,948 INFO on.py[ln:34] Application startup complete.
+2020-12-04 17:52:08,344 INFO main.py[ln:397] Started server process [60688]
+2020-12-04 17:52:08,345 INFO on.py[ln:22] Waiting for application startup.
+2020-12-04 17:52:08,349 INFO on.py[ln:34] Application startup complete.
+2020-12-04 17:52:57,337 INFO main.py[ln:397] Started server process [44044]
+2020-12-04 17:52:57,338 INFO on.py[ln:22] Waiting for application startup.
+2020-12-04 17:52:57,339 INFO on.py[ln:34] Application startup complete.
+2020-12-04 17:59:13,801 INFO main.py[ln:397] Started server process [53340]
+2020-12-04 17:59:13,803 INFO on.py[ln:22] Waiting for application startup.
+2020-12-04 17:59:13,807 INFO on.py[ln:34] Application startup complete.
+2020-12-04 18:00:19,406 INFO main.py[ln:397] Started server process [56168]
+2020-12-04 18:00:19,407 INFO on.py[ln:22] Waiting for application startup.
+2020-12-04 18:00:19,408 INFO on.py[ln:34] Application startup complete.
+2020-12-04 18:07:06,020 INFO main.py[ln:397] Started server process [41452]
+2020-12-04 18:07:06,021 INFO on.py[ln:22] Waiting for application startup.
+2020-12-04 18:07:06,022 INFO on.py[ln:34] Application startup complete.
+2020-12-04 18:10:19,466 INFO main.py[ln:397] Started server process [20128]
+2020-12-04 18:10:19,470 INFO on.py[ln:22] Waiting for application startup.
+2020-12-04 18:10:19,471 INFO on.py[ln:34] Application startup complete.
+2020-12-04 18:12:24,028 INFO main.py[ln:397] Started server process [60880]
+2020-12-04 18:12:24,030 INFO on.py[ln:22] Waiting for application startup.
+2020-12-04 18:12:24,031 INFO on.py[ln:34] Application startup complete.
+2020-12-04 18:19:06,128 INFO main.py[ln:397] Started server process [25404]
+2020-12-04 18:19:06,129 INFO on.py[ln:22] Waiting for application startup.
+2020-12-04 18:19:06,133 INFO on.py[ln:34] Application startup complete.
+2020-12-04 18:21:58,267 INFO main.py[ln:397] Started server process [60520]
+2020-12-04 18:21:58,270 INFO on.py[ln:22] Waiting for application startup.
+2020-12-04 18:21:58,271 INFO on.py[ln:34] Application startup complete.
+2020-12-04 18:22:54,843 INFO main.py[ln:397] Started server process [40972]
+2020-12-04 18:22:54,845 INFO on.py[ln:22] Waiting for application startup.
+2020-12-04 18:22:54,848 INFO on.py[ln:34] Application startup complete.
+2020-12-04 18:30:59,844 INFO main.py[ln:397] Started server process [56516]
+2020-12-04 18:30:59,845 INFO on.py[ln:22] Waiting for application startup.
+2020-12-04 18:30:59,849 INFO on.py[ln:34] Application startup complete.
+2020-12-04 18:31:15,224 INFO main.py[ln:397] Started server process [21724]
+2020-12-04 18:31:15,225 INFO on.py[ln:22] Waiting for application startup.
+2020-12-04 18:31:15,226 INFO on.py[ln:34] Application startup complete.
+2020-12-04 18:37:49,096 INFO main.py[ln:397] Started server process [44756]
+2020-12-04 18:37:49,098 INFO on.py[ln:22] Waiting for application startup.
+2020-12-04 18:37:49,099 INFO on.py[ln:34] Application startup complete.
+2020-12-04 18:39:05,715 INFO main.py[ln:397] Started server process [9364]
+2020-12-04 18:39:05,717 INFO on.py[ln:22] Waiting for application startup.
+2020-12-04 18:39:05,718 INFO on.py[ln:34] Application startup complete.
+2020-12-04 18:43:30,962 INFO main.py[ln:397] Started server process [59884]
+2020-12-04 18:43:30,964 INFO on.py[ln:22] Waiting for application startup.
+2020-12-04 18:43:30,965 INFO on.py[ln:34] Application startup complete.
+2020-12-04 18:44:34,994 INFO main.py[ln:397] Started server process [60760]
+2020-12-04 18:44:34,995 INFO on.py[ln:22] Waiting for application startup.
+2020-12-04 18:44:34,996 INFO on.py[ln:34] Application startup complete.
+2020-12-04 18:58:32,662 INFO main.py[ln:397] Started server process [21284]
+2020-12-04 18:58:32,664 INFO on.py[ln:22] Waiting for application startup.
+2020-12-04 18:58:32,668 INFO on.py[ln:34] Application startup complete.
+2020-12-04 18:58:46,077 INFO main.py[ln:397] Started server process [56448]
+2020-12-04 18:58:46,079 INFO on.py[ln:22] Waiting for application startup.
+2020-12-04 18:58:46,080 INFO on.py[ln:34] Application startup complete.
+2020-12-04 19:00:30,313 INFO main.py[ln:397] Started server process [54468]
+2020-12-04 19:00:30,314 INFO on.py[ln:22] Waiting for application startup.
+2020-12-04 19:00:30,316 INFO on.py[ln:34] Application startup complete.

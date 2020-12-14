@@ -1,0 +1,552 @@
+2020-12-08 14:52:23,636 INFO main.py[ln:397] Started server process [25552]
+2020-12-08 14:52:23,639 INFO on.py[ln:22] Waiting for application startup.
+2020-12-08 14:52:23,640 INFO on.py[ln:34] Application startup complete.
+2020-12-08 14:52:28,506 INFO main.py[ln:397] Started server process [21624]
+2020-12-08 14:52:28,507 INFO on.py[ln:22] Waiting for application startup.
+2020-12-08 14:52:28,508 INFO on.py[ln:34] Application startup complete.
+2020-12-08 14:52:30,821 INFO h11_impl.py[ln:454] 127.0.0.1:64297 - "GET /v1/user?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 307
+2020-12-08 14:52:30,836 INFO h11_impl.py[ln:454] 127.0.0.1:64301 - "GET /v1/cities?type=guess HTTP/1.1" 307
+2020-12-08 14:52:30,839 INFO h11_impl.py[ln:454] 127.0.0.1:64303 - "GET /v1/cities?type=group HTTP/1.1" 307
+2020-12-08 14:52:30,841 INFO h11_impl.py[ln:454] 127.0.0.1:64302 - "GET /v1/cities?type=hot HTTP/1.1" 307
+2020-12-08 14:52:31,138 INFO h11_impl.py[ln:454] 127.0.0.1:64309 - "OPTIONS /v1/user/?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 200
+2020-12-08 14:52:31,141 INFO h11_impl.py[ln:454] 127.0.0.1:64309 - "OPTIONS /v1/cities/?type=guess HTTP/1.1" 200
+2020-12-08 14:52:31,146 INFO h11_impl.py[ln:454] 127.0.0.1:64309 - "OPTIONS /v1/cities/?type=group HTTP/1.1" 200
+2020-12-08 14:52:31,149 INFO h11_impl.py[ln:454] 127.0.0.1:64310 - "OPTIONS /v1/cities/?type=hot HTTP/1.1" 200
+2020-12-08 14:52:31,481 INFO views.py[ln:35] guess获取的城市信息:{'id': 1, 'name': '上海', 'abbr': 'SH', 'area_code': '021', 'sort': 1, 'latitude': 31.23037, 'longitude': 121.473701, 'is_map': True, 'pinyin': 'shanghai'}
+2020-12-08 14:52:31,483 INFO h11_impl.py[ln:454] 127.0.0.1:64321 - "GET /v1/cities/?type=hot HTTP/1.1" 200
+2020-12-08 14:52:31,487 INFO h11_impl.py[ln:454] 127.0.0.1:64322 - "GET /v1/cities/?type=group HTTP/1.1" 200
+2020-12-08 14:52:31,490 INFO h11_impl.py[ln:454] 127.0.0.1:64320 - "GET /v1/cities/?type=guess HTTP/1.1" 200
+2020-12-08 14:52:31,592 INFO h11_impl.py[ln:454] 127.0.0.1:64319 - "GET /v1/user/?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 200
+2020-12-08 14:52:36,229 INFO h11_impl.py[ln:454] 127.0.0.1:64332 - "POST /v1/captchas HTTP/1.1" 307
+2020-12-08 14:52:36,238 INFO h11_impl.py[ln:454] 127.0.0.1:64312 - "OPTIONS /v1/captchas/ HTTP/1.1" 200
+2020-12-08 14:52:36,241 INFO h11_impl.py[ln:454] 127.0.0.1:64334 - "GET /v1/user?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 307
+2020-12-08 14:52:36,251 INFO views.py[ln:24] 验证码为:6933
+2020-12-08 14:52:36,276 INFO h11_impl.py[ln:454] 127.0.0.1:64320 - "GET /v1/user/?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 200
+2020-12-08 14:52:36,330 INFO h11_impl.py[ln:454] 127.0.0.1:64319 - "POST /v1/captchas/ HTTP/1.1" 200
+2020-12-08 14:52:56,149 INFO h11_impl.py[ln:454] 127.0.0.1:64367 - "POST /v2/login HTTP/1.1" 200
+2020-12-08 14:52:56,485 INFO h11_impl.py[ln:454] 127.0.0.1:64385 - "GET /v1/cities?type=guess HTTP/1.1" 307
+2020-12-08 14:52:56,490 INFO h11_impl.py[ln:454] 127.0.0.1:64386 - "GET /v1/cities?type=hot HTTP/1.1" 307
+2020-12-08 14:52:56,493 INFO h11_impl.py[ln:454] 127.0.0.1:64387 - "GET /v1/user?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 307
+2020-12-08 14:52:56,496 INFO h11_impl.py[ln:454] 127.0.0.1:64388 - "GET /v1/cities?type=group HTTP/1.1" 307
+2020-12-08 14:52:56,499 INFO views.py[ln:35] guess获取的城市信息:{'id': 1, 'name': '上海', 'abbr': 'SH', 'area_code': '021', 'sort': 1, 'latitude': 31.23037, 'longitude': 121.473701, 'is_map': True, 'pinyin': 'shanghai'}
+2020-12-08 14:52:56,502 INFO h11_impl.py[ln:454] 127.0.0.1:64379 - "GET /v1/cities/?type=guess HTTP/1.1" 200
+2020-12-08 14:52:56,511 INFO h11_impl.py[ln:454] 127.0.0.1:64380 - "GET /v1/cities/?type=hot HTTP/1.1" 200
+2020-12-08 14:52:56,518 INFO h11_impl.py[ln:454] 127.0.0.1:64381 - "GET /v1/user/?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 200
+2020-12-08 14:52:56,522 INFO h11_impl.py[ln:454] 127.0.0.1:64382 - "GET /v1/cities/?type=group HTTP/1.1" 200
+2020-12-08 14:53:02,011 INFO h11_impl.py[ln:454] 127.0.0.1:64397 - "GET /v1/user?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 307
+2020-12-08 14:53:02,022 INFO h11_impl.py[ln:454] 127.0.0.1:64399 - "GET /v1/cities/1 HTTP/1.1" 200
+2020-12-08 14:53:02,033 INFO h11_impl.py[ln:454] 127.0.0.1:64383 - "GET /v1/user/?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 200
+2020-12-08 16:28:13,750 INFO main.py[ln:397] Started server process [49844]
+2020-12-08 16:28:13,752 INFO on.py[ln:22] Waiting for application startup.
+2020-12-08 16:28:13,753 INFO on.py[ln:34] Application startup complete.
+2020-12-08 16:28:21,598 INFO h11_impl.py[ln:454] 127.0.0.1:57389 - "GET /v1/pois?type=search&city_id=1&keyword=%E6%99%AE%E5%A4%A9 HTTP/1.1" 307
+2020-12-08 16:28:21,908 INFO h11_impl.py[ln:454] 127.0.0.1:57392 - "OPTIONS /v1/pois/?type=search&city_id=1&keyword=%E6%99%AE%E5%A4%A9 HTTP/1.1" 200
+2020-12-08 16:28:22,220 INFO h11_impl.py[ln:454] 127.0.0.1:57396 - "GET /v1/pois/?type=search&city_id=1&keyword=%E6%99%AE%E5%A4%A9 HTTP/1.1" 500
+2020-12-08 16:28:22,221 ERROR h11_impl.py[ln:388] Exception in ASGI application
+Traceback (most recent call last):
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 385, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\middleware\debug.py", line 81, in __call__
+    raise exc from None
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\middleware\debug.py", line 78, in __call__
+    await self.app(scope, receive, inner_send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\fastapi\applications.py", line 149, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\applications.py", line 102, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc from None
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\sessions.py", line 75, in __call__
+    await self.app(scope, receive, send_wrapper)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\cors.py", line 84, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\cors.py", line 140, in simple_response
+    await self.app(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\exceptions.py", line 82, in __call__
+    raise exc from None
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\routing.py", line 550, in __call__
+    await route.handle(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\routing.py", line 227, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\routing.py", line 41, in app
+    response = await func(request)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\fastapi\routing.py", line 197, in app
+    dependant=dependant, values=values, is_coroutine=is_coroutine
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\fastapi\routing.py", line 150, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\concurrency.py", line 34, in run_in_threadpool
+    return await loop.run_in_executor(None, func, *args)
+  File "C:\Users\yubin.yang\AppData\Local\Continuum\Anaconda3\envs\python37\Lib\concurrent\futures\thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\yubin.yang\PycharmProjects\ele_backend\apis\v1\pois\views.py", line 24, in search_user_place
+    place_info = search_place(keyword=keyword, city_name=city_info.name, type=type)
+AttributeError: 'dict' object has no attribute 'name'
+2020-12-08 16:28:52,617 INFO main.py[ln:397] Started server process [36032]
+2020-12-08 16:28:52,618 INFO on.py[ln:22] Waiting for application startup.
+2020-12-08 16:28:52,619 INFO on.py[ln:34] Application startup complete.
+2020-12-08 16:28:57,431 INFO h11_impl.py[ln:454] 127.0.0.1:57456 - "GET /v1/pois?type=search&city_id=1&keyword=%E6%99%AE%E5%A4%A9 HTTP/1.1" 307
+2020-12-08 16:28:57,984 INFO views.py[ln:25] 查询的位置信息为:{'status': 0, 'message': 'query ok', 'count': 230, 'request_id': '1801691362424a999aa8f69eb6f4e9d5518bf84f1243', 'data': [{'id': '18291581753863139488', 'title': '普天科创产业园', 'address': '上海市徐汇区宜山路700号', 'tel': '021-39979999', 'category': '房产小区:产业园区', 'type': 0, 'location': {'lat': 31.176567, 'lng': 121.417537}, 'ad_info': {'adcode': 310104, 'province': '上海市', 'city': '上海市', 'district': '徐汇区'}}, {'id': '17332526710894489567', 'title': '上海普天工业园A区', 'address': '上海市奉贤区南桥环城北路999号', 'tel': '021-67105787', 'category': '房产小区:住宅区:住宅小区', 'type': 0, 'location': {'lat': 30.955165, 'lng': 121.442938}, 'ad_info': {'adcode': 310120, 'province': '上海市', 'city': '上海市', 'district': '奉贤区'}}, {'id': '8834274571352351760', 'title': '上海普天科技产业基地三期', 'address': '上海市徐汇区 ', 'tel': '', 'category': '房产小区:产业园区', 'type': 0, 'location': {'lat': 31.177047, 'lng': 121.418087}, 'ad_info': {'adcode': 310104, 'province': '上海市', 'city': '上海市', 'district': '徐汇区'}}, {'id': '13302196894685559553', 'title': '上海普天工业园B区', 'address': '上海市奉贤区南桥环城北路1099号', 'tel': '021-62683042', 'category': '房产小区:产业园区', 'type': 0, 'location': {'lat': 30.953371, 'lng': 121.440985}, 'ad_info': {'adcode': 310120, 'province': '上海市', 'city': '上海市', 'district': '奉贤区'}}, {'id': '15924894982030696002', 'title': '上海普天工业园', 'address': '上海市奉贤区沪杭公路1377号内部西南方向80米', 'tel': '021-67105787', 'category': '房产小区:产业园区', 'type': 0, 'location': {'lat': 30.953068, 'lng': 121.444041}, 'ad_info': {'adcode': 310120, 'province': '上海市', 'city': '上海市', 'district': '奉贤区'}}, {'id': '5180449016086809852', 'title': '上海普天信息产业园B2楼', 'address': '上海市徐汇区田林街道宜山路700号普天信息产业园b2座', 'tel': '', 'category': '房产小区:商务楼宇', 'type': 0, 'location': {'lat': 31.175891, 'lng': 121.41769}, 'ad_info': {'adcode': 310104, 'province': '上海市', 'city': '上海市', 'district': '徐汇区'}}, {'id': '626064140607285965', 'title': '中国普天', 'address': '上海市嘉定区墨玉南路888号上海国际汽车城大厦6层', 'tel': '', 'category': '公司企业:公司企业', 'type': 0, 'location': {'lat': 31.281632, 'lng': 121.165238}, 'ad_info': {'adcode': 310114, 'province': '上海市', 'city': '上海市', 'district': '嘉定区'}}, {'id': '13049762806726708221', 'title': '上海普天物流有限公司(浏翔公路)', 'address': '上海市嘉定区浏翔公路2377号', 'tel': '021-39515656', 'category': '生活服务:邮局速递:物流公司', 'type': 0, 'location': {'lat': 31.356752, 'lng': 121.309631}, 'ad_info': {'adcode': 310114, 'province': '上海市', 'city': '上海市', 'district': '嘉定区'}}, {'id': '7292997766356659812', 'title': '普天信息产业园C1楼', 'address': '上海市徐汇区 ', 'tel': '', 'category': '房产小区:房产小区附属', 'type': 0, 'location': {'lat': 31.175351, 'lng': 121.418253}, 'ad_info': {'adcode': 310104, 'province': '上海市', 'city': '上海市', 'district': '徐汇区'}}, {'id': '4946605911946444881', 'title': '中国普天上海信息工业园区', 'address': '上海市奉贤区南桥环城北路168号', 'tel': '021-67105866', 'category': '房产小区:产业园区', 'type': 0, 'location': {'lat': 30.95887, 'lng': 121.45285}, 'ad_info': {'adcode': 310120, 'province': '上海市', 'city': '上海市', 'district': '奉贤区'}}], 'region': {'title': '上海市'}}
+2020-12-08 16:28:57,987 INFO h11_impl.py[ln:454] 127.0.0.1:57459 - "GET /v1/pois/?type=search&city_id=1&keyword=%E6%99%AE%E5%A4%A9 HTTP/1.1" 500
+2020-12-08 16:28:57,989 ERROR h11_impl.py[ln:388] Exception in ASGI application
+Traceback (most recent call last):
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 385, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\middleware\debug.py", line 81, in __call__
+    raise exc from None
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\middleware\debug.py", line 78, in __call__
+    await self.app(scope, receive, inner_send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\fastapi\applications.py", line 149, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\applications.py", line 102, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc from None
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\sessions.py", line 75, in __call__
+    await self.app(scope, receive, send_wrapper)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\cors.py", line 84, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\cors.py", line 140, in simple_response
+    await self.app(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\exceptions.py", line 82, in __call__
+    raise exc from None
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\routing.py", line 550, in __call__
+    await route.handle(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\routing.py", line 227, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\routing.py", line 41, in app
+    response = await func(request)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\fastapi\routing.py", line 197, in app
+    dependant=dependant, values=values, is_coroutine=is_coroutine
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\fastapi\routing.py", line 150, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\concurrency.py", line 34, in run_in_threadpool
+    return await loop.run_in_executor(None, func, *args)
+  File "C:\Users\yubin.yang\AppData\Local\Continuum\Anaconda3\envs\python37\Lib\concurrent\futures\thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\yubin.yang\PycharmProjects\ele_backend\apis\v1\pois\views.py", line 26, in search_user_place
+    return place_info.data
+AttributeError: 'dict' object has no attribute 'data'
+2020-12-08 16:29:36,155 INFO main.py[ln:397] Started server process [34604]
+2020-12-08 16:29:36,156 INFO on.py[ln:22] Waiting for application startup.
+2020-12-08 16:29:36,157 INFO on.py[ln:34] Application startup complete.
+2020-12-08 16:29:43,664 INFO h11_impl.py[ln:454] 127.0.0.1:57531 - "GET /v1/pois?type=search&city_id=1&keyword=%E6%99%AE%E5%A4%A9 HTTP/1.1" 307
+2020-12-08 16:29:44,125 INFO views.py[ln:25] 查询的位置信息为:{'status': 0, 'message': 'query ok', 'count': 230, 'request_id': '18016913624286b56664a759b51a7bb57651f4f57854', 'data': [{'id': '18291581753863139488', 'title': '普天科创产业园', 'address': '上海市徐汇区宜山路700号', 'tel': '021-39979999', 'category': '房产小区:产业园区', 'type': 0, 'location': {'lat': 31.176567, 'lng': 121.417537}, 'ad_info': {'adcode': 310104, 'province': '上海市', 'city': '上海市', 'district': '徐汇区'}}, {'id': '17332526710894489567', 'title': '上海普天工业园A区', 'address': '上海市奉贤区南桥环城北路999号', 'tel': '021-67105787', 'category': '房产小区:住宅区:住宅小区', 'type': 0, 'location': {'lat': 30.955165, 'lng': 121.442938}, 'ad_info': {'adcode': 310120, 'province': '上海市', 'city': '上海市', 'district': '奉贤区'}}, {'id': '8834274571352351760', 'title': '上海普天科技产业基地三期', 'address': '上海市徐汇区 ', 'tel': '', 'category': '房产小区:产业园区', 'type': 0, 'location': {'lat': 31.177047, 'lng': 121.418087}, 'ad_info': {'adcode': 310104, 'province': '上海市', 'city': '上海市', 'district': '徐汇区'}}, {'id': '13302196894685559553', 'title': '上海普天工业园B区', 'address': '上海市奉贤区南桥环城北路1099号', 'tel': '021-62683042', 'category': '房产小区:产业园区', 'type': 0, 'location': {'lat': 30.953371, 'lng': 121.440985}, 'ad_info': {'adcode': 310120, 'province': '上海市', 'city': '上海市', 'district': '奉贤区'}}, {'id': '15924894982030696002', 'title': '上海普天工业园', 'address': '上海市奉贤区沪杭公路1377号内部西南方向80米', 'tel': '021-67105787', 'category': '房产小区:产业园区', 'type': 0, 'location': {'lat': 30.953068, 'lng': 121.444041}, 'ad_info': {'adcode': 310120, 'province': '上海市', 'city': '上海市', 'district': '奉贤区'}}, {'id': '5180449016086809852', 'title': '上海普天信息产业园B2楼', 'address': '上海市徐汇区田林街道宜山路700号普天信息产业园b2座', 'tel': '', 'category': '房产小区:商务楼宇', 'type': 0, 'location': {'lat': 31.175891, 'lng': 121.41769}, 'ad_info': {'adcode': 310104, 'province': '上海市', 'city': '上海市', 'district': '徐汇区'}}, {'id': '626064140607285965', 'title': '中国普天', 'address': '上海市嘉定区墨玉南路888号上海国际汽车城大厦6层', 'tel': '', 'category': '公司企业:公司企业', 'type': 0, 'location': {'lat': 31.281632, 'lng': 121.165238}, 'ad_info': {'adcode': 310114, 'province': '上海市', 'city': '上海市', 'district': '嘉定区'}}, {'id': '13049762806726708221', 'title': '上海普天物流有限公司(浏翔公路)', 'address': '上海市嘉定区浏翔公路2377号', 'tel': '021-39515656', 'category': '生活服务:邮局速递:物流公司', 'type': 0, 'location': {'lat': 31.356752, 'lng': 121.309631}, 'ad_info': {'adcode': 310114, 'province': '上海市', 'city': '上海市', 'district': '嘉定区'}}, {'id': '7292997766356659812', 'title': '普天信息产业园C1楼', 'address': '上海市徐汇区 ', 'tel': '', 'category': '房产小区:房产小区附属', 'type': 0, 'location': {'lat': 31.175351, 'lng': 121.418253}, 'ad_info': {'adcode': 310104, 'province': '上海市', 'city': '上海市', 'district': '徐汇区'}}, {'id': '4946605911946444881', 'title': '中国普天上海信息工业园区', 'address': '上海市奉贤区南桥环城北路168号', 'tel': '021-67105866', 'category': '房产小区:产业园区', 'type': 0, 'location': {'lat': 30.95887, 'lng': 121.45285}, 'ad_info': {'adcode': 310120, 'province': '上海市', 'city': '上海市', 'district': '奉贤区'}}], 'region': {'title': '上海市'}}
+2020-12-08 16:29:44,128 INFO h11_impl.py[ln:454] 127.0.0.1:57534 - "GET /v1/pois/?type=search&city_id=1&keyword=%E6%99%AE%E5%A4%A9 HTTP/1.1" 200
+2020-12-08 16:29:46,706 INFO h11_impl.py[ln:454] 127.0.0.1:57542 - "GET /v1/cities?type=guess HTTP/1.1" 307
+2020-12-08 16:29:46,721 INFO h11_impl.py[ln:454] 127.0.0.1:57545 - "GET /v1/user?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 307
+2020-12-08 16:29:46,724 INFO h11_impl.py[ln:454] 127.0.0.1:57546 - "GET /v2/index_entry?geohash=&group_type=1&flags[]=F HTTP/1.1" 404
+2020-12-08 16:29:47,077 INFO h11_impl.py[ln:454] 127.0.0.1:57550 - "OPTIONS /v1/cities/?type=guess HTTP/1.1" 200
+2020-12-08 16:29:47,084 INFO h11_impl.py[ln:454] 127.0.0.1:57551 - "OPTIONS /v1/user/?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 200
+2020-12-08 16:29:47,103 INFO views.py[ln:35] guess获取的城市信息:{'id': 1, 'name': '上海', 'abbr': 'SH', 'area_code': '021', 'sort': 1, 'latitude': 31.23037, 'longitude': 121.473701, 'is_map': True, 'pinyin': 'shanghai'}
+2020-12-08 16:29:47,109 INFO h11_impl.py[ln:454] 127.0.0.1:57534 - "GET /v1/cities/?type=guess HTTP/1.1" 200
+2020-12-08 16:29:47,136 INFO h11_impl.py[ln:454] 127.0.0.1:57554 - "GET /v2/pois/31.23037,121.473701 HTTP/1.1" 404
+2020-12-08 16:29:47,164 INFO h11_impl.py[ln:454] 127.0.0.1:57556 - "GET /shopping/restaurants?latitude=undefined&longitude=undefined&offset=0&limit=20&extras[]=activities&keyword=&restaurant_category_id=&restaurant_category_ids[]=&order_by=&delivery_mode[]= HTTP/1.1" 404
+2020-12-08 16:29:47,166 INFO h11_impl.py[ln:454] 127.0.0.1:57536 - "GET /v1/user/?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 200
+2020-12-08 16:30:09,374 INFO h11_impl.py[ln:454] 127.0.0.1:57602 - "GET /v1/user?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 307
+2020-12-08 16:30:09,377 INFO h11_impl.py[ln:454] 127.0.0.1:57603 - "GET /v1/cities/1 HTTP/1.1" 404
+2020-12-08 16:30:09,663 INFO h11_impl.py[ln:454] 127.0.0.1:57607 - "GET /v1/user/?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 200
+2020-12-08 16:30:18,504 INFO h11_impl.py[ln:454] 127.0.0.1:57628 - "GET /v1/user?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 307
+2020-12-08 16:30:18,509 INFO h11_impl.py[ln:454] 127.0.0.1:57629 - "GET /v1/cities/1 HTTP/1.1" 404
+2020-12-08 16:30:18,528 INFO h11_impl.py[ln:454] 127.0.0.1:57608 - "GET /v1/user/?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 200
+2020-12-08 16:30:23,009 INFO h11_impl.py[ln:454] 127.0.0.1:57642 - "GET /v1/user?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 307
+2020-12-08 16:30:23,026 INFO h11_impl.py[ln:454] 127.0.0.1:57643 - "GET /v1/cities/1 HTTP/1.1" 404
+2020-12-08 16:30:23,050 INFO h11_impl.py[ln:454] 127.0.0.1:57608 - "GET /v1/user/?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 200
+2020-12-08 16:30:30,599 INFO h11_impl.py[ln:454] 127.0.0.1:57656 - "GET /v1/pois?type=search&city_id=1&keyword=%E4%B8%8A%E5%A4%A7 HTTP/1.1" 307
+2020-12-08 16:30:30,906 INFO h11_impl.py[ln:454] 127.0.0.1:57661 - "OPTIONS /v1/pois/?type=search&city_id=1&keyword=%E4%B8%8A%E5%A4%A7 HTTP/1.1" 200
+2020-12-08 16:30:31,138 INFO views.py[ln:25] 查询的位置信息为:{'status': 0, 'message': 'query ok', 'count': 1150, 'request_id': '180169136242bf4a5ea3deb2ee3726fc289696c0e457', 'data': [{'id': '12315659574704696799', 'title': '上大南区', 'address': '上海市宝山区上大路98号', 'tel': '', 'category': '房产小区:住宅区:住宅小区', 'type': 0, 'location': {'lat': 31.311075, 'lng': 121.389054}, 'ad_info': {'adcode': 310113, 'province': '上海市', 'city': '上海市', 'district': '宝山区'}}, {'id': '16005056734822695048', 'title': '上大阳光', 'address': '上海市宝山区环镇北路143号', 'tel': '', 'category': '房产小区:住宅区:住宅小区', 'type': 0, 'location': {'lat': 31.314609, 'lng': 121.404699}, 'ad_info': {'adcode': 310113, 'province': '上海市', 'city': '上海市', 'district': '宝山区'}}, {'id': '11902294405319906131', 'title': '上大附中', 'address': '上海市宝山区上大路688号', 'tel': '021-66133166', 'category': '教育学校:中学', 'type': 0, 'location': {'lat': 31.309665, 'lng': 121.391828}, 'ad_info': {'adcode': 310113, 'province': '上海市', 'city': '上海市', 'district': '宝山区'}}, {'id': '13659338537005057581', 'title': '上海大学(嘉定校区)', 'address': '上海市嘉定区城中路20号', 'tel': '021-69982350', 'category': '教育学校:大学', 'type': 0, 'location': {'lat': 31.376694, 'lng': 121.249292}, 'ad_info': {'adcode': 310114, 'province': '上海市', 'city': '上海市', 'district': '嘉定区'}}, {'id': '16760866323679838756', 'title': '上大聚丰园', 'address': '上海市宝山区上大路1288弄1~139号', 'tel': '', 'category': '房产小区:住宅区:住宅小区', 'type': 0, 'location': {'lat': 31.309349, 'lng': 121.385202}, 'ad_info': {'adcode': 310113, 'province': '上海市', 'city': '上海市', 'district': '宝山区'}}, {'id': '17090593140772349584', 'title': '上海大学(延长校区)', 'address': '上海市静安区延长路149号', 'tel': '021-56331245', 'category': '教育学校:大学', 'type': 0, 'location': {'lat': 31.275796, 'lng': 121.457728}, 'ad_info': {'adcode': 310106, 'province': '上海市', 'city': '上海市', 'district': '静安区'}}, {'id': '418339350426613522', 'title': '上大洗衣房', 'address': '上海市宝山区上大路99号上海大学宝山校区内', 'tel': '13916155326', 'category': '娱乐休闲:洗浴推拿足疗:洗浴', 'type': 0, 'location': {'lat': 31.315896, 'lng': 121.387825}, 'ad_info': {'adcode': 310113, 'province': '上海市', 'city': '上海市', 'district': '宝山区'}}, {'id': '10804718014992845951', 'title': '上大路[地铁站]', 'address': '地铁7号线', 'tel': '', 'category': '基础设施:交通设施:地铁站', 'type': 2, 'location': {'lat': 31.315008, 'lng': 121.408634}, 'ad_info': {'adcode': 310113, 'province': '上海市', 'city': '上海市', 'district': '宝山区'}}, {'id': '14286003764685819451', 'title': '上大阳光乾静园', 'address': '上海市宝山区 ', 'tel': '', 'category': '房产小区:住宅区:住宅小区', 'type': 0, 'location': {'lat': 31.311789, 'lng': 121.407016}, 'ad_info': {'adcode': 310113, 'province': '上海市', 'city': '上海市', 'district': '宝山区'}}, {'id': '10804674982567644391', 'title': '上海大学[地铁站]', 'address': '地铁7号线', 'tel': '', 'category': '基础设施:交通设施:地铁站', 'type': 2, 'location': {'lat': 31.32062, 'lng': 121.389028}, 'ad_info': {'adcode': 310113, 'province': '上海市', 'city': '上海市', 'district': '宝山区'}}], 'region': {'title': '上海市'}}
+2020-12-08 16:30:31,140 INFO h11_impl.py[ln:454] 127.0.0.1:57644 - "GET /v1/pois/?type=search&city_id=1&keyword=%E4%B8%8A%E5%A4%A7 HTTP/1.1" 200
+2020-12-08 16:30:37,231 INFO h11_impl.py[ln:454] 127.0.0.1:57673 - "GET /v1/pois?type=search&city_id=1&keyword=%E4%B8%8A%E5%A4%A7 HTTP/1.1" 307
+2020-12-08 16:30:37,754 INFO views.py[ln:25] 查询的位置信息为:{'status': 0, 'message': 'query ok', 'count': 1150, 'request_id': '1801691362425b01e8210386e1ffee74f022c8fd0f61', 'data': [{'id': '12315659574704696799', 'title': '上大南区', 'address': '上海市宝山区上大路98号', 'tel': '', 'category': '房产小区:住宅区:住宅小区', 'type': 0, 'location': {'lat': 31.311075, 'lng': 121.389054}, 'ad_info': {'adcode': 310113, 'province': '上海市', 'city': '上海市', 'district': '宝山区'}}, {'id': '16005056734822695048', 'title': '上大阳光', 'address': '上海市宝山区环镇北路143号', 'tel': '', 'category': '房产小区:住宅区:住宅小区', 'type': 0, 'location': {'lat': 31.314609, 'lng': 121.404699}, 'ad_info': {'adcode': 310113, 'province': '上海市', 'city': '上海市', 'district': '宝山区'}}, {'id': '11902294405319906131', 'title': '上大附中', 'address': '上海市宝山区上大路688号', 'tel': '021-66133166', 'category': '教育学校:中学', 'type': 0, 'location': {'lat': 31.309665, 'lng': 121.391828}, 'ad_info': {'adcode': 310113, 'province': '上海市', 'city': '上海市', 'district': '宝山区'}}, {'id': '13659338537005057581', 'title': '上海大学(嘉定校区)', 'address': '上海市嘉定区城中路20号', 'tel': '021-69982350', 'category': '教育学校:大学', 'type': 0, 'location': {'lat': 31.376694, 'lng': 121.249292}, 'ad_info': {'adcode': 310114, 'province': '上海市', 'city': '上海市', 'district': '嘉定区'}}, {'id': '16760866323679838756', 'title': '上大聚丰园', 'address': '上海市宝山区上大路1288弄1~139号', 'tel': '', 'category': '房产小区:住宅区:住宅小区', 'type': 0, 'location': {'lat': 31.309349, 'lng': 121.385202}, 'ad_info': {'adcode': 310113, 'province': '上海市', 'city': '上海市', 'district': '宝山区'}}, {'id': '17090593140772349584', 'title': '上海大学(延长校区)', 'address': '上海市静安区延长路149号', 'tel': '021-56331245', 'category': '教育学校:大学', 'type': 0, 'location': {'lat': 31.275796, 'lng': 121.457728}, 'ad_info': {'adcode': 310106, 'province': '上海市', 'city': '上海市', 'district': '静安区'}}, {'id': '418339350426613522', 'title': '上大洗衣房', 'address': '上海市宝山区上大路99号上海大学宝山校区内', 'tel': '13916155326', 'category': '娱乐休闲:洗浴推拿足疗:洗浴', 'type': 0, 'location': {'lat': 31.315896, 'lng': 121.387825}, 'ad_info': {'adcode': 310113, 'province': '上海市', 'city': '上海市', 'district': '宝山区'}}, {'id': '10804718014992845951', 'title': '上大路[地铁站]', 'address': '地铁7号线', 'tel': '', 'category': '基础设施:交通设施:地铁站', 'type': 2, 'location': {'lat': 31.315008, 'lng': 121.408634}, 'ad_info': {'adcode': 310113, 'province': '上海市', 'city': '上海市', 'district': '宝山区'}}, {'id': '14286003764685819451', 'title': '上大阳光乾静园', 'address': '上海市宝山区 ', 'tel': '', 'category': '房产小区:住宅区:住宅小区', 'type': 0, 'location': {'lat': 31.311789, 'lng': 121.407016}, 'ad_info': {'adcode': 310113, 'province': '上海市', 'city': '上海市', 'district': '宝山区'}}, {'id': '10804674982567644391', 'title': '上海大学[地铁站]', 'address': '地铁7号线', 'tel': '', 'category': '基础设施:交通设施:地铁站', 'type': 2, 'location': {'lat': 31.32062, 'lng': 121.389028}, 'ad_info': {'adcode': 310113, 'province': '上海市', 'city': '上海市', 'district': '宝山区'}}], 'region': {'title': '上海市'}}
+2020-12-08 16:30:37,755 INFO h11_impl.py[ln:454] 127.0.0.1:57676 - "GET /v1/pois/?type=search&city_id=1&keyword=%E4%B8%8A%E5%A4%A7 HTTP/1.1" 200
+2020-12-08 16:47:29,809 INFO h11_impl.py[ln:454] 127.0.0.1:59322 - "GET /v2/pois/31.176567,121.417537 HTTP/1.1" 404
+2020-12-08 16:47:29,836 INFO h11_impl.py[ln:454] 127.0.0.1:59325 - "GET /v1/user?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 307
+2020-12-08 16:47:29,843 INFO h11_impl.py[ln:454] 127.0.0.1:59328 - "GET /v2/index_entry?geohash=31.176567,121.417537&group_type=1&flags[]=F HTTP/1.1" 404
+2020-12-08 16:47:29,930 INFO h11_impl.py[ln:454] 127.0.0.1:59331 - "GET /shopping/restaurants?latitude=undefined&longitude=undefined&offset=0&limit=20&extras[]=activities&keyword=&restaurant_category_id=&restaurant_category_ids[]=&order_by=&delivery_mode[]= HTTP/1.1" 404
+2020-12-08 16:47:30,203 INFO h11_impl.py[ln:454] 127.0.0.1:59333 - "OPTIONS /v1/user/?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 200
+2020-12-08 16:47:30,284 INFO h11_impl.py[ln:454] 127.0.0.1:59314 - "GET /v1/user/?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 200
+2020-12-08 16:47:52,295 INFO h11_impl.py[ln:454] 127.0.0.1:59381 - "GET /v1/cities?type=guess HTTP/1.1" 307
+2020-12-08 16:47:52,333 INFO h11_impl.py[ln:454] 127.0.0.1:59382 - "GET /v1/user?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 307
+2020-12-08 16:47:52,341 INFO h11_impl.py[ln:454] 127.0.0.1:59383 - "GET /v2/index_entry?geohash=&group_type=1&flags[]=F HTTP/1.1" 404
+2020-12-08 16:47:52,388 INFO h11_impl.py[ln:454] 127.0.0.1:59368 - "GET /v1/user/?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 200
+2020-12-08 16:47:52,679 INFO h11_impl.py[ln:454] 127.0.0.1:59386 - "OPTIONS /v1/cities/?type=guess HTTP/1.1" 200
+2020-12-08 16:47:52,685 INFO views.py[ln:35] guess获取的城市信息:{'id': 1, 'name': '上海', 'abbr': 'SH', 'area_code': '021', 'sort': 1, 'latitude': 31.23037, 'longitude': 121.473701, 'is_map': True, 'pinyin': 'shanghai'}
+2020-12-08 16:47:52,691 INFO h11_impl.py[ln:454] 127.0.0.1:59368 - "GET /v1/cities/?type=guess HTTP/1.1" 200
+2020-12-08 16:47:52,702 INFO h11_impl.py[ln:454] 127.0.0.1:59388 - "GET /v2/pois/31.23037,121.473701 HTTP/1.1" 404
+2020-12-08 16:47:52,734 INFO h11_impl.py[ln:454] 127.0.0.1:59390 - "GET /shopping/restaurants?latitude=undefined&longitude=undefined&offset=0&limit=20&extras[]=activities&keyword=&restaurant_category_id=&restaurant_category_ids[]=&order_by=&delivery_mode[]= HTTP/1.1" 404
+2020-12-08 17:00:41,505 INFO main.py[ln:397] Started server process [58076]
+2020-12-08 17:00:41,506 INFO on.py[ln:22] Waiting for application startup.
+2020-12-08 17:00:41,508 INFO on.py[ln:34] Application startup complete.
+2020-12-08 17:03:27,073 INFO main.py[ln:397] Started server process [67356]
+2020-12-08 17:03:27,074 INFO on.py[ln:22] Waiting for application startup.
+2020-12-08 17:03:27,075 INFO on.py[ln:34] Application startup complete.
+2020-12-08 17:05:45,794 INFO main.py[ln:397] Started server process [62132]
+2020-12-08 17:05:45,795 INFO on.py[ln:22] Waiting for application startup.
+2020-12-08 17:05:45,796 INFO on.py[ln:34] Application startup complete.
+2020-12-08 17:09:45,242 INFO main.py[ln:397] Started server process [59320]
+2020-12-08 17:09:45,243 INFO on.py[ln:22] Waiting for application startup.
+2020-12-08 17:09:45,244 INFO on.py[ln:34] Application startup complete.
+2020-12-08 17:10:24,724 INFO main.py[ln:397] Started server process [29480]
+2020-12-08 17:10:24,725 INFO on.py[ln:22] Waiting for application startup.
+2020-12-08 17:10:24,726 INFO on.py[ln:34] Application startup complete.
+2020-12-08 17:10:32,749 INFO h11_impl.py[ln:454] 127.0.0.1:61509 - "GET /v1/cities/1 HTTP/1.1" 404
+2020-12-08 17:10:32,782 INFO h11_impl.py[ln:454] 127.0.0.1:61510 - "GET /v1/user?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 307
+2020-12-08 17:10:33,124 INFO h11_impl.py[ln:454] 127.0.0.1:61517 - "OPTIONS /v1/user/?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 200
+2020-12-08 17:10:33,198 INFO h11_impl.py[ln:454] 127.0.0.1:61513 - "GET /v1/user/?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 200
+2020-12-08 17:10:47,108 INFO h11_impl.py[ln:454] 127.0.0.1:61545 - "GET /v1/cities/1 HTTP/1.1" 404
+2020-12-08 17:10:47,126 INFO h11_impl.py[ln:454] 127.0.0.1:61546 - "GET /v1/user?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 307
+2020-12-08 17:10:47,394 INFO h11_impl.py[ln:454] 127.0.0.1:61548 - "GET /v1/user/?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 200
+2020-12-08 17:10:53,025 INFO h11_impl.py[ln:454] 127.0.0.1:61560 - "GET /v1/pois?type=search&city_id=1&keyword=%E6%B3%95%E5%9B%BD HTTP/1.1" 307
+2020-12-08 17:10:53,331 INFO h11_impl.py[ln:454] 127.0.0.1:61563 - "OPTIONS /v1/pois/?type=search&city_id=1&keyword=%E6%B3%95%E5%9B%BD HTTP/1.1" 200
+2020-12-08 17:10:53,571 INFO views.py[ln:25] 查询的位置信息为:{'status': 0, 'message': 'query ok', 'count': 598, 'request_id': '180169136242a76d2bc770349ce5b22481c59355ac0e', 'data': [{'id': '5198513231406689907', 'title': '法兰西共和国驻上海总领事馆', 'address': '上海市长宁区中山西路1055号SOHO中山广场A座18层', 'tel': '021-60106300', 'category': '机构团体:外国机构', 'type': 0, 'location': {'lat': 31.198431, 'lng': 121.414991}, 'ad_info': {'adcode': 310105, 'province': '上海市', 'city': '上海市', 'district': '长宁区'}}, {'id': '18038876583168082363', 'title': '上海法国学校', 'address': '上海市青浦区诸光路399弄30号', 'tel': '021-39760555', 'category': '教育学校:中学', 'type': 0, 'location': {'lat': 31.162166, 'lng': 121.307537}, 'ad_info': {'adcode': 310118, 'province': '上海市', 'city': '上海市', 'district': '青浦区'}}, {'id': '9401003829060853047', 'title': '法国时光', 'address': '上海市松江区江学路560号', 'tel': '021-37799666', 'category': '娱乐休闲:咖啡厅', 'type': 0, 'location': {'lat': 31.033493, 'lng': 121.212543}, 'ad_info': {'adcode': 310117, 'province': '上海市', 'city': '上海市', 'district': '松江区'}}, {'id': '13606315699931572076', 'title': '法国驻上海总领事馆官邸', 'address': '上海市徐汇区淮海中路1431号', 'tel': '', 'category': '机构团体:外国机构', 'type': 0, 'location': {'lat': 31.209823, 'lng': 121.447458}, 'ad_info': {'adcode': 310104, 'province': '上海市', 'city': '上海市', 'district': '徐汇区'}}, {'id': '4386646149892318059', 'title': '法兰西世家公寓', 'address': '上海市松江区松江莘砖公路沈海高速G15出口', 'tel': '021-37580666', 'category': '房产小区:住宅区:住宅小区', 'type': 0, 'location': {'lat': 31.089537, 'lng': 121.295164}, 'ad_info': {'adcode': 310117, 'province': '上海市', 'city': '上海市', 'district': '松江区'}}, {'id': '11596702448915598581', 'title': '24K法国海鲜Bar', 'address': '上海市徐汇区中山南二路699号正大乐城F3', 'tel': '021-60126936', 'category': '美食:中餐厅:酒楼', 'type': 0, 'location': {'lat': 31.185929, 'lng': 121.457835}, 'ad_info': {'adcode': 310104, 'province': '上海市', 'city': '上海市', 'district': '徐汇区'}}, {'id': '11624948076642207415', 'title': '法兰西国际公馆', 'address': '上海市青浦区华腾路873号', 'tel': '17039100300', 'category': '娱乐休闲:KTV', 'type': 0, 'location': {'lat': 31.236311, 'lng': 121.225702}, 'ad_info': {'adcode': 310118, 'province': '上海市', 'city': '上海市', 'district': '青浦区'}}, {'id': '11374382408132803397', 'title': 'Coquille', 'address': '上海市黄浦区蒙自路29号', 'tel': '021-33768127', 'category': '美食:西餐:法国菜', 'type': 0, 'location': {'lat': 31.208404, 'lng': 121.476977}, 'ad_info': {'adcode': 310101, 'province': '上海市', 'city': '上海市', 'district': '黄浦区'}}, {'id': '12363117160471447345', 'title': '法国驻上海总领事馆文化处', 'address': '上海市长宁区武夷路155-1号世星大楼4层401A', 'tel': '', 'category': '机构团体:外国机构', 'type': 0, 'location': {'lat': 31.213771, 'lng': 121.42788}, 'ad_info': {'adcode': 310105, 'province': '上海市', 'city': '上海市', 'district': '长宁区'}}, {'id': '1667341652074253768', 'title': '法国红酒', 'address': '上海市金山区前京大道285号', 'tel': '', 'category': '购物:烟酒专卖', 'type': 0, 'location': {'lat': 30.734855, 'lng': 121.344799}, 'ad_info': {'adcode': 310116, 'province': '上海市', 'city': '上海市', 'district': '金山区'}}], 'region': {'title': '上海市'}}
+2020-12-08 17:10:53,573 INFO h11_impl.py[ln:454] 127.0.0.1:61549 - "GET /v1/pois/?type=search&city_id=1&keyword=%E6%B3%95%E5%9B%BD HTTP/1.1" 500
+2020-12-08 17:10:53,574 ERROR h11_impl.py[ln:388] Exception in ASGI application
+Traceback (most recent call last):
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 385, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\middleware\debug.py", line 81, in __call__
+    raise exc from None
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\middleware\debug.py", line 78, in __call__
+    await self.app(scope, receive, inner_send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\fastapi\applications.py", line 149, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\applications.py", line 102, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc from None
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\sessions.py", line 75, in __call__
+    await self.app(scope, receive, send_wrapper)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\cors.py", line 84, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\cors.py", line 140, in simple_response
+    await self.app(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\exceptions.py", line 82, in __call__
+    raise exc from None
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\routing.py", line 550, in __call__
+    await route.handle(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\routing.py", line 227, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\routing.py", line 41, in app
+    response = await func(request)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\fastapi\routing.py", line 197, in app
+    dependant=dependant, values=values, is_coroutine=is_coroutine
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\fastapi\routing.py", line 150, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\concurrency.py", line 34, in run_in_threadpool
+    return await loop.run_in_executor(None, func, *args)
+  File "C:\Users\yubin.yang\AppData\Local\Continuum\Anaconda3\envs\python37\Lib\concurrent\futures\thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\yubin.yang\PycharmProjects\ele_backend\apis\v1\pois\views.py", line 33, in search_user_place
+    for place in place_info.data:
+AttributeError: 'dict' object has no attribute 'data'
+2020-12-08 17:11:01,333 INFO h11_impl.py[ln:454] 127.0.0.1:61577 - "GET /v1/pois?type=search&city_id=1&keyword=%E4%B8%87%E8%8D%A3 HTTP/1.1" 307
+2020-12-08 17:11:01,340 INFO h11_impl.py[ln:454] 127.0.0.1:61565 - "OPTIONS /v1/pois/?type=search&city_id=1&keyword=%E4%B8%87%E8%8D%A3 HTTP/1.1" 200
+2020-12-08 17:11:01,832 INFO views.py[ln:25] 查询的位置信息为:{'status': 0, 'message': 'query ok', 'count': 1365, 'request_id': '1801691362424729dec2a76b027b6934d29efb2fc6d1', 'data': [{'id': '3496936052768178373', 'title': '万荣路', 'address': '上海市静安区 ', 'tel': '', 'category': '地名地址:道路名', 'type': 0, 'location': {'lat': 31.284903, 'lng': 121.442421}, 'ad_info': {'adcode': 310106, 'province': '上海市', 'city': '上海市', 'district': '静安区'}}, {'id': '8399238443353177069', 'title': '万荣村', 'address': '上海市静安区 ', 'tel': '', 'category': '地名地址:行政地名', 'type': 0, 'location': {'lat': 31.291393, 'lng': 121.440751}, 'ad_info': {'adcode': 310106, 'province': '上海市', 'city': '上海市', 'district': '静安区'}}, {'id': '4690122693851994850', 'title': '万荣小区', 'address': '上海市静安区灵石路737弄1-36号', 'tel': '', 'category': '房产小区:住宅区:住宅小区', 'type': 0, 'location': {'lat': 31.284991, 'lng': 121.437163}, 'ad_info': {'adcode': 310106, 'province': '上海市', 'city': '上海市', 'district': '静安区'}}, {'id': '5444678542760641384', 'title': '万荣阳光苑', 'address': '上海市静安区万荣路1050弄', 'tel': '', 'category': '房产小区:住宅区:住宅小区', 'type': 0, 'location': {'lat': 31.289871, 'lng': 121.440948}, 'ad_info': {'adcode': 310106, 'province': '上海市', 'city': '上海市', 'district': '静安区'}}, {'id': '15475385573256209643', 'title': '万荣街坊', 'address': '上海市静安区灵石路733~739弄', 'tel': '', 'category': '房产小区:住宅区:其它住宅区', 'type': 0, 'location': {'lat': 31.287055, 'lng': 121.438778}, 'ad_info': {'adcode': 310106, 'province': '上海市', 'city': '上海市', 'district': '静安区'}}, {'id': '2017093738847917218', 'title': '万荣新苑', 'address': '上海市静安区灵石路739弄', 'tel': '', 'category': '房产小区:住宅区:住宅小区', 'type': 0, 'location': {'lat': 31.286435, 'lng': 121.437202}, 'ad_info': {'adcode': 310106, 'province': '上海市', 'city': '上海市', 'district': '静安区'}}, {'id': '3654057431233228858', 'title': '大宁音乐广场', 'address': '上海市静安区万荣路777号', 'tel': '021-56319201;021-66280158', 'category': '购物:综合商场:购物中心', 'type': 0, 'location': {'lat': 31.280843, 'lng': 121.443961}, 'ad_info': {'adcode': 310106, 'province': '上海市', 'city': '上海市', 'district': '静安区'}}, {'id': '7094792260173779154', 'title': '万荣东怡小区', 'address': '上海市静安区宁盛路', 'tel': '', 'category': '房产小区:住宅区:住宅小区', 'type': 0, 'location': {'lat': 31.285219, 'lng': 121.439792}, 'ad_info': {'adcode': 310106, 'province': '上海市', 'city': '上海市', 'district': '静安区'}}, {'id': '16195583441048845223', 'title': '大宁中心广场', 'address': '上海市静安区万荣路700号', 'tel': '021-66309999', 'category': '购物:其它购物', 'type': 0, 'location': {'lat': 31.280934, 'lng': 121.441666}, 'ad_info': {'adcode': 310106, 'province': '上海市', 'city': '上海市', 'district': '静安区'}}, {'id': '12955830792354101855', 'title': '万荣菜市场', 'address': '上海市静安区永和路与宁盛路交叉路口西侧(雍和创智广场)', 'tel': '', 'category': '购物:农贸市场', 'type': 0, 'location': {'lat': 31.287341, 'lng': 121.438124}, 'ad_info': {'adcode': 310106, 'province': '上海市', 'city': '上海市', 'district': '静安区'}}], 'region': {'title': '上海市'}}
+2020-12-08 17:11:01,833 INFO h11_impl.py[ln:454] 127.0.0.1:61582 - "GET /v1/pois/?type=search&city_id=1&keyword=%E4%B8%87%E8%8D%A3 HTTP/1.1" 500
+2020-12-08 17:11:01,835 ERROR h11_impl.py[ln:388] Exception in ASGI application
+Traceback (most recent call last):
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 385, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\middleware\debug.py", line 81, in __call__
+    raise exc from None
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\middleware\debug.py", line 78, in __call__
+    await self.app(scope, receive, inner_send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\fastapi\applications.py", line 149, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\applications.py", line 102, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc from None
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\sessions.py", line 75, in __call__
+    await self.app(scope, receive, send_wrapper)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\cors.py", line 84, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\cors.py", line 140, in simple_response
+    await self.app(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\exceptions.py", line 82, in __call__
+    raise exc from None
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\routing.py", line 550, in __call__
+    await route.handle(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\routing.py", line 227, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\routing.py", line 41, in app
+    response = await func(request)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\fastapi\routing.py", line 197, in app
+    dependant=dependant, values=values, is_coroutine=is_coroutine
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\fastapi\routing.py", line 150, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\concurrency.py", line 34, in run_in_threadpool
+    return await loop.run_in_executor(None, func, *args)
+  File "C:\Users\yubin.yang\AppData\Local\Continuum\Anaconda3\envs\python37\Lib\concurrent\futures\thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\yubin.yang\PycharmProjects\ele_backend\apis\v1\pois\views.py", line 33, in search_user_place
+    for place in place_info.data:
+AttributeError: 'dict' object has no attribute 'data'
+2020-12-08 17:11:10,054 INFO h11_impl.py[ln:454] 127.0.0.1:61597 - "GET /v1/pois?type=search&city_id=1&keyword=%E4%B8%87%E8%8D%A3 HTTP/1.1" 307
+2020-12-08 17:11:10,249 INFO views.py[ln:25] 查询的位置信息为:{'status': 0, 'message': 'query ok', 'count': 1365, 'request_id': '180169136242118b872de3792a87cdf8793f0b9c2b6b', 'data': [{'id': '3496936052768178373', 'title': '万荣路', 'address': '上海市静安区 ', 'tel': '', 'category': '地名地址:道路名', 'type': 0, 'location': {'lat': 31.284903, 'lng': 121.442421}, 'ad_info': {'adcode': 310106, 'province': '上海市', 'city': '上海市', 'district': '静安区'}}, {'id': '8399238443353177069', 'title': '万荣村', 'address': '上海市静安区 ', 'tel': '', 'category': '地名地址:行政地名', 'type': 0, 'location': {'lat': 31.291393, 'lng': 121.440751}, 'ad_info': {'adcode': 310106, 'province': '上海市', 'city': '上海市', 'district': '静安区'}}, {'id': '4690122693851994850', 'title': '万荣小区', 'address': '上海市静安区灵石路737弄1-36号', 'tel': '', 'category': '房产小区:住宅区:住宅小区', 'type': 0, 'location': {'lat': 31.284991, 'lng': 121.437163}, 'ad_info': {'adcode': 310106, 'province': '上海市', 'city': '上海市', 'district': '静安区'}}, {'id': '5444678542760641384', 'title': '万荣阳光苑', 'address': '上海市静安区万荣路1050弄', 'tel': '', 'category': '房产小区:住宅区:住宅小区', 'type': 0, 'location': {'lat': 31.289871, 'lng': 121.440948}, 'ad_info': {'adcode': 310106, 'province': '上海市', 'city': '上海市', 'district': '静安区'}}, {'id': '15475385573256209643', 'title': '万荣街坊', 'address': '上海市静安区灵石路733~739弄', 'tel': '', 'category': '房产小区:住宅区:其它住宅区', 'type': 0, 'location': {'lat': 31.287055, 'lng': 121.438778}, 'ad_info': {'adcode': 310106, 'province': '上海市', 'city': '上海市', 'district': '静安区'}}, {'id': '2017093738847917218', 'title': '万荣新苑', 'address': '上海市静安区灵石路739弄', 'tel': '', 'category': '房产小区:住宅区:住宅小区', 'type': 0, 'location': {'lat': 31.286435, 'lng': 121.437202}, 'ad_info': {'adcode': 310106, 'province': '上海市', 'city': '上海市', 'district': '静安区'}}, {'id': '3654057431233228858', 'title': '大宁音乐广场', 'address': '上海市静安区万荣路777号', 'tel': '021-56319201;021-66280158', 'category': '购物:综合商场:购物中心', 'type': 0, 'location': {'lat': 31.280843, 'lng': 121.443961}, 'ad_info': {'adcode': 310106, 'province': '上海市', 'city': '上海市', 'district': '静安区'}}, {'id': '7094792260173779154', 'title': '万荣东怡小区', 'address': '上海市静安区宁盛路', 'tel': '', 'category': '房产小区:住宅区:住宅小区', 'type': 0, 'location': {'lat': 31.285219, 'lng': 121.439792}, 'ad_info': {'adcode': 310106, 'province': '上海市', 'city': '上海市', 'district': '静安区'}}, {'id': '16195583441048845223', 'title': '大宁中心广场', 'address': '上海市静安区万荣路700号', 'tel': '021-66309999', 'category': '购物:其它购物', 'type': 0, 'location': {'lat': 31.280934, 'lng': 121.441666}, 'ad_info': {'adcode': 310106, 'province': '上海市', 'city': '上海市', 'district': '静安区'}}, {'id': '12955830792354101855', 'title': '万荣菜市场', 'address': '上海市静安区永和路与宁盛路交叉路口西侧(雍和创智广场)', 'tel': '', 'category': '购物:农贸市场', 'type': 0, 'location': {'lat': 31.287341, 'lng': 121.438124}, 'ad_info': {'adcode': 310106, 'province': '上海市', 'city': '上海市', 'district': '静安区'}}], 'region': {'title': '上海市'}}
+2020-12-08 17:11:10,250 INFO h11_impl.py[ln:454] 127.0.0.1:61584 - "GET /v1/pois/?type=search&city_id=1&keyword=%E4%B8%87%E8%8D%A3 HTTP/1.1" 500
+2020-12-08 17:11:10,251 ERROR h11_impl.py[ln:388] Exception in ASGI application
+Traceback (most recent call last):
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 385, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\middleware\debug.py", line 81, in __call__
+    raise exc from None
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\middleware\debug.py", line 78, in __call__
+    await self.app(scope, receive, inner_send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\fastapi\applications.py", line 149, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\applications.py", line 102, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc from None
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\sessions.py", line 75, in __call__
+    await self.app(scope, receive, send_wrapper)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\cors.py", line 84, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\cors.py", line 140, in simple_response
+    await self.app(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\exceptions.py", line 82, in __call__
+    raise exc from None
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\routing.py", line 550, in __call__
+    await route.handle(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\routing.py", line 227, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\routing.py", line 41, in app
+    response = await func(request)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\fastapi\routing.py", line 197, in app
+    dependant=dependant, values=values, is_coroutine=is_coroutine
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\fastapi\routing.py", line 150, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\concurrency.py", line 34, in run_in_threadpool
+    return await loop.run_in_executor(None, func, *args)
+  File "C:\Users\yubin.yang\AppData\Local\Continuum\Anaconda3\envs\python37\Lib\concurrent\futures\thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\yubin.yang\PycharmProjects\ele_backend\apis\v1\pois\views.py", line 33, in search_user_place
+    for place in place_info.data:
+AttributeError: 'dict' object has no attribute 'data'
+2020-12-08 17:11:27,098 INFO main.py[ln:397] Started server process [3028]
+2020-12-08 17:11:27,099 INFO on.py[ln:22] Waiting for application startup.
+2020-12-08 17:11:27,100 INFO on.py[ln:34] Application startup complete.
+2020-12-08 17:11:31,365 INFO main.py[ln:397] Started server process [23064]
+2020-12-08 17:11:31,366 INFO on.py[ln:22] Waiting for application startup.
+2020-12-08 17:11:31,367 INFO on.py[ln:34] Application startup complete.
+2020-12-08 17:17:25,540 INFO h11_impl.py[ln:454] 127.0.0.1:62288 - "GET /v1/pois?type=search&city_id=1&keyword=%E4%B8%87%E8%8D%A3 HTTP/1.1" 307
+2020-12-08 17:17:26,116 INFO views.py[ln:25] 查询的位置信息为:{'status': 0, 'message': 'query ok', 'count': 1365, 'request_id': '180169136242e3cb02e76d30897f211105c3e97c666d', 'data': [{'id': '3496936052768178373', 'title': '万荣路', 'address': '上海市静安区 ', 'tel': '', 'category': '地名地址:道路名', 'type': 0, 'location': {'lat': 31.284903, 'lng': 121.442421}, 'ad_info': {'adcode': 310106, 'province': '上海市', 'city': '上海市', 'district': '静安区'}}, {'id': '8399238443353177069', 'title': '万荣村', 'address': '上海市静安区 ', 'tel': '', 'category': '地名地址:行政地名', 'type': 0, 'location': {'lat': 31.291393, 'lng': 121.440751}, 'ad_info': {'adcode': 310106, 'province': '上海市', 'city': '上海市', 'district': '静安区'}}, {'id': '4690122693851994850', 'title': '万荣小区', 'address': '上海市静安区灵石路737弄1-36号', 'tel': '', 'category': '房产小区:住宅区:住宅小区', 'type': 0, 'location': {'lat': 31.284991, 'lng': 121.437163}, 'ad_info': {'adcode': 310106, 'province': '上海市', 'city': '上海市', 'district': '静安区'}}, {'id': '5444678542760641384', 'title': '万荣阳光苑', 'address': '上海市静安区万荣路1050弄', 'tel': '', 'category': '房产小区:住宅区:住宅小区', 'type': 0, 'location': {'lat': 31.289871, 'lng': 121.440948}, 'ad_info': {'adcode': 310106, 'province': '上海市', 'city': '上海市', 'district': '静安区'}}, {'id': '15475385573256209643', 'title': '万荣街坊', 'address': '上海市静安区灵石路733~739弄', 'tel': '', 'category': '房产小区:住宅区:其它住宅区', 'type': 0, 'location': {'lat': 31.287055, 'lng': 121.438778}, 'ad_info': {'adcode': 310106, 'province': '上海市', 'city': '上海市', 'district': '静安区'}}, {'id': '2017093738847917218', 'title': '万荣新苑', 'address': '上海市静安区灵石路739弄', 'tel': '', 'category': '房产小区:住宅区:住宅小区', 'type': 0, 'location': {'lat': 31.286435, 'lng': 121.437202}, 'ad_info': {'adcode': 310106, 'province': '上海市', 'city': '上海市', 'district': '静安区'}}, {'id': '3654057431233228858', 'title': '大宁音乐广场', 'address': '上海市静安区万荣路777号', 'tel': '021-56319201;021-66280158', 'category': '购物:综合商场:购物中心', 'type': 0, 'location': {'lat': 31.280843, 'lng': 121.443961}, 'ad_info': {'adcode': 310106, 'province': '上海市', 'city': '上海市', 'district': '静安区'}}, {'id': '7094792260173779154', 'title': '万荣东怡小区', 'address': '上海市静安区宁盛路', 'tel': '', 'category': '房产小区:住宅区:住宅小区', 'type': 0, 'location': {'lat': 31.285219, 'lng': 121.439792}, 'ad_info': {'adcode': 310106, 'province': '上海市', 'city': '上海市', 'district': '静安区'}}, {'id': '16195583441048845223', 'title': '大宁中心广场', 'address': '上海市静安区万荣路700号', 'tel': '021-66309999', 'category': '购物:其它购物', 'type': 0, 'location': {'lat': 31.280934, 'lng': 121.441666}, 'ad_info': {'adcode': 310106, 'province': '上海市', 'city': '上海市', 'district': '静安区'}}, {'id': '12955830792354101855', 'title': '万荣菜市场', 'address': '上海市静安区永和路与宁盛路交叉路口西侧(雍和创智广场)', 'tel': '', 'category': '购物:农贸市场', 'type': 0, 'location': {'lat': 31.287341, 'lng': 121.438124}, 'ad_info': {'adcode': 310106, 'province': '上海市', 'city': '上海市', 'district': '静安区'}}], 'region': {'title': '上海市'}}
+2020-12-08 17:17:26,118 INFO h11_impl.py[ln:454] 127.0.0.1:62291 - "GET /v1/pois/?type=search&city_id=1&keyword=%E4%B8%87%E8%8D%A3 HTTP/1.1" 500
+2020-12-08 17:17:26,119 ERROR h11_impl.py[ln:388] Exception in ASGI application
+Traceback (most recent call last):
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 385, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\middleware\debug.py", line 81, in __call__
+    raise exc from None
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\middleware\debug.py", line 78, in __call__
+    await self.app(scope, receive, inner_send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\fastapi\applications.py", line 149, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\applications.py", line 102, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc from None
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\sessions.py", line 75, in __call__
+    await self.app(scope, receive, send_wrapper)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\cors.py", line 84, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\cors.py", line 140, in simple_response
+    await self.app(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\exceptions.py", line 82, in __call__
+    raise exc from None
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\routing.py", line 550, in __call__
+    await route.handle(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\routing.py", line 227, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\routing.py", line 41, in app
+    response = await func(request)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\fastapi\routing.py", line 197, in app
+    dependant=dependant, values=values, is_coroutine=is_coroutine
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\fastapi\routing.py", line 150, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\concurrency.py", line 34, in run_in_threadpool
+    return await loop.run_in_executor(None, func, *args)
+  File "C:\Users\yubin.yang\AppData\Local\Continuum\Anaconda3\envs\python37\Lib\concurrent\futures\thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\yubin.yang\PycharmProjects\ele_backend\apis\v1\pois\views.py", line 36, in search_user_place
+    'geohash': place.get('location').get('lat') + ',' + place.get('location').get('lng')}
+TypeError: unsupported operand type(s) for +: 'float' and 'str'
+2020-12-08 17:18:14,121 INFO main.py[ln:397] Started server process [9384]
+2020-12-08 17:18:14,123 INFO on.py[ln:22] Waiting for application startup.
+2020-12-08 17:18:14,125 INFO on.py[ln:34] Application startup complete.
+2020-12-08 17:19:17,475 INFO main.py[ln:397] Started server process [50420]
+2020-12-08 17:19:17,477 INFO on.py[ln:22] Waiting for application startup.
+2020-12-08 17:19:17,478 INFO on.py[ln:34] Application startup complete.
+2020-12-08 17:25:32,743 INFO h11_impl.py[ln:454] 127.0.0.1:63136 - "GET /v1/pois?type=search&city_id=1&keyword=%E4%B8%87%E8%8D%A3 HTTP/1.1" 307
+2020-12-08 17:25:33,051 INFO h11_impl.py[ln:454] 127.0.0.1:63140 - "OPTIONS /v1/pois/?type=search&city_id=1&keyword=%E4%B8%87%E8%8D%A3 HTTP/1.1" 200
+2020-12-08 17:25:33,625 INFO views.py[ln:25] 查询的位置信息为:{'status': 0, 'message': 'query ok', 'count': 1365, 'request_id': '180169136242b844c5b7796ff7f0f05bad751d10b1cb', 'data': [{'id': '3496936052768178373', 'title': '万荣路', 'address': '上海市静安区 ', 'tel': '', 'category': '地名地址:道路名', 'type': 0, 'location': {'lat': 31.284903, 'lng': 121.442421}, 'ad_info': {'adcode': 310106, 'province': '上海市', 'city': '上海市', 'district': '静安区'}}, {'id': '8399238443353177069', 'title': '万荣村', 'address': '上海市静安区 ', 'tel': '', 'category': '地名地址:行政地名', 'type': 0, 'location': {'lat': 31.291393, 'lng': 121.440751}, 'ad_info': {'adcode': 310106, 'province': '上海市', 'city': '上海市', 'district': '静安区'}}, {'id': '4690122693851994850', 'title': '万荣小区', 'address': '上海市静安区灵石路737弄1-36号', 'tel': '', 'category': '房产小区:住宅区:住宅小区', 'type': 0, 'location': {'lat': 31.284991, 'lng': 121.437163}, 'ad_info': {'adcode': 310106, 'province': '上海市', 'city': '上海市', 'district': '静安区'}}, {'id': '5444678542760641384', 'title': '万荣阳光苑', 'address': '上海市静安区万荣路1050弄', 'tel': '', 'category': '房产小区:住宅区:住宅小区', 'type': 0, 'location': {'lat': 31.289871, 'lng': 121.440948}, 'ad_info': {'adcode': 310106, 'province': '上海市', 'city': '上海市', 'district': '静安区'}}, {'id': '15475385573256209643', 'title': '万荣街坊', 'address': '上海市静安区灵石路733~739弄', 'tel': '', 'category': '房产小区:住宅区:其它住宅区', 'type': 0, 'location': {'lat': 31.287055, 'lng': 121.438778}, 'ad_info': {'adcode': 310106, 'province': '上海市', 'city': '上海市', 'district': '静安区'}}, {'id': '2017093738847917218', 'title': '万荣新苑', 'address': '上海市静安区灵石路739弄', 'tel': '', 'category': '房产小区:住宅区:住宅小区', 'type': 0, 'location': {'lat': 31.286435, 'lng': 121.437202}, 'ad_info': {'adcode': 310106, 'province': '上海市', 'city': '上海市', 'district': '静安区'}}, {'id': '3654057431233228858', 'title': '大宁音乐广场', 'address': '上海市静安区万荣路777号', 'tel': '021-56319201;021-66280158', 'category': '购物:综合商场:购物中心', 'type': 0, 'location': {'lat': 31.280843, 'lng': 121.443961}, 'ad_info': {'adcode': 310106, 'province': '上海市', 'city': '上海市', 'district': '静安区'}}, {'id': '7094792260173779154', 'title': '万荣东怡小区', 'address': '上海市静安区宁盛路', 'tel': '', 'category': '房产小区:住宅区:住宅小区', 'type': 0, 'location': {'lat': 31.285219, 'lng': 121.439792}, 'ad_info': {'adcode': 310106, 'province': '上海市', 'city': '上海市', 'district': '静安区'}}, {'id': '16195583441048845223', 'title': '大宁中心广场', 'address': '上海市静安区万荣路700号', 'tel': '021-66309999', 'category': '购物:其它购物', 'type': 0, 'location': {'lat': 31.280934, 'lng': 121.441666}, 'ad_info': {'adcode': 310106, 'province': '上海市', 'city': '上海市', 'district': '静安区'}}, {'id': '12955830792354101855', 'title': '万荣菜市场', 'address': '上海市静安区永和路与宁盛路交叉路口西侧(雍和创智广场)', 'tel': '', 'category': '购物:农贸市场', 'type': 0, 'location': {'lat': 31.287341, 'lng': 121.438124}, 'ad_info': {'adcode': 310106, 'province': '上海市', 'city': '上海市', 'district': '静安区'}}], 'region': {'title': '上海市'}}
+2020-12-08 17:25:33,627 INFO h11_impl.py[ln:454] 127.0.0.1:63144 - "GET /v1/pois/?type=search&city_id=1&keyword=%E4%B8%87%E8%8D%A3 HTTP/1.1" 500
+2020-12-08 17:25:33,628 ERROR h11_impl.py[ln:388] Exception in ASGI application
+Traceback (most recent call last):
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 385, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\middleware\debug.py", line 81, in __call__
+    raise exc from None
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\middleware\debug.py", line 78, in __call__
+    await self.app(scope, receive, inner_send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\fastapi\applications.py", line 149, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\applications.py", line 102, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc from None
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\sessions.py", line 75, in __call__
+    await self.app(scope, receive, send_wrapper)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\cors.py", line 84, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\cors.py", line 140, in simple_response
+    await self.app(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\exceptions.py", line 82, in __call__
+    raise exc from None
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\routing.py", line 550, in __call__
+    await route.handle(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\routing.py", line 227, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\routing.py", line 41, in app
+    response = await func(request)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\fastapi\routing.py", line 197, in app
+    dependant=dependant, values=values, is_coroutine=is_coroutine
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\fastapi\routing.py", line 150, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\concurrency.py", line 34, in run_in_threadpool
+    return await loop.run_in_executor(None, func, *args)
+  File "C:\Users\yubin.yang\AppData\Local\Continuum\Anaconda3\envs\python37\Lib\concurrent\futures\thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\yubin.yang\PycharmProjects\ele_backend\apis\v1\pois\views.py", line 36, in search_user_place
+    'geohash': ','.join([place.get('location').get('lat'), place.get('location').get('lng')])}
+TypeError: sequence item 0: expected str instance, float found
+2020-12-08 17:25:38,735 INFO h11_impl.py[ln:454] 127.0.0.1:63158 - "GET /v1/cities/1 HTTP/1.1" 404
+2020-12-08 17:25:38,758 INFO h11_impl.py[ln:454] 127.0.0.1:63160 - "GET /v1/user?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 307
+2020-12-08 17:25:38,765 INFO h11_impl.py[ln:454] 127.0.0.1:63142 - "OPTIONS /v1/user/?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 200
+2020-12-08 17:25:38,817 INFO h11_impl.py[ln:454] 127.0.0.1:63146 - "GET /v1/user/?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 200
+2020-12-08 17:25:44,463 INFO h11_impl.py[ln:454] 127.0.0.1:63169 - "GET /v1/pois?type=search&city_id=1&keyword=%E4%B8%87%E8%8D%A3 HTTP/1.1" 307
+2020-12-08 17:25:44,974 INFO views.py[ln:25] 查询的位置信息为:{'status': 0, 'message': 'query ok', 'count': 1365, 'request_id': '1801691362423b1624e89d464db0dc77a219b116af21', 'data': [{'id': '3496936052768178373', 'title': '万荣路', 'address': '上海市静安区 ', 'tel': '', 'category': '地名地址:道路名', 'type': 0, 'location': {'lat': 31.284903, 'lng': 121.442421}, 'ad_info': {'adcode': 310106, 'province': '上海市', 'city': '上海市', 'district': '静安区'}}, {'id': '8399238443353177069', 'title': '万荣村', 'address': '上海市静安区 ', 'tel': '', 'category': '地名地址:行政地名', 'type': 0, 'location': {'lat': 31.291393, 'lng': 121.440751}, 'ad_info': {'adcode': 310106, 'province': '上海市', 'city': '上海市', 'district': '静安区'}}, {'id': '4690122693851994850', 'title': '万荣小区', 'address': '上海市静安区灵石路737弄1-36号', 'tel': '', 'category': '房产小区:住宅区:住宅小区', 'type': 0, 'location': {'lat': 31.284991, 'lng': 121.437163}, 'ad_info': {'adcode': 310106, 'province': '上海市', 'city': '上海市', 'district': '静安区'}}, {'id': '5444678542760641384', 'title': '万荣阳光苑', 'address': '上海市静安区万荣路1050弄', 'tel': '', 'category': '房产小区:住宅区:住宅小区', 'type': 0, 'location': {'lat': 31.289871, 'lng': 121.440948}, 'ad_info': {'adcode': 310106, 'province': '上海市', 'city': '上海市', 'district': '静安区'}}, {'id': '15475385573256209643', 'title': '万荣街坊', 'address': '上海市静安区灵石路733~739弄', 'tel': '', 'category': '房产小区:住宅区:其它住宅区', 'type': 0, 'location': {'lat': 31.287055, 'lng': 121.438778}, 'ad_info': {'adcode': 310106, 'province': '上海市', 'city': '上海市', 'district': '静安区'}}, {'id': '2017093738847917218', 'title': '万荣新苑', 'address': '上海市静安区灵石路739弄', 'tel': '', 'category': '房产小区:住宅区:住宅小区', 'type': 0, 'location': {'lat': 31.286435, 'lng': 121.437202}, 'ad_info': {'adcode': 310106, 'province': '上海市', 'city': '上海市', 'district': '静安区'}}, {'id': '3654057431233228858', 'title': '大宁音乐广场', 'address': '上海市静安区万荣路777号', 'tel': '021-56319201;021-66280158', 'category': '购物:综合商场:购物中心', 'type': 0, 'location': {'lat': 31.280843, 'lng': 121.443961}, 'ad_info': {'adcode': 310106, 'province': '上海市', 'city': '上海市', 'district': '静安区'}}, {'id': '7094792260173779154', 'title': '万荣东怡小区', 'address': '上海市静安区宁盛路', 'tel': '', 'category': '房产小区:住宅区:住宅小区', 'type': 0, 'location': {'lat': 31.285219, 'lng': 121.439792}, 'ad_info': {'adcode': 310106, 'province': '上海市', 'city': '上海市', 'district': '静安区'}}, {'id': '16195583441048845223', 'title': '大宁中心广场', 'address': '上海市静安区万荣路700号', 'tel': '021-66309999', 'category': '购物:其它购物', 'type': 0, 'location': {'lat': 31.280934, 'lng': 121.441666}, 'ad_info': {'adcode': 310106, 'province': '上海市', 'city': '上海市', 'district': '静安区'}}, {'id': '12955830792354101855', 'title': '万荣菜市场', 'address': '上海市静安区永和路与宁盛路交叉路口西侧(雍和创智广场)', 'tel': '', 'category': '购物:农贸市场', 'type': 0, 'location': {'lat': 31.287341, 'lng': 121.438124}, 'ad_info': {'adcode': 310106, 'province': '上海市', 'city': '上海市', 'district': '静安区'}}], 'region': {'title': '上海市'}}
+2020-12-08 17:25:44,976 INFO h11_impl.py[ln:454] 127.0.0.1:63174 - "GET /v1/pois/?type=search&city_id=1&keyword=%E4%B8%87%E8%8D%A3 HTTP/1.1" 500
+2020-12-08 17:25:44,978 ERROR h11_impl.py[ln:388] Exception in ASGI application
+Traceback (most recent call last):
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 385, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\middleware\debug.py", line 81, in __call__
+    raise exc from None
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\middleware\debug.py", line 78, in __call__
+    await self.app(scope, receive, inner_send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\fastapi\applications.py", line 149, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\applications.py", line 102, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc from None
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\sessions.py", line 75, in __call__
+    await self.app(scope, receive, send_wrapper)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\cors.py", line 84, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\cors.py", line 140, in simple_response
+    await self.app(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\exceptions.py", line 82, in __call__
+    raise exc from None
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\routing.py", line 550, in __call__
+    await route.handle(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\routing.py", line 227, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\routing.py", line 41, in app
+    response = await func(request)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\fastapi\routing.py", line 197, in app
+    dependant=dependant, values=values, is_coroutine=is_coroutine
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\fastapi\routing.py", line 150, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\concurrency.py", line 34, in run_in_threadpool
+    return await loop.run_in_executor(None, func, *args)
+  File "C:\Users\yubin.yang\AppData\Local\Continuum\Anaconda3\envs\python37\Lib\concurrent\futures\thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\yubin.yang\PycharmProjects\ele_backend\apis\v1\pois\views.py", line 36, in search_user_place
+    'geohash': ','.join([place.get('location').get('lat'), place.get('location').get('lng')])}
+TypeError: sequence item 0: expected str instance, float found
+2020-12-08 17:30:32,898 INFO main.py[ln:397] Started server process [51732]
+2020-12-08 17:30:32,899 INFO on.py[ln:22] Waiting for application startup.
+2020-12-08 17:30:32,901 INFO on.py[ln:34] Application startup complete.
+2020-12-08 17:30:38,519 INFO h11_impl.py[ln:454] 127.0.0.1:63683 - "GET /v1/pois?type=search&city_id=1&keyword=%E4%B8%87%E8%8D%A3 HTTP/1.1" 307
+2020-12-08 17:30:39,137 INFO views.py[ln:25] 查询的位置信息为:{'status': 0, 'message': 'query ok', 'count': 1365, 'request_id': '1801691362427a8ab61617d7ff5c256538e5f50e1208', 'data': [{'id': '3496936052768178373', 'title': '万荣路', 'address': '上海市静安区 ', 'tel': '', 'category': '地名地址:道路名', 'type': 0, 'location': {'lat': 31.284903, 'lng': 121.442421}, 'ad_info': {'adcode': 310106, 'province': '上海市', 'city': '上海市', 'district': '静安区'}}, {'id': '8399238443353177069', 'title': '万荣村', 'address': '上海市静安区 ', 'tel': '', 'category': '地名地址:行政地名', 'type': 0, 'location': {'lat': 31.291393, 'lng': 121.440751}, 'ad_info': {'adcode': 310106, 'province': '上海市', 'city': '上海市', 'district': '静安区'}}, {'id': '4690122693851994850', 'title': '万荣小区', 'address': '上海市静安区灵石路737弄1-36号', 'tel': '', 'category': '房产小区:住宅区:住宅小区', 'type': 0, 'location': {'lat': 31.284991, 'lng': 121.437163}, 'ad_info': {'adcode': 310106, 'province': '上海市', 'city': '上海市', 'district': '静安区'}}, {'id': '5444678542760641384', 'title': '万荣阳光苑', 'address': '上海市静安区万荣路1050弄', 'tel': '', 'category': '房产小区:住宅区:住宅小区', 'type': 0, 'location': {'lat': 31.289871, 'lng': 121.440948}, 'ad_info': {'adcode': 310106, 'province': '上海市', 'city': '上海市', 'district': '静安区'}}, {'id': '15475385573256209643', 'title': '万荣街坊', 'address': '上海市静安区灵石路733~739弄', 'tel': '', 'category': '房产小区:住宅区:其它住宅区', 'type': 0, 'location': {'lat': 31.287055, 'lng': 121.438778}, 'ad_info': {'adcode': 310106, 'province': '上海市', 'city': '上海市', 'district': '静安区'}}, {'id': '2017093738847917218', 'title': '万荣新苑', 'address': '上海市静安区灵石路739弄', 'tel': '', 'category': '房产小区:住宅区:住宅小区', 'type': 0, 'location': {'lat': 31.286435, 'lng': 121.437202}, 'ad_info': {'adcode': 310106, 'province': '上海市', 'city': '上海市', 'district': '静安区'}}, {'id': '3654057431233228858', 'title': '大宁音乐广场', 'address': '上海市静安区万荣路777号', 'tel': '021-56319201;021-66280158', 'category': '购物:综合商场:购物中心', 'type': 0, 'location': {'lat': 31.280843, 'lng': 121.443961}, 'ad_info': {'adcode': 310106, 'province': '上海市', 'city': '上海市', 'district': '静安区'}}, {'id': '7094792260173779154', 'title': '万荣东怡小区', 'address': '上海市静安区宁盛路', 'tel': '', 'category': '房产小区:住宅区:住宅小区', 'type': 0, 'location': {'lat': 31.285219, 'lng': 121.439792}, 'ad_info': {'adcode': 310106, 'province': '上海市', 'city': '上海市', 'district': '静安区'}}, {'id': '16195583441048845223', 'title': '大宁中心广场', 'address': '上海市静安区万荣路700号', 'tel': '021-66309999', 'category': '购物:其它购物', 'type': 0, 'location': {'lat': 31.280934, 'lng': 121.441666}, 'ad_info': {'adcode': 310106, 'province': '上海市', 'city': '上海市', 'district': '静安区'}}, {'id': '12955830792354101855', 'title': '万荣菜市场', 'address': '上海市静安区永和路与宁盛路交叉路口西侧(雍和创智广场)', 'tel': '', 'category': '购物:农贸市场', 'type': 0, 'location': {'lat': 31.287341, 'lng': 121.438124}, 'ad_info': {'adcode': 310106, 'province': '上海市', 'city': '上海市', 'district': '静安区'}}], 'region': {'title': '上海市'}}
+2020-12-08 17:30:39,139 INFO h11_impl.py[ln:454] 127.0.0.1:63686 - "GET /v1/pois/?type=search&city_id=1&keyword=%E4%B8%87%E8%8D%A3 HTTP/1.1" 200
+2020-12-08 17:30:40,862 INFO h11_impl.py[ln:454] 127.0.0.1:63694 - "GET /v2/pois/31.284903,121.442421 HTTP/1.1" 404
+2020-12-08 17:30:40,889 INFO h11_impl.py[ln:454] 127.0.0.1:63696 - "GET /v1/user?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 307
+2020-12-08 17:30:40,896 INFO h11_impl.py[ln:454] 127.0.0.1:63698 - "GET /v2/index_entry?geohash=31.284903,121.442421&group_type=1&flags[]=F HTTP/1.1" 404
+2020-12-08 17:30:40,976 INFO h11_impl.py[ln:454] 127.0.0.1:63701 - "GET /shopping/restaurants?latitude=undefined&longitude=undefined&offset=0&limit=20&extras[]=activities&keyword=&restaurant_category_id=&restaurant_category_ids[]=&order_by=&delivery_mode[]= HTTP/1.1" 404
+2020-12-08 17:30:40,993 INFO h11_impl.py[ln:454] 127.0.0.1:63686 - "GET /v1/user/?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 200
+2020-12-08 17:30:57,179 INFO h11_impl.py[ln:454] 127.0.0.1:63732 - "GET /v1/cities/1 HTTP/1.1" 404
+2020-12-08 17:30:57,207 INFO h11_impl.py[ln:454] 127.0.0.1:63733 - "GET /v1/user?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 307
+2020-12-08 17:30:57,471 INFO h11_impl.py[ln:454] 127.0.0.1:63735 - "GET /v1/user/?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 200
+2020-12-08 17:31:05,609 INFO h11_impl.py[ln:454] 127.0.0.1:63749 - "GET /v1/pois?type=search&city_id=1&keyword=%E7%9C%9F%E5%8C%97%E8%B7%AF HTTP/1.1" 307
+2020-12-08 17:31:05,918 INFO h11_impl.py[ln:454] 127.0.0.1:63752 - "OPTIONS /v1/pois/?type=search&city_id=1&keyword=%E7%9C%9F%E5%8C%97%E8%B7%AF HTTP/1.1" 200
+2020-12-08 17:31:06,143 INFO views.py[ln:25] 查询的位置信息为:{'status': 0, 'message': 'query ok', 'count': 1459, 'request_id': '18016913624224ab9c093e7e88a9b3a85186c794ad4d', 'data': [{'id': '3674470246954929447', 'title': '真北路', 'address': '上海市普陀区 ', 'tel': '', 'category': '地名地址:道路名', 'type': 0, 'location': {'lat': 31.253212, 'lng': 121.391991}, 'ad_info': {'adcode': 310107, 'province': '上海市', 'city': '上海市', 'district': '普陀区'}}, {'id': '10804037200626564471', 'title': '真北路[地铁站]', 'address': '地铁13号线', 'tel': '', 'category': '基础设施:交通设施:地铁站', 'type': 2, 'location': {'lat': 31.232285, 'lng': 121.382015}, 'ad_info': {'adcode': 310107, 'province': '上海市', 'city': '上海市', 'district': '普陀区'}}, {'id': '10804903272719431970', 'title': '真北路铜川路[公交站]', 'address': '323路,750路,62路,727路', 'tel': '', 'category': '基础设施:交通设施:公交车站', 'type': 1, 'location': {'lat': 31.250455, 'lng': 121.390641}, 'ad_info': {'adcode': 310107, 'province': '上海市', 'city': '上海市', 'district': '普陀区'}}, {'id': '17874832450832165896', 'title': '红星美凯龙(真北路)', 'address': '上海市普陀区真北路1108号', 'tel': '021-32510005', 'category': '购物:家具家居建材', 'type': 0, 'location': {'lat': 31.238607, 'lng': 121.385802}, 'ad_info': {'adcode': 310107, 'province': '上海市', 'city': '上海市', 'district': '普陀区'}}, {'id': '9891293527813892703', 'title': '真北路立交桥', 'address': '上海市普陀区 ', 'tel': '', 'category': '基础设施:道路附属:桥', 'type': 0, 'location': {'lat': 31.246872, 'lng': 121.388761}, 'ad_info': {'adcode': 310107, 'province': '上海市', 'city': '上海市', 'district': '普陀区'}}, {'id': '10804243015067912410', 'title': '真北路古浪路[公交站]', 'address': '551路,768路', 'tel': '', 'category': '基础设施:交通设施:公交车站', 'type': 1, 'location': {'lat': 31.279477, 'lng': 121.399591}, 'ad_info': {'adcode': 310107, 'province': '上海市', 'city': '上海市', 'district': '普陀区'}}, {'id': '15351475796983807701', 'title': '老真北路', 'address': '上海市普陀区 ', 'tel': '', 'category': '地名地址:道路名', 'type': 0, 'location': {'lat': 31.223316, 'lng': 121.375443}, 'ad_info': {'adcode': 310107, 'province': '上海市', 'city': '上海市', 'district': '普陀区'}}, {'id': '10804693253748285310', 'title': '武宁路真北路[公交站]', 'address': '323路,340路,561路,717路,740路,62路', 'tel': '', 'category': '基础设施:交通设施:公交车站', 'type': 1, 'location': {'lat': 31.246257, 'lng': 121.390054}, 'ad_info': {'adcode': 310107, 'province': '上海市', 'city': '上海市', 'district': '普陀区'}}, {'id': '10804630252408690810', 'title': '桃浦路真北路[公交站]', 'address': '724路,106路,129路,551路,742路,754路,766路,768路,838路,856路', 'tel': '', 'category': '基础设施:交通设施:公交车站', 'type': 1, 'location': {'lat': 31.259894, 'lng': 121.394699}, 'ad_info': {'adcode': 310107, 'province': '上海市', 'city': '上海市', 'district': '普陀区'}}, {'id': '10804666111862820210', 'title': '铜川路真北路[公交站]', 'address': '743路,105路,165路', 'tel': '', 'category': '基础设施:交通设施:公交车站', 'type': 1, 'location': {'lat': 31.251801, 'lng': 121.390203}, 'ad_info': {'adcode': 310107, 'province': '上海市', 'city': '上海市', 'district': '普陀区'}}], 'region': {'title': '上海市'}}
+2020-12-08 17:31:06,144 INFO h11_impl.py[ln:454] 127.0.0.1:63736 - "GET /v1/pois/?type=search&city_id=1&keyword=%E7%9C%9F%E5%8C%97%E8%B7%AF HTTP/1.1" 200
+2020-12-08 17:31:50,420 INFO h11_impl.py[ln:454] 127.0.0.1:63825 - "GET /v2/pois/31.253212,121.391991 HTTP/1.1" 404
+2020-12-08 17:31:50,456 INFO h11_impl.py[ln:454] 127.0.0.1:63828 - "GET /v1/user?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 307
+2020-12-08 17:31:50,458 INFO h11_impl.py[ln:454] 127.0.0.1:63829 - "GET /v2/index_entry?geohash=31.253212,121.391991&group_type=1&flags[]=F HTTP/1.1" 404
+2020-12-08 17:31:50,554 INFO h11_impl.py[ln:454] 127.0.0.1:63832 - "GET /shopping/restaurants?latitude=undefined&longitude=undefined&offset=0&limit=20&extras[]=activities&keyword=&restaurant_category_id=&restaurant_category_ids[]=&order_by=&delivery_mode[]= HTTP/1.1" 404
+2020-12-08 17:31:50,827 INFO h11_impl.py[ln:454] 127.0.0.1:63834 - "GET /v1/user/?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 200
+2020-12-08 17:31:54,299 INFO h11_impl.py[ln:454] 127.0.0.1:63846 - "GET /v1/cities/1 HTTP/1.1" 404
+2020-12-08 17:31:54,319 INFO h11_impl.py[ln:454] 127.0.0.1:63847 - "GET /v1/user?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 307
+2020-12-08 17:31:54,335 INFO h11_impl.py[ln:454] 127.0.0.1:63834 - "GET /v1/user/?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 200
+2020-12-08 17:32:04,995 INFO h11_impl.py[ln:454] 127.0.0.1:63870 - "GET /v1/pois?type=search&city_id=1&keyword=%E5%87%AF%E7%A7%91 HTTP/1.1" 307
+2020-12-08 17:32:05,305 INFO h11_impl.py[ln:454] 127.0.0.1:63873 - "OPTIONS /v1/pois/?type=search&city_id=1&keyword=%E5%87%AF%E7%A7%91 HTTP/1.1" 200
+2020-12-08 17:32:05,720 INFO views.py[ln:25] 查询的位置信息为:{'status': 0, 'message': 'query ok', 'count': 33, 'request_id': '180169136242bc22644276beab7576b647e3aa2dea31', 'data': [{'id': '4615970709847313661', 'title': '凯科国际大厦', 'address': '上海市徐汇区虹梅路1801号', 'tel': '021-61613018', 'category': '房产小区:商务楼宇', 'type': 0, 'location': {'lat': 31.168494, 'lng': 121.397796}, 'ad_info': {'adcode': 310104, 'province': '上海市', 'city': '上海市', 'district': '徐汇区'}}, {'id': '9659965660643458010', 'title': '上海凯科阀门制造有限公司', 'address': '上海市嘉定区世盛路999号', 'tel': '021-59962788', 'category': '公司企业:公司企业', 'type': 0, 'location': {'lat': 31.404219, 'lng': 121.182485}, 'ad_info': {'adcode': 310114, 'province': '上海市', 'city': '上海市', 'district': '嘉定区'}}, {'id': '10804417039224476215', 'title': '上海凯科管业科技股份有限公司', 'address': '上海市金山区朱泾工业园鸿安路800号', 'tel': '021-57318888', 'category': '公司企业:公司企业', 'type': 0, 'location': {'lat': 30.908741, 'lng': 121.22719}, 'ad_info': {'adcode': 310116, 'province': '上海市', 'city': '上海市', 'district': '金山区'}}, {'id': '3845987623631266064', 'title': '凯科国际大厦南通道', 'address': '上海市徐汇区X210', 'tel': '', 'category': '房产小区:商务楼宇', 'type': 0, 'location': {'lat': 31.168332, 'lng': 121.397711}, 'ad_info': {'adcode': 310104, 'province': '上海市', 'city': '上海市', 'district': '徐汇区'}}, {'id': '403661961229500004', 'title': '停车场(凯科国际大厦西)', 'address': '上海市徐汇区宜山路1289号', 'tel': '', 'category': '汽车:停车场', 'type': 0, 'location': {'lat': 31.16859, 'lng': 121.396938}, 'ad_info': {'adcode': 310104, 'province': '上海市', 'city': '上海市', 'district': '徐汇区'}}, {'id': '17217217413999072049', 'title': 'DKSH', 'address': '上海市徐汇区虹梅路1801号凯科国际大厦1层', 'tel': '', 'category': '公司企业:公司企业', 'type': 0, 'location': {'lat': 31.168536, 'lng': 121.397835}, 'ad_info': {'adcode': 310104, 'province': '上海市', 'city': '上海市', 'district': '徐汇区'}}, {'id': '13449597251015950074', 'title': 'INFINIVISION公司', 'address': '上海市徐汇区漕河泾新兴技术开发区虹梅路1801号A区凯科国际大厦1603室', 'tel': '', 'category': '公司企业:公司企业', 'type': 0, 'location': {'lat': 31.168532, 'lng': 121.397836}, 'ad_info': {'adcode': 310104, 'province': '上海市', 'city': '上海市', 'district': '徐汇区'}}, {'id': '16434298140818953549', 'title': 'ShangHai Raffles Medical日本部', 'address': '上海市徐汇区虹梅路1801号凯科大厦2F', 'tel': '021-61972355', 'category': '公司企业:公司企业', 'type': 0, 'location': {'lat': 31.16864, 'lng': 121.397904}, 'ad_info': {'adcode': 310104, 'province': '上海市', 'city': '上海市', 'district': '徐汇区'}}, {'id': '13201401095233203265', 'title': '停车场(凯科国际大厦南)', 'address': '上海市徐汇区宜山路1289号', 'tel': '', 'category': '汽车:停车场', 'type': 0, 'location': {'lat': 31.168881, 'lng': 121.397421}, 'ad_info': {'adcode': 310104, 'province': '上海市', 'city': '上海市', 'district': '徐汇区'}}, {'id': '16521935309705669256', 'title': '凯科国际大厦资产管理部', 'address': '上海市徐汇区X210', 'tel': '', 'category': '银行金融:其它银行金融', 'type': 0, 'location': {'lat': 31.168333, 'lng': 121.397711}, 'ad_info': {'adcode': 310104, 'province': '上海市', 'city': '上海市', 'district': '徐汇区'}}], 'region': {'title': '上海市'}}
+2020-12-08 17:32:05,722 INFO h11_impl.py[ln:454] 127.0.0.1:63877 - "GET /v1/pois/?type=search&city_id=1&keyword=%E5%87%AF%E7%A7%91 HTTP/1.1" 200
+2020-12-08 17:46:39,994 INFO h11_impl.py[ln:454] 127.0.0.1:65267 - "GET /v2/pois/31.168494,121.397796 HTTP/1.1" 404
+2020-12-08 17:46:40,051 INFO h11_impl.py[ln:454] 127.0.0.1:65268 - "GET /v1/user?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 307
+2020-12-08 17:46:40,055 INFO h11_impl.py[ln:454] 127.0.0.1:65269 - "GET /v2/index_entry?geohash=31.168494,121.397796&group_type=1&flags[]=F HTTP/1.1" 404
+2020-12-08 17:46:40,136 INFO h11_impl.py[ln:454] 127.0.0.1:65271 - "GET /shopping/restaurants?latitude=undefined&longitude=undefined&offset=0&limit=20&extras[]=activities&keyword=&restaurant_category_id=&restaurant_category_ids[]=&order_by=&delivery_mode[]= HTTP/1.1" 404
+2020-12-08 17:46:40,413 INFO h11_impl.py[ln:454] 127.0.0.1:65273 - "OPTIONS /v1/user/?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 200
+2020-12-08 17:46:40,474 INFO h11_impl.py[ln:454] 127.0.0.1:65264 - "GET /v1/user/?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 200

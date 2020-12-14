@@ -1,0 +1,628 @@
+2020-12-11 09:41:11,601 INFO main.py[ln:397] Started server process [18992]
+2020-12-11 09:41:11,603 INFO on.py[ln:22] Waiting for application startup.
+2020-12-11 09:41:11,604 INFO on.py[ln:34] Application startup complete.
+2020-12-11 09:48:55,537 INFO main.py[ln:397] Started server process [66356]
+2020-12-11 09:48:55,539 INFO on.py[ln:22] Waiting for application startup.
+2020-12-11 09:48:55,541 INFO on.py[ln:34] Application startup complete.
+2020-12-11 09:49:07,901 INFO main.py[ln:397] Started server process [15324]
+2020-12-11 09:49:07,903 INFO on.py[ln:22] Waiting for application startup.
+2020-12-11 09:49:07,912 INFO on.py[ln:34] Application startup complete.
+2020-12-11 09:49:24,421 INFO main.py[ln:397] Started server process [12108]
+2020-12-11 09:49:24,422 INFO on.py[ln:22] Waiting for application startup.
+2020-12-11 09:49:24,423 INFO on.py[ln:34] Application startup complete.
+2020-12-11 09:49:32,790 INFO main.py[ln:397] Started server process [15240]
+2020-12-11 09:49:32,792 INFO on.py[ln:22] Waiting for application startup.
+2020-12-11 09:49:32,793 INFO on.py[ln:34] Application startup complete.
+2020-12-11 09:50:31,469 INFO main.py[ln:397] Started server process [60316]
+2020-12-11 09:50:31,471 INFO on.py[ln:22] Waiting for application startup.
+2020-12-11 09:50:31,472 INFO on.py[ln:34] Application startup complete.
+2020-12-11 09:50:39,359 INFO main.py[ln:397] Started server process [13940]
+2020-12-11 09:50:39,360 INFO on.py[ln:22] Waiting for application startup.
+2020-12-11 09:50:39,361 INFO on.py[ln:34] Application startup complete.
+2020-12-11 09:50:56,541 INFO main.py[ln:397] Started server process [38896]
+2020-12-11 09:50:56,542 INFO on.py[ln:22] Waiting for application startup.
+2020-12-11 09:50:56,543 INFO on.py[ln:34] Application startup complete.
+2020-12-11 09:51:06,856 INFO main.py[ln:397] Started server process [58088]
+2020-12-11 09:51:06,857 INFO on.py[ln:22] Waiting for application startup.
+2020-12-11 09:51:06,858 INFO on.py[ln:34] Application startup complete.
+2020-12-11 09:52:30,098 INFO main.py[ln:397] Started server process [57180]
+2020-12-11 09:52:30,099 INFO on.py[ln:22] Waiting for application startup.
+2020-12-11 09:52:30,100 INFO on.py[ln:34] Application startup complete.
+2020-12-11 09:52:45,303 INFO main.py[ln:397] Started server process [10564]
+2020-12-11 09:52:45,304 INFO on.py[ln:22] Waiting for application startup.
+2020-12-11 09:52:45,305 INFO on.py[ln:34] Application startup complete.
+2020-12-11 09:55:06,478 INFO main.py[ln:397] Started server process [22480]
+2020-12-11 09:55:06,479 INFO on.py[ln:22] Waiting for application startup.
+2020-12-11 09:55:06,480 INFO on.py[ln:34] Application startup complete.
+2020-12-11 09:58:57,016 INFO main.py[ln:397] Started server process [46508]
+2020-12-11 09:58:57,022 INFO on.py[ln:22] Waiting for application startup.
+2020-12-11 09:58:57,025 INFO on.py[ln:34] Application startup complete.
+2020-12-11 10:01:43,023 INFO main.py[ln:397] Started server process [44204]
+2020-12-11 10:01:43,024 INFO on.py[ln:22] Waiting for application startup.
+2020-12-11 10:01:43,025 INFO on.py[ln:34] Application startup complete.
+2020-12-11 10:06:53,602 INFO main.py[ln:397] Started server process [57204]
+2020-12-11 10:06:53,603 INFO on.py[ln:22] Waiting for application startup.
+2020-12-11 10:06:53,604 INFO on.py[ln:34] Application startup complete.
+2020-12-11 10:07:37,552 INFO main.py[ln:397] Started server process [8664]
+2020-12-11 10:07:37,553 INFO on.py[ln:22] Waiting for application startup.
+2020-12-11 10:07:37,554 INFO on.py[ln:34] Application startup complete.
+2020-12-11 10:07:46,180 INFO main.py[ln:397] Started server process [47848]
+2020-12-11 10:07:46,181 INFO on.py[ln:22] Waiting for application startup.
+2020-12-11 10:07:46,182 INFO on.py[ln:34] Application startup complete.
+2020-12-11 10:08:52,519 INFO main.py[ln:397] Started server process [42448]
+2020-12-11 10:08:52,520 INFO on.py[ln:22] Waiting for application startup.
+2020-12-11 10:08:52,521 INFO on.py[ln:34] Application startup complete.
+2020-12-11 10:14:55,513 INFO main.py[ln:397] Started server process [15608]
+2020-12-11 10:14:55,515 INFO on.py[ln:22] Waiting for application startup.
+2020-12-11 10:14:55,516 INFO on.py[ln:34] Application startup complete.
+2020-12-11 10:15:21,834 INFO main.py[ln:397] Started server process [45620]
+2020-12-11 10:15:21,836 INFO on.py[ln:22] Waiting for application startup.
+2020-12-11 10:15:21,837 INFO on.py[ln:34] Application startup complete.
+2020-12-11 10:40:46,506 INFO h11_impl.py[ln:454] 127.0.0.1:53952 - "GET /shopping/restaurant/1?latitude=31.178139&longitude=121.422717&extras[]=activities&extras[]=album&extras[]=license&extras[]=identification&extras[]=statistics HTTP/1.1" 404
+2020-12-11 10:40:46,533 INFO h11_impl.py[ln:454] 127.0.0.1:53954 - "GET /shopping/v2/menu?restaurant_id=1 HTTP/1.1" 404
+2020-12-11 10:40:46,553 INFO h11_impl.py[ln:454] 127.0.0.1:53956 - "GET /ugc/v2/restaurants/1/ratings?has_content=true&offset=0&limit=10&tag_name= HTTP/1.1" 404
+2020-12-11 10:40:46,581 INFO h11_impl.py[ln:454] 127.0.0.1:53958 - "GET /ugc/v2/restaurants/1/ratings/scores HTTP/1.1" 404
+2020-12-11 10:40:46,593 INFO h11_impl.py[ln:454] 127.0.0.1:53960 - "GET /ugc/v2/restaurants/1/ratings/tags HTTP/1.1" 404
+2020-12-11 10:57:37,834 INFO main.py[ln:397] Started server process [39800]
+2020-12-11 10:57:37,836 INFO on.py[ln:22] Waiting for application startup.
+2020-12-11 10:57:37,837 INFO on.py[ln:34] Application startup complete.
+2020-12-11 10:58:15,815 INFO main.py[ln:397] Started server process [30780]
+2020-12-11 10:58:15,816 INFO on.py[ln:22] Waiting for application startup.
+2020-12-11 10:58:15,817 INFO on.py[ln:34] Application startup complete.
+2020-12-11 10:59:15,561 INFO main.py[ln:397] Started server process [5864]
+2020-12-11 10:59:15,562 INFO on.py[ln:22] Waiting for application startup.
+2020-12-11 10:59:15,563 INFO on.py[ln:34] Application startup complete.
+2020-12-11 10:59:48,973 INFO h11_impl.py[ln:454] 127.0.0.1:56171 - "GET /v2/pois/31.178139,121.422717 HTTP/1.1" 200
+2020-12-11 10:59:48,990 INFO h11_impl.py[ln:454] 127.0.0.1:56174 - "GET /shopping/restaurant/1?latitude=31.178139&longitude=121.422717&extras[]=activities&extras[]=album&extras[]=license&extras[]=identification&extras[]=statistics HTTP/1.1" 404
+2020-12-11 10:59:49,002 INFO h11_impl.py[ln:454] 127.0.0.1:56176 - "GET /shopping/v2/menu?restaurant_id=1 HTTP/1.1" 404
+2020-12-11 10:59:49,019 INFO h11_impl.py[ln:454] 127.0.0.1:56178 - "GET /ugc/v2/restaurants/1/ratings?has_content=true&offset=0&limit=10&tag_name= HTTP/1.1" 404
+2020-12-11 10:59:49,040 INFO h11_impl.py[ln:454] 127.0.0.1:56180 - "GET /ugc/v2/restaurants/1/ratings/scores HTTP/1.1" 404
+2020-12-11 10:59:49,061 INFO h11_impl.py[ln:454] 127.0.0.1:56182 - "GET /ugc/v2/restaurants/1/ratings/tags HTTP/1.1" 404
+2020-12-11 11:00:13,756 INFO main.py[ln:397] Started server process [36436]
+2020-12-11 11:00:13,757 INFO on.py[ln:22] Waiting for application startup.
+2020-12-11 11:00:13,758 INFO on.py[ln:34] Application startup complete.
+2020-12-11 11:00:17,804 INFO h11_impl.py[ln:454] 127.0.0.1:56247 - "GET /v2/pois/31.178139,121.422717 HTTP/1.1" 200
+2020-12-11 11:00:17,835 INFO h11_impl.py[ln:454] 127.0.0.1:56250 - "GET /shopping/restaurant/1?latitude=31.178139&longitude=121.422717&extras[]=activities&extras[]=album&extras[]=license&extras[]=identification&extras[]=statistics HTTP/1.1" 500
+2020-12-11 11:00:17,837 ERROR h11_impl.py[ln:388] Exception in ASGI application
+Traceback (most recent call last):
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 385, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\middleware\debug.py", line 81, in __call__
+    raise exc from None
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\middleware\debug.py", line 78, in __call__
+    await self.app(scope, receive, inner_send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\fastapi\applications.py", line 149, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\applications.py", line 102, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc from None
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\sessions.py", line 75, in __call__
+    await self.app(scope, receive, send_wrapper)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\cors.py", line 76, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\exceptions.py", line 82, in __call__
+    raise exc from None
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\routing.py", line 550, in __call__
+    await route.handle(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\routing.py", line 227, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\routing.py", line 41, in app
+    response = await func(request)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\fastapi\routing.py", line 213, in app
+    is_coroutine=is_coroutine,
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\fastapi\routing.py", line 137, in serialize_response
+    return jsonable_encoder(response_content)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\fastapi\encoders.py", line 113, in jsonable_encoder
+    sqlalchemy_safe=sqlalchemy_safe,
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\fastapi\encoders.py", line 158, in jsonable_encoder
+    raise ValueError(errors)
+ValueError: [TypeError("'ObjectId' object is not iterable"), TypeError('vars() argument must have __dict__ attribute')]
+2020-12-11 11:01:33,249 INFO main.py[ln:397] Started server process [49184]
+2020-12-11 11:01:33,251 INFO on.py[ln:22] Waiting for application startup.
+2020-12-11 11:01:33,252 INFO on.py[ln:34] Application startup complete.
+2020-12-11 11:01:37,949 INFO main.py[ln:397] Started server process [40144]
+2020-12-11 11:01:37,950 INFO on.py[ln:22] Waiting for application startup.
+2020-12-11 11:01:37,951 INFO on.py[ln:34] Application startup complete.
+2020-12-11 11:01:41,542 INFO h11_impl.py[ln:454] 127.0.0.1:56446 - "GET /v2/pois/31.178139,121.422717 HTTP/1.1" 200
+2020-12-11 11:01:41,572 INFO h11_impl.py[ln:454] 127.0.0.1:56448 - "GET /shopping/restaurant/1?latitude=31.178139&longitude=121.422717&extras[]=activities&extras[]=album&extras[]=license&extras[]=identification&extras[]=statistics HTTP/1.1" 500
+2020-12-11 11:01:41,574 ERROR h11_impl.py[ln:388] Exception in ASGI application
+Traceback (most recent call last):
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 385, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\middleware\debug.py", line 81, in __call__
+    raise exc from None
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\middleware\debug.py", line 78, in __call__
+    await self.app(scope, receive, inner_send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\fastapi\applications.py", line 149, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\applications.py", line 102, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc from None
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\sessions.py", line 75, in __call__
+    await self.app(scope, receive, send_wrapper)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\cors.py", line 76, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\exceptions.py", line 82, in __call__
+    raise exc from None
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\routing.py", line 550, in __call__
+    await route.handle(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\routing.py", line 227, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\routing.py", line 41, in app
+    response = await func(request)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\fastapi\routing.py", line 213, in app
+    is_coroutine=is_coroutine,
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\fastapi\routing.py", line 137, in serialize_response
+    return jsonable_encoder(response_content)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\fastapi\encoders.py", line 113, in jsonable_encoder
+    sqlalchemy_safe=sqlalchemy_safe,
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\fastapi\encoders.py", line 130, in jsonable_encoder
+    sqlalchemy_safe=sqlalchemy_safe,
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\fastapi\encoders.py", line 113, in jsonable_encoder
+    sqlalchemy_safe=sqlalchemy_safe,
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\fastapi\encoders.py", line 158, in jsonable_encoder
+    raise ValueError(errors)
+ValueError: [TypeError("'ObjectId' object is not iterable"), TypeError('vars() argument must have __dict__ attribute')]
+2020-12-11 11:03:33,043 INFO main.py[ln:397] Started server process [36824]
+2020-12-11 11:03:33,044 INFO on.py[ln:22] Waiting for application startup.
+2020-12-11 11:03:33,045 INFO on.py[ln:34] Application startup complete.
+2020-12-11 11:03:35,409 INFO h11_impl.py[ln:454] 127.0.0.1:56764 - "GET /v2/pois/31.178139,121.422717 HTTP/1.1" 200
+2020-12-11 11:03:35,444 INFO h11_impl.py[ln:454] 127.0.0.1:56766 - "GET /shopping/restaurant/1?latitude=31.178139&longitude=121.422717&extras[]=activities&extras[]=album&extras[]=license&extras[]=identification&extras[]=statistics HTTP/1.1" 500
+2020-12-11 11:03:35,445 ERROR h11_impl.py[ln:388] Exception in ASGI application
+Traceback (most recent call last):
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 385, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\middleware\debug.py", line 81, in __call__
+    raise exc from None
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\middleware\debug.py", line 78, in __call__
+    await self.app(scope, receive, inner_send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\fastapi\applications.py", line 149, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\applications.py", line 102, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc from None
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\sessions.py", line 75, in __call__
+    await self.app(scope, receive, send_wrapper)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\cors.py", line 76, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\exceptions.py", line 82, in __call__
+    raise exc from None
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\routing.py", line 550, in __call__
+    await route.handle(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\routing.py", line 227, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\routing.py", line 41, in app
+    response = await func(request)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\fastapi\routing.py", line 213, in app
+    is_coroutine=is_coroutine,
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\fastapi\routing.py", line 137, in serialize_response
+    return jsonable_encoder(response_content)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\fastapi\encoders.py", line 113, in jsonable_encoder
+    sqlalchemy_safe=sqlalchemy_safe,
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\fastapi\encoders.py", line 130, in jsonable_encoder
+    sqlalchemy_safe=sqlalchemy_safe,
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\fastapi\encoders.py", line 113, in jsonable_encoder
+    sqlalchemy_safe=sqlalchemy_safe,
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\fastapi\encoders.py", line 158, in jsonable_encoder
+    raise ValueError(errors)
+ValueError: [TypeError("'ObjectId' object is not iterable"), TypeError('vars() argument must have __dict__ attribute')]
+2020-12-11 11:04:11,669 INFO main.py[ln:397] Started server process [20360]
+2020-12-11 11:04:11,670 INFO on.py[ln:22] Waiting for application startup.
+2020-12-11 11:04:11,671 INFO on.py[ln:34] Application startup complete.
+2020-12-11 11:04:13,388 INFO h11_impl.py[ln:454] 127.0.0.1:56842 - "GET /v2/pois/31.178139,121.422717 HTTP/1.1" 200
+2020-12-11 11:04:13,420 INFO h11_impl.py[ln:454] 127.0.0.1:56845 - "GET /shopping/restaurant/1?latitude=31.178139&longitude=121.422717&extras[]=activities&extras[]=album&extras[]=license&extras[]=identification&extras[]=statistics HTTP/1.1" 200
+2020-12-11 11:04:13,432 INFO h11_impl.py[ln:454] 127.0.0.1:56849 - "GET /shopping/v2/menu?restaurant_id=1 HTTP/1.1" 404
+2020-12-11 11:04:13,441 INFO h11_impl.py[ln:454] 127.0.0.1:56851 - "GET /ugc/v2/restaurants/1/ratings?has_content=true&offset=0&limit=10&tag_name= HTTP/1.1" 404
+2020-12-11 11:04:13,454 INFO h11_impl.py[ln:454] 127.0.0.1:56853 - "GET /ugc/v2/restaurants/1/ratings/scores HTTP/1.1" 404
+2020-12-11 11:04:13,470 INFO h11_impl.py[ln:454] 127.0.0.1:56855 - "GET /ugc/v2/restaurants/1/ratings/tags HTTP/1.1" 404
+2020-12-11 11:05:57,153 INFO main.py[ln:397] Started server process [15396]
+2020-12-11 11:05:57,155 INFO on.py[ln:22] Waiting for application startup.
+2020-12-11 11:05:57,156 INFO on.py[ln:34] Application startup complete.
+2020-12-11 11:06:12,503 INFO main.py[ln:397] Started server process [10036]
+2020-12-11 11:06:12,505 INFO on.py[ln:22] Waiting for application startup.
+2020-12-11 11:06:12,507 INFO on.py[ln:34] Application startup complete.
+2020-12-11 11:06:34,159 INFO main.py[ln:397] Started server process [6376]
+2020-12-11 11:06:34,160 INFO on.py[ln:22] Waiting for application startup.
+2020-12-11 11:06:34,161 INFO on.py[ln:34] Application startup complete.
+2020-12-11 11:07:23,415 INFO main.py[ln:397] Started server process [33756]
+2020-12-11 11:07:23,418 INFO on.py[ln:22] Waiting for application startup.
+2020-12-11 11:07:23,419 INFO on.py[ln:34] Application startup complete.
+2020-12-11 11:07:30,872 INFO h11_impl.py[ln:454] 127.0.0.1:57332 - "GET /v2/pois/31.178139,121.422717 HTTP/1.1" 200
+2020-12-11 11:07:30,906 INFO h11_impl.py[ln:454] 127.0.0.1:57336 - "GET /shopping/restaurant/1?latitude=31.178139&longitude=121.422717&extras[]=activities&extras[]=album&extras[]=license&extras[]=identification&extras[]=statistics HTTP/1.1" 200
+2020-12-11 11:07:30,946 INFO h11_impl.py[ln:454] 127.0.0.1:57339 - "GET /shopping/v2/menu?restaurant_id=1 HTTP/1.1" 200
+2020-12-11 11:07:30,960 INFO h11_impl.py[ln:454] 127.0.0.1:57342 - "GET /ugc/v2/restaurants/1/ratings?has_content=true&offset=0&limit=10&tag_name= HTTP/1.1" 404
+2020-12-11 11:07:30,973 INFO h11_impl.py[ln:454] 127.0.0.1:57344 - "GET /ugc/v2/restaurants/1/ratings/scores HTTP/1.1" 404
+2020-12-11 11:07:30,990 INFO h11_impl.py[ln:454] 127.0.0.1:57346 - "GET /ugc/v2/restaurants/1/ratings/tags HTTP/1.1" 404
+2020-12-11 11:17:35,494 INFO main.py[ln:397] Started server process [23344]
+2020-12-11 11:17:35,495 INFO on.py[ln:22] Waiting for application startup.
+2020-12-11 11:17:35,497 INFO on.py[ln:34] Application startup complete.
+2020-12-11 11:17:41,688 INFO h11_impl.py[ln:454] 127.0.0.1:58609 - "GET /v2/pois/31.178139,121.422717 HTTP/1.1" 200
+2020-12-11 11:17:41,719 INFO h11_impl.py[ln:454] 127.0.0.1:58612 - "GET /shopping/restaurant/1?latitude=31.178139&longitude=121.422717&extras[]=activities&extras[]=album&extras[]=license&extras[]=identification&extras[]=statistics HTTP/1.1" 200
+2020-12-11 11:17:41,745 INFO h11_impl.py[ln:454] 127.0.0.1:58616 - "GET /shopping/v2/menu?restaurant_id=1 HTTP/1.1" 200
+2020-12-11 11:17:41,757 INFO h11_impl.py[ln:454] 127.0.0.1:58620 - "GET /ugc/v2/restaurants/1/ratings?has_content=true&offset=0&limit=10&tag_name= HTTP/1.1" 404
+2020-12-11 11:17:41,772 INFO h11_impl.py[ln:454] 127.0.0.1:58622 - "GET /ugc/v2/restaurants/1/ratings/scores HTTP/1.1" 404
+2020-12-11 11:17:41,800 INFO h11_impl.py[ln:454] 127.0.0.1:58624 - "GET /ugc/v2/restaurants/1/ratings/tags HTTP/1.1" 404
+2020-12-11 11:22:08,013 INFO main.py[ln:397] Started server process [35864]
+2020-12-11 11:22:08,014 INFO on.py[ln:22] Waiting for application startup.
+2020-12-11 11:22:08,015 INFO on.py[ln:34] Application startup complete.
+2020-12-11 11:22:28,420 INFO main.py[ln:397] Started server process [9444]
+2020-12-11 11:22:28,422 INFO on.py[ln:22] Waiting for application startup.
+2020-12-11 11:22:28,424 INFO on.py[ln:34] Application startup complete.
+2020-12-11 11:22:38,216 INFO main.py[ln:397] Started server process [21580]
+2020-12-11 11:22:38,217 INFO on.py[ln:22] Waiting for application startup.
+2020-12-11 11:22:38,218 INFO on.py[ln:34] Application startup complete.
+2020-12-11 11:23:18,734 INFO main.py[ln:397] Started server process [41948]
+2020-12-11 11:23:18,736 INFO on.py[ln:22] Waiting for application startup.
+2020-12-11 11:23:18,737 INFO on.py[ln:34] Application startup complete.
+2020-12-11 11:23:23,808 INFO main.py[ln:397] Started server process [26120]
+2020-12-11 11:23:23,809 INFO on.py[ln:22] Waiting for application startup.
+2020-12-11 11:23:23,810 INFO on.py[ln:34] Application startup complete.
+2020-12-11 11:25:27,725 INFO main.py[ln:397] Started server process [31348]
+2020-12-11 11:25:27,727 INFO on.py[ln:22] Waiting for application startup.
+2020-12-11 11:25:27,728 INFO on.py[ln:34] Application startup complete.
+2020-12-11 11:25:36,826 INFO main.py[ln:397] Started server process [61568]
+2020-12-11 11:25:36,828 INFO on.py[ln:22] Waiting for application startup.
+2020-12-11 11:25:36,828 INFO on.py[ln:34] Application startup complete.
+2020-12-11 11:25:59,793 INFO main.py[ln:397] Started server process [35064]
+2020-12-11 11:25:59,794 INFO on.py[ln:22] Waiting for application startup.
+2020-12-11 11:25:59,795 INFO on.py[ln:34] Application startup complete.
+2020-12-11 11:32:38,069 INFO main.py[ln:397] Started server process [30240]
+2020-12-11 11:32:38,072 INFO on.py[ln:22] Waiting for application startup.
+2020-12-11 11:32:38,073 INFO on.py[ln:34] Application startup complete.
+2020-12-11 11:32:43,743 INFO h11_impl.py[ln:454] 127.0.0.1:60369 - "GET /v2/pois/31.178139,121.422717 HTTP/1.1" 200
+2020-12-11 11:32:43,800 INFO h11_impl.py[ln:454] 127.0.0.1:60372 - "GET /shopping/restaurant/1?latitude=31.178139&longitude=121.422717&extras[]=activities&extras[]=album&extras[]=license&extras[]=identification&extras[]=statistics HTTP/1.1" 200
+2020-12-11 11:32:43,831 INFO h11_impl.py[ln:454] 127.0.0.1:60378 - "GET /shopping/v2/menu?restaurant_id=1 HTTP/1.1" 200
+2020-12-11 11:32:43,859 INFO h11_impl.py[ln:454] 127.0.0.1:60382 - "GET /ugc/v2/restaurants/1/ratings?has_content=true&offset=0&limit=10&tag_name= HTTP/1.1" 200
+2020-12-11 11:32:43,882 INFO h11_impl.py[ln:454] 127.0.0.1:60386 - "GET /ugc/v2/restaurants/1/ratings/scores HTTP/1.1" 404
+2020-12-11 11:32:43,896 INFO h11_impl.py[ln:454] 127.0.0.1:60388 - "GET /ugc/v2/restaurants/1/ratings/tags HTTP/1.1" 404
+2020-12-11 11:34:14,810 INFO main.py[ln:397] Started server process [15684]
+2020-12-11 11:34:14,812 INFO on.py[ln:22] Waiting for application startup.
+2020-12-11 11:34:14,814 INFO on.py[ln:34] Application startup complete.
+2020-12-11 11:34:45,446 INFO main.py[ln:397] Started server process [59736]
+2020-12-11 11:34:45,447 INFO on.py[ln:22] Waiting for application startup.
+2020-12-11 11:34:45,448 INFO on.py[ln:34] Application startup complete.
+2020-12-11 11:34:53,382 INFO h11_impl.py[ln:454] 127.0.0.1:60650 - "GET /v2/pois/31.178139,121.422717 HTTP/1.1" 200
+2020-12-11 11:34:53,413 INFO h11_impl.py[ln:454] 127.0.0.1:60653 - "GET /shopping/restaurant/1?latitude=31.178139&longitude=121.422717&extras[]=activities&extras[]=album&extras[]=license&extras[]=identification&extras[]=statistics HTTP/1.1" 200
+2020-12-11 11:34:53,447 INFO h11_impl.py[ln:454] 127.0.0.1:60657 - "GET /shopping/v2/menu?restaurant_id=1 HTTP/1.1" 200
+2020-12-11 11:34:53,479 INFO h11_impl.py[ln:454] 127.0.0.1:60661 - "GET /ugc/v2/restaurants/1/ratings?has_content=true&offset=0&limit=10&tag_name= HTTP/1.1" 200
+2020-12-11 11:34:53,497 INFO h11_impl.py[ln:454] 127.0.0.1:60667 - "GET /ugc/v2/restaurants/1/ratings/scores HTTP/1.1" 404
+2020-12-11 11:34:53,515 INFO h11_impl.py[ln:454] 127.0.0.1:60669 - "GET /ugc/v2/restaurants/1/ratings/tags HTTP/1.1" 404
+2020-12-11 13:14:59,767 INFO main.py[ln:397] Started server process [46756]
+2020-12-11 13:14:59,768 INFO on.py[ln:22] Waiting for application startup.
+2020-12-11 13:14:59,769 INFO on.py[ln:34] Application startup complete.
+2020-12-11 13:24:32,609 INFO main.py[ln:397] Started server process [51796]
+2020-12-11 13:24:32,611 INFO on.py[ln:22] Waiting for application startup.
+2020-12-11 13:24:32,612 INFO on.py[ln:34] Application startup complete.
+2020-12-11 13:25:27,152 INFO main.py[ln:397] Started server process [34708]
+2020-12-11 13:25:27,153 INFO on.py[ln:22] Waiting for application startup.
+2020-12-11 13:25:27,156 INFO on.py[ln:34] Application startup complete.
+2020-12-11 13:25:43,040 INFO main.py[ln:397] Started server process [66172]
+2020-12-11 13:25:43,041 INFO on.py[ln:22] Waiting for application startup.
+2020-12-11 13:25:43,042 INFO on.py[ln:34] Application startup complete.
+2020-12-11 13:30:28,028 INFO main.py[ln:397] Started server process [64672]
+2020-12-11 13:30:28,030 INFO on.py[ln:22] Waiting for application startup.
+2020-12-11 13:30:28,031 INFO on.py[ln:34] Application startup complete.
+2020-12-11 13:30:47,911 INFO main.py[ln:397] Started server process [13248]
+2020-12-11 13:30:47,913 INFO on.py[ln:22] Waiting for application startup.
+2020-12-11 13:30:47,914 INFO on.py[ln:34] Application startup complete.
+2020-12-11 13:30:53,439 INFO h11_impl.py[ln:454] 127.0.0.1:58077 - "GET /v2/pois/31.178139,121.422717 HTTP/1.1" 200
+2020-12-11 13:30:53,487 INFO h11_impl.py[ln:454] 127.0.0.1:58080 - "GET /shopping/restaurant/1?latitude=31.178139&longitude=121.422717&extras[]=activities&extras[]=album&extras[]=license&extras[]=identification&extras[]=statistics HTTP/1.1" 200
+2020-12-11 13:30:53,512 INFO h11_impl.py[ln:454] 127.0.0.1:58084 - "GET /shopping/v2/menu?restaurant_id=1 HTTP/1.1" 200
+2020-12-11 13:30:53,540 INFO h11_impl.py[ln:454] 127.0.0.1:58088 - "GET /ugc/v2/restaurants/1/ratings?has_content=true&offset=0&limit=10&tag_name= HTTP/1.1" 200
+2020-12-11 13:30:53,585 INFO h11_impl.py[ln:454] 127.0.0.1:58092 - "GET /ugc/v2/restaurants/1/ratings/scores HTTP/1.1" 200
+2020-12-11 13:30:53,626 INFO h11_impl.py[ln:454] 127.0.0.1:58096 - "GET /ugc/v2/restaurants/1/ratings/tags HTTP/1.1" 200
+2020-12-11 13:31:24,902 INFO main.py[ln:397] Started server process [50824]
+2020-12-11 13:31:24,903 INFO on.py[ln:22] Waiting for application startup.
+2020-12-11 13:31:24,904 INFO on.py[ln:34] Application startup complete.
+2020-12-11 13:31:27,884 INFO h11_impl.py[ln:454] 127.0.0.1:58161 - "GET /v2/pois/31.178139,121.422717 HTTP/1.1" 200
+2020-12-11 13:31:27,928 INFO h11_impl.py[ln:454] 127.0.0.1:58164 - "GET /shopping/restaurant/1?latitude=31.178139&longitude=121.422717&extras[]=activities&extras[]=album&extras[]=license&extras[]=identification&extras[]=statistics HTTP/1.1" 200
+2020-12-11 13:31:27,960 INFO h11_impl.py[ln:454] 127.0.0.1:58170 - "GET /shopping/v2/menu?restaurant_id=1 HTTP/1.1" 200
+2020-12-11 13:31:27,985 INFO h11_impl.py[ln:454] 127.0.0.1:58174 - "GET /ugc/v2/restaurants/1/ratings?has_content=true&offset=0&limit=10&tag_name= HTTP/1.1" 200
+2020-12-11 13:31:28,020 INFO h11_impl.py[ln:454] 127.0.0.1:58178 - "GET /ugc/v2/restaurants/1/ratings/scores HTTP/1.1" 200
+2020-12-11 13:31:28,068 INFO h11_impl.py[ln:454] 127.0.0.1:58182 - "GET /ugc/v2/restaurants/1/ratings/tags HTTP/1.1" 200
+2020-12-11 13:43:50,100 INFO main.py[ln:397] Started server process [64660]
+2020-12-11 13:43:50,101 INFO on.py[ln:22] Waiting for application startup.
+2020-12-11 13:43:50,102 INFO on.py[ln:34] Application startup complete.
+2020-12-11 13:49:46,281 INFO main.py[ln:397] Started server process [56308]
+2020-12-11 13:49:46,282 INFO on.py[ln:22] Waiting for application startup.
+2020-12-11 13:49:46,285 INFO on.py[ln:34] Application startup complete.
+2020-12-11 13:49:53,632 INFO main.py[ln:397] Started server process [34128]
+2020-12-11 13:49:53,634 INFO on.py[ln:22] Waiting for application startup.
+2020-12-11 13:49:53,635 INFO on.py[ln:34] Application startup complete.
+2020-12-11 13:50:43,815 INFO main.py[ln:397] Started server process [5500]
+2020-12-11 13:50:43,817 INFO on.py[ln:22] Waiting for application startup.
+2020-12-11 13:50:43,818 INFO on.py[ln:34] Application startup complete.
+2020-12-11 13:57:15,669 INFO main.py[ln:397] Started server process [25828]
+2020-12-11 13:57:15,670 INFO on.py[ln:22] Waiting for application startup.
+2020-12-11 13:57:15,671 INFO on.py[ln:34] Application startup complete.
+2020-12-11 14:06:21,797 INFO main.py[ln:397] Started server process [27724]
+2020-12-11 14:06:21,798 INFO on.py[ln:22] Waiting for application startup.
+2020-12-11 14:06:21,800 INFO on.py[ln:34] Application startup complete.
+2020-12-11 14:08:12,872 INFO main.py[ln:397] Started server process [34356]
+2020-12-11 14:08:12,873 INFO on.py[ln:22] Waiting for application startup.
+2020-12-11 14:08:12,875 INFO on.py[ln:34] Application startup complete.
+2020-12-11 14:08:17,563 INFO main.py[ln:397] Started server process [7176]
+2020-12-11 14:08:17,565 INFO on.py[ln:22] Waiting for application startup.
+2020-12-11 14:08:17,566 INFO on.py[ln:34] Application startup complete.
+2020-12-11 14:12:08,402 INFO main.py[ln:397] Started server process [3792]
+2020-12-11 14:12:08,404 INFO on.py[ln:22] Waiting for application startup.
+2020-12-11 14:12:08,405 INFO on.py[ln:34] Application startup complete.
+2020-12-11 15:24:56,844 INFO main.py[ln:397] Started server process [4572]
+2020-12-11 15:24:56,846 INFO on.py[ln:22] Waiting for application startup.
+2020-12-11 15:24:56,847 INFO on.py[ln:34] Application startup complete.
+2020-12-11 15:25:08,631 INFO h11_impl.py[ln:454] 127.0.0.1:54817 - "GET /v2/pois/31.178139,121.422717 HTTP/1.1" 200
+2020-12-11 15:25:08,673 INFO h11_impl.py[ln:454] 127.0.0.1:54823 - "GET /shopping/restaurant/1?latitude=31.178139&longitude=121.422717&extras[]=activities&extras[]=album&extras[]=license&extras[]=identification&extras[]=statistics HTTP/1.1" 200
+2020-12-11 15:25:08,715 INFO h11_impl.py[ln:454] 127.0.0.1:54827 - "GET /shopping/v2/menu?restaurant_id=1 HTTP/1.1" 200
+2020-12-11 15:25:08,752 INFO h11_impl.py[ln:454] 127.0.0.1:54831 - "GET /ugc/v2/restaurants/1/ratings?has_content=true&offset=0&limit=10&tag_name= HTTP/1.1" 200
+2020-12-11 15:25:08,806 INFO h11_impl.py[ln:454] 127.0.0.1:54835 - "GET /ugc/v2/restaurants/1/ratings/scores HTTP/1.1" 200
+2020-12-11 15:25:08,858 INFO h11_impl.py[ln:454] 127.0.0.1:54839 - "GET /ugc/v2/restaurants/1/ratings/tags HTTP/1.1" 200
+2020-12-11 15:30:35,533 INFO h11_impl.py[ln:454] 127.0.0.1:55537 - "GET /shopping/restaurant/1?latitude=31.178139&longitude=121.422717&extras[]=activities&extras[]=album&extras[]=license&extras[]=identification&extras[]=statistics HTTP/1.1" 200
+2020-12-11 15:30:35,582 INFO h11_impl.py[ln:454] 127.0.0.1:55541 - "GET /shopping/v2/menu?restaurant_id=1 HTTP/1.1" 200
+2020-12-11 15:30:35,662 INFO h11_impl.py[ln:454] 127.0.0.1:55545 - "GET /ugc/v2/restaurants/1/ratings?has_content=true&offset=0&limit=10&tag_name= HTTP/1.1" 200
+2020-12-11 15:30:35,737 INFO h11_impl.py[ln:454] 127.0.0.1:55549 - "GET /ugc/v2/restaurants/1/ratings/scores HTTP/1.1" 200
+2020-12-11 15:30:35,914 INFO h11_impl.py[ln:454] 127.0.0.1:55553 - "GET /ugc/v2/restaurants/1/ratings/tags HTTP/1.1" 200
+2020-12-11 15:30:39,622 INFO h11_impl.py[ln:454] 127.0.0.1:55562 - "GET /v2/pois/31.178139,121.422717 HTTP/1.1" 200
+2020-12-11 15:30:39,935 INFO h11_impl.py[ln:454] 127.0.0.1:55565 - "GET /shopping/restaurant/1?latitude=31.178139&longitude=121.422717&extras[]=activities&extras[]=album&extras[]=license&extras[]=identification&extras[]=statistics HTTP/1.1" 200
+2020-12-11 15:30:40,031 INFO h11_impl.py[ln:454] 127.0.0.1:55569 - "GET /shopping/v2/menu?restaurant_id=1 HTTP/1.1" 200
+2020-12-11 15:30:40,092 INFO h11_impl.py[ln:454] 127.0.0.1:55573 - "GET /ugc/v2/restaurants/1/ratings?has_content=true&offset=0&limit=10&tag_name= HTTP/1.1" 200
+2020-12-11 15:30:40,256 INFO h11_impl.py[ln:454] 127.0.0.1:55577 - "GET /ugc/v2/restaurants/1/ratings/scores HTTP/1.1" 200
+2020-12-11 15:30:40,430 INFO h11_impl.py[ln:454] 127.0.0.1:55581 - "GET /ugc/v2/restaurants/1/ratings/tags HTTP/1.1" 200
+2020-12-11 15:32:06,285 INFO h11_impl.py[ln:454] 127.0.0.1:55754 - "GET /v2/pois/31.178139,121.422717 HTTP/1.1" 200
+2020-12-11 15:32:06,328 INFO h11_impl.py[ln:454] 127.0.0.1:55757 - "GET /shopping/restaurant/1?latitude=31.178139&longitude=121.422717&extras[]=activities&extras[]=album&extras[]=license&extras[]=identification&extras[]=statistics HTTP/1.1" 200
+2020-12-11 15:32:06,360 INFO h11_impl.py[ln:454] 127.0.0.1:55761 - "GET /shopping/v2/menu?restaurant_id=1 HTTP/1.1" 200
+2020-12-11 15:32:06,393 INFO h11_impl.py[ln:454] 127.0.0.1:55765 - "GET /ugc/v2/restaurants/1/ratings?has_content=true&offset=0&limit=10&tag_name= HTTP/1.1" 200
+2020-12-11 15:32:06,424 INFO h11_impl.py[ln:454] 127.0.0.1:55769 - "GET /ugc/v2/restaurants/1/ratings/scores HTTP/1.1" 200
+2020-12-11 15:32:06,463 INFO h11_impl.py[ln:454] 127.0.0.1:55773 - "GET /ugc/v2/restaurants/1/ratings/tags HTTP/1.1" 200
+2020-12-11 15:32:43,682 INFO h11_impl.py[ln:454] 127.0.0.1:55866 - "GET /v2/pois/31.178139,121.422717 HTTP/1.1" 200
+2020-12-11 15:32:43,708 INFO h11_impl.py[ln:454] 127.0.0.1:55869 - "GET /shopping/restaurant/1?latitude=31.178139&longitude=121.422717&extras[]=activities&extras[]=album&extras[]=license&extras[]=identification&extras[]=statistics HTTP/1.1" 200
+2020-12-11 15:32:43,729 INFO h11_impl.py[ln:454] 127.0.0.1:55873 - "GET /shopping/v2/menu?restaurant_id=1 HTTP/1.1" 200
+2020-12-11 15:32:43,754 INFO h11_impl.py[ln:454] 127.0.0.1:55877 - "GET /ugc/v2/restaurants/1/ratings?has_content=true&offset=0&limit=10&tag_name= HTTP/1.1" 200
+2020-12-11 15:32:43,777 INFO h11_impl.py[ln:454] 127.0.0.1:55881 - "GET /ugc/v2/restaurants/1/ratings/scores HTTP/1.1" 200
+2020-12-11 15:32:43,810 INFO h11_impl.py[ln:454] 127.0.0.1:55885 - "GET /ugc/v2/restaurants/1/ratings/tags HTTP/1.1" 200
+2020-12-11 15:32:44,243 INFO h11_impl.py[ln:454] 127.0.0.1:55891 - "GET /img/175d411f2f32.jpg HTTP/1.1" 200
+2020-12-11 15:52:22,511 INFO h11_impl.py[ln:454] 127.0.0.1:58275 - "GET /v2/pois/31.178139,121.422717 HTTP/1.1" 200
+2020-12-11 15:52:22,582 INFO h11_impl.py[ln:454] 127.0.0.1:58279 - "GET /shopping/restaurant/1?latitude=31.178139&longitude=121.422717&extras[]=activities&extras[]=album&extras[]=license&extras[]=identification&extras[]=statistics HTTP/1.1" 200
+2020-12-11 15:52:22,621 INFO h11_impl.py[ln:454] 127.0.0.1:58283 - "GET /shopping/v2/menu?restaurant_id=1 HTTP/1.1" 200
+2020-12-11 15:52:22,653 INFO h11_impl.py[ln:454] 127.0.0.1:58287 - "GET /ugc/v2/restaurants/1/ratings?has_content=true&offset=0&limit=10&tag_name= HTTP/1.1" 200
+2020-12-11 15:52:22,700 INFO h11_impl.py[ln:454] 127.0.0.1:58291 - "GET /ugc/v2/restaurants/1/ratings/scores HTTP/1.1" 200
+2020-12-11 15:52:22,796 INFO h11_impl.py[ln:454] 127.0.0.1:58295 - "GET /ugc/v2/restaurants/1/ratings/tags HTTP/1.1" 200
+2020-12-11 15:52:56,034 INFO h11_impl.py[ln:454] 127.0.0.1:58355 - "GET /v2/pois/31.178139,121.422717 HTTP/1.1" 200
+2020-12-11 15:52:56,085 INFO h11_impl.py[ln:454] 127.0.0.1:58358 - "GET /shopping/restaurant/1?latitude=31.178139&longitude=121.422717&extras[]=activities&extras[]=album&extras[]=license&extras[]=identification&extras[]=statistics HTTP/1.1" 200
+2020-12-11 15:52:56,115 INFO h11_impl.py[ln:454] 127.0.0.1:58362 - "GET /shopping/v2/menu?restaurant_id=1 HTTP/1.1" 200
+2020-12-11 15:52:56,145 INFO h11_impl.py[ln:454] 127.0.0.1:58366 - "GET /ugc/v2/restaurants/1/ratings?has_content=true&offset=0&limit=10&tag_name= HTTP/1.1" 200
+2020-12-11 15:52:56,177 INFO h11_impl.py[ln:454] 127.0.0.1:58370 - "GET /ugc/v2/restaurants/1/ratings/scores HTTP/1.1" 200
+2020-12-11 15:52:56,207 INFO h11_impl.py[ln:454] 127.0.0.1:58374 - "GET /ugc/v2/restaurants/1/ratings/tags HTTP/1.1" 200
+2020-12-11 15:53:17,548 INFO h11_impl.py[ln:454] 127.0.0.1:58423 - "GET /v2/pois/31.178139,121.422717 HTTP/1.1" 200
+2020-12-11 15:53:17,633 INFO h11_impl.py[ln:454] 127.0.0.1:58425 - "GET /shopping/restaurant/1?latitude=31.178139&longitude=121.422717&extras[]=activities&extras[]=album&extras[]=license&extras[]=identification&extras[]=statistics HTTP/1.1" 200
+2020-12-11 15:53:17,665 INFO h11_impl.py[ln:454] 127.0.0.1:58428 - "GET /shopping/v2/menu?restaurant_id=1 HTTP/1.1" 200
+2020-12-11 15:53:17,700 INFO h11_impl.py[ln:454] 127.0.0.1:58431 - "GET /ugc/v2/restaurants/1/ratings?has_content=true&offset=0&limit=10&tag_name= HTTP/1.1" 200
+2020-12-11 15:53:17,733 INFO h11_impl.py[ln:454] 127.0.0.1:58435 - "GET /ugc/v2/restaurants/1/ratings/scores HTTP/1.1" 200
+2020-12-11 15:53:17,767 INFO h11_impl.py[ln:454] 127.0.0.1:58439 - "GET /ugc/v2/restaurants/1/ratings/tags HTTP/1.1" 200
+2020-12-11 15:55:07,407 INFO h11_impl.py[ln:454] 127.0.0.1:58644 - "GET /v1/user?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 307
+2020-12-11 15:55:07,733 INFO h11_impl.py[ln:454] 127.0.0.1:58647 - "OPTIONS /v1/user/?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 200
+2020-12-11 15:55:08,167 INFO h11_impl.py[ln:454] 127.0.0.1:58651 - "GET /v1/user/?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 200
+2020-12-11 16:09:00,131 INFO h11_impl.py[ln:454] 127.0.0.1:60396 - "GET /v1/user?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 307
+2020-12-11 16:09:00,465 INFO h11_impl.py[ln:454] 127.0.0.1:60399 - "OPTIONS /v1/user/?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 200
+2020-12-11 16:09:00,831 INFO h11_impl.py[ln:454] 127.0.0.1:60405 - "GET /v1/user/?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 200
+2020-12-11 16:11:25,866 INFO h11_impl.py[ln:454] 127.0.0.1:60700 - "GET /v2/pois/31.178139,121.422717 HTTP/1.1" 200
+2020-12-11 16:11:25,941 INFO h11_impl.py[ln:454] 127.0.0.1:60702 - "GET /shopping/restaurant/1?latitude=31.178139&longitude=121.422717&extras[]=activities&extras[]=album&extras[]=license&extras[]=identification&extras[]=statistics HTTP/1.1" 200
+2020-12-11 16:11:25,973 INFO h11_impl.py[ln:454] 127.0.0.1:60705 - "GET /shopping/v2/menu?restaurant_id=1 HTTP/1.1" 200
+2020-12-11 16:11:26,003 INFO h11_impl.py[ln:454] 127.0.0.1:60708 - "GET /ugc/v2/restaurants/1/ratings?has_content=true&offset=0&limit=10&tag_name= HTTP/1.1" 200
+2020-12-11 16:11:26,032 INFO h11_impl.py[ln:454] 127.0.0.1:60712 - "GET /ugc/v2/restaurants/1/ratings/scores HTTP/1.1" 200
+2020-12-11 16:11:26,097 INFO h11_impl.py[ln:454] 127.0.0.1:60716 - "GET /ugc/v2/restaurants/1/ratings/tags HTTP/1.1" 200
+2020-12-11 16:13:07,040 INFO h11_impl.py[ln:454] 127.0.0.1:60898 - "GET /ugc/v2/restaurants/1/ratings?has_content=true&offset=10&limit=10&tag_name= HTTP/1.1" 200
+2020-12-11 16:13:16,388 INFO h11_impl.py[ln:454] 127.0.0.1:60923 - "GET /v2/pois/undefined HTTP/1.1" 500
+2020-12-11 16:13:16,390 ERROR h11_impl.py[ln:388] Exception in ASGI application
+Traceback (most recent call last):
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 385, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\middleware\debug.py", line 81, in __call__
+    raise exc from None
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\uvicorn\middleware\debug.py", line 78, in __call__
+    await self.app(scope, receive, inner_send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\fastapi\applications.py", line 149, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\applications.py", line 102, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc from None
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\sessions.py", line 75, in __call__
+    await self.app(scope, receive, send_wrapper)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\middleware\cors.py", line 76, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\exceptions.py", line 82, in __call__
+    raise exc from None
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\routing.py", line 550, in __call__
+    await route.handle(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\routing.py", line 227, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\routing.py", line 41, in app
+    response = await func(request)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\fastapi\routing.py", line 197, in app
+    dependant=dependant, values=values, is_coroutine=is_coroutine
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\fastapi\routing.py", line 150, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "C:\Users\yubin.yang\Envs\fast_api\lib\site-packages\starlette\concurrency.py", line 34, in run_in_threadpool
+    return await loop.run_in_executor(None, func, *args)
+  File "C:\Users\yubin.yang\AppData\Local\Continuum\Anaconda3\envs\python37\Lib\concurrent\futures\thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\yubin.yang\PycharmProjects\ele_backend\apis\v1\pois2\views.py", line 18, in search_user_place_v2
+    lat_1, lng_1 = position_list[0], position_list[1]
+IndexError: list index out of range
+2020-12-11 16:13:26,504 INFO h11_impl.py[ln:454] 127.0.0.1:60945 - "GET /v1/user?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 307
+2020-12-11 16:13:26,527 INFO h11_impl.py[ln:454] 127.0.0.1:60946 - "GET /v2/index_entry?geohash=31.178139,121.422717&group_type=1&flags[]=F HTTP/1.1" 307
+2020-12-11 16:13:26,531 INFO h11_impl.py[ln:454] 127.0.0.1:60943 - "GET /v2/pois/31.178139,121.422717 HTTP/1.1" 200
+2020-12-11 16:13:26,657 INFO h11_impl.py[ln:454] 127.0.0.1:60949 - "GET /shopping/restaurants?latitude=31.178139&longitude=121.422717&offset=0&limit=20&extras[]=activities&keyword=&restaurant_category_id=&restaurant_category_ids[]=&order_by=&delivery_mode[]= HTTP/1.1" 200
+2020-12-11 16:13:26,697 INFO h11_impl.py[ln:454] 127.0.0.1:60952 - "GET /img/1764b42f3ea4.jpg HTTP/1.1" 304
+2020-12-11 16:13:26,876 INFO h11_impl.py[ln:454] 127.0.0.1:60956 - "OPTIONS /v2/index_entry/?geohash=31.178139,121.422717&group_type=1&flags[]=F HTTP/1.1" 200
+2020-12-11 16:13:26,890 INFO h11_impl.py[ln:454] 127.0.0.1:60955 - "GET /v1/user/?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 200
+2020-12-11 16:13:26,928 INFO h11_impl.py[ln:454] 127.0.0.1:60955 - "GET /v2/index_entry/?geohash=31.178139,121.422717&group_type=1&flags[]=F HTTP/1.1" 200
+2020-12-11 16:13:28,709 INFO h11_impl.py[ln:454] 127.0.0.1:60966 - "GET /shopping/restaurant/2?latitude=31.178139&longitude=121.422717&extras[]=activities&extras[]=album&extras[]=license&extras[]=identification&extras[]=statistics HTTP/1.1" 200
+2020-12-11 16:13:28,753 INFO h11_impl.py[ln:454] 127.0.0.1:60970 - "GET /shopping/v2/menu?restaurant_id=2 HTTP/1.1" 200
+2020-12-11 16:13:28,784 INFO h11_impl.py[ln:454] 127.0.0.1:60974 - "GET /ugc/v2/restaurants/2/ratings?has_content=true&offset=0&limit=10&tag_name= HTTP/1.1" 200
+2020-12-11 16:13:28,810 INFO h11_impl.py[ln:454] 127.0.0.1:60978 - "GET /ugc/v2/restaurants/2/ratings/scores HTTP/1.1" 200
+2020-12-11 16:13:28,836 INFO h11_impl.py[ln:454] 127.0.0.1:60982 - "GET /ugc/v2/restaurants/2/ratings/tags HTTP/1.1" 200
+2020-12-11 16:13:28,881 INFO h11_impl.py[ln:454] 127.0.0.1:60986 - "GET /img/1764b449fb86.jpg HTTP/1.1" 200
+2020-12-11 16:13:40,389 INFO h11_impl.py[ln:454] 127.0.0.1:61013 - "GET /v1/user?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 307
+2020-12-11 16:13:40,718 INFO h11_impl.py[ln:454] 127.0.0.1:61016 - "GET /v1/user/?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 200
+2020-12-11 16:15:50,341 INFO h11_impl.py[ln:454] 127.0.0.1:61255 - "GET /v2/pois/31.178139,121.422717 HTTP/1.1" 200
+2020-12-11 16:15:50,426 INFO h11_impl.py[ln:454] 127.0.0.1:61258 - "GET /shopping/restaurant/2?latitude=31.178139&longitude=121.422717&extras[]=activities&extras[]=album&extras[]=license&extras[]=identification&extras[]=statistics HTTP/1.1" 200
+2020-12-11 16:15:50,460 INFO h11_impl.py[ln:454] 127.0.0.1:61262 - "GET /shopping/v2/menu?restaurant_id=2 HTTP/1.1" 200
+2020-12-11 16:15:50,490 INFO h11_impl.py[ln:454] 127.0.0.1:61266 - "GET /ugc/v2/restaurants/2/ratings?has_content=true&offset=0&limit=10&tag_name= HTTP/1.1" 200
+2020-12-11 16:15:50,518 INFO h11_impl.py[ln:454] 127.0.0.1:61270 - "GET /ugc/v2/restaurants/2/ratings/scores HTTP/1.1" 200
+2020-12-11 16:15:50,547 INFO h11_impl.py[ln:454] 127.0.0.1:61275 - "GET /ugc/v2/restaurants/2/ratings/tags HTTP/1.1" 200
+2020-12-11 16:16:39,814 INFO h11_impl.py[ln:454] 127.0.0.1:61376 - "GET /v2/pois/31.178139,121.422717 HTTP/1.1" 200
+2020-12-11 16:16:39,879 INFO h11_impl.py[ln:454] 127.0.0.1:61379 - "GET /shopping/restaurant/2?latitude=31.178139&longitude=121.422717&extras[]=activities&extras[]=album&extras[]=license&extras[]=identification&extras[]=statistics HTTP/1.1" 200
+2020-12-11 16:16:39,923 INFO h11_impl.py[ln:454] 127.0.0.1:61383 - "GET /shopping/v2/menu?restaurant_id=2 HTTP/1.1" 200
+2020-12-11 16:16:39,992 INFO h11_impl.py[ln:454] 127.0.0.1:61387 - "GET /ugc/v2/restaurants/2/ratings?has_content=true&offset=0&limit=10&tag_name= HTTP/1.1" 200
+2020-12-11 16:16:40,077 INFO h11_impl.py[ln:454] 127.0.0.1:61391 - "GET /ugc/v2/restaurants/2/ratings/scores HTTP/1.1" 200
+2020-12-11 16:16:40,133 INFO h11_impl.py[ln:454] 127.0.0.1:61395 - "GET /ugc/v2/restaurants/2/ratings/tags HTTP/1.1" 200
+2020-12-11 16:23:10,421 INFO h11_impl.py[ln:454] 127.0.0.1:62139 - "POST /v1/carts/checkout HTTP/1.1" 404
+2020-12-11 16:23:13,419 INFO h11_impl.py[ln:454] 127.0.0.1:62149 - "GET /shopping/restaurant/2?latitude=31.178139&longitude=121.422717&extras[]=activities&extras[]=album&extras[]=license&extras[]=identification&extras[]=statistics HTTP/1.1" 200
+2020-12-11 16:23:13,478 INFO h11_impl.py[ln:454] 127.0.0.1:62153 - "GET /shopping/v2/menu?restaurant_id=2 HTTP/1.1" 200
+2020-12-11 16:23:13,518 INFO h11_impl.py[ln:454] 127.0.0.1:62157 - "GET /ugc/v2/restaurants/2/ratings?has_content=true&offset=0&limit=10&tag_name= HTTP/1.1" 200
+2020-12-11 16:23:13,553 INFO h11_impl.py[ln:454] 127.0.0.1:62161 - "GET /ugc/v2/restaurants/2/ratings/scores HTTP/1.1" 200
+2020-12-11 16:23:13,581 INFO h11_impl.py[ln:454] 127.0.0.1:62165 - "GET /ugc/v2/restaurants/2/ratings/tags HTTP/1.1" 200
+2020-12-11 16:25:12,480 INFO h11_impl.py[ln:454] 127.0.0.1:62391 - "GET /v1/user?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 307
+2020-12-11 16:25:12,484 INFO h11_impl.py[ln:454] 127.0.0.1:62392 - "GET /v2/index_entry?geohash=31.178139,121.422717&group_type=1&flags[]=F HTTP/1.1" 307
+2020-12-11 16:25:12,537 INFO h11_impl.py[ln:454] 127.0.0.1:62388 - "GET /v2/pois/31.178139,121.422717 HTTP/1.1" 200
+2020-12-11 16:25:12,712 INFO h11_impl.py[ln:454] 127.0.0.1:62397 - "GET /shopping/restaurants?latitude=31.178139&longitude=121.422717&offset=0&limit=20&extras[]=activities&keyword=&restaurant_category_id=&restaurant_category_ids[]=&order_by=&delivery_mode[]= HTTP/1.1" 200
+2020-12-11 16:25:12,856 INFO h11_impl.py[ln:454] 127.0.0.1:62403 - "OPTIONS /v1/user/?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 200
+2020-12-11 16:25:12,859 INFO h11_impl.py[ln:454] 127.0.0.1:62404 - "OPTIONS /v2/index_entry/?geohash=31.178139,121.422717&group_type=1&flags[]=F HTTP/1.1" 200
+2020-12-11 16:25:13,228 INFO h11_impl.py[ln:454] 127.0.0.1:62409 - "GET /v1/user/?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 200
+2020-12-11 16:25:13,252 INFO h11_impl.py[ln:454] 127.0.0.1:62410 - "GET /v2/index_entry/?geohash=31.178139,121.422717&group_type=1&flags[]=F HTTP/1.1" 200
+2020-12-11 16:25:15,208 INFO h11_impl.py[ln:454] 127.0.0.1:62417 - "GET /v1/cities/1 HTTP/1.1" 200
+2020-12-11 16:25:15,250 INFO h11_impl.py[ln:454] 127.0.0.1:62419 - "GET /v1/user?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 307
+2020-12-11 16:25:15,282 INFO h11_impl.py[ln:454] 127.0.0.1:62410 - "GET /v1/user/?user_id=791794ccf61b4b7ca0d3dc1f33aefef9 HTTP/1.1" 200
+2020-12-11 16:25:19,258 INFO h11_impl.py[ln:454] 127.0.0.1:62428 - "GET /shopping/restaurant/1?latitude=31.178139&longitude=121.422717&extras[]=activities&extras[]=album&extras[]=license&extras[]=identification&extras[]=statistics HTTP/1.1" 200
+2020-12-11 16:25:19,290 INFO h11_impl.py[ln:454] 127.0.0.1:62432 - "GET /shopping/v2/menu?restaurant_id=1 HTTP/1.1" 200
+2020-12-11 16:25:19,317 INFO h11_impl.py[ln:454] 127.0.0.1:62436 - "GET /ugc/v2/restaurants/1/ratings?has_content=true&offset=0&limit=10&tag_name= HTTP/1.1" 200
+2020-12-11 16:25:19,344 INFO h11_impl.py[ln:454] 127.0.0.1:62440 - "GET /ugc/v2/restaurants/1/ratings/scores HTTP/1.1" 200
+2020-12-11 16:25:19,372 INFO h11_impl.py[ln:454] 127.0.0.1:62444 - "GET /ugc/v2/restaurants/1/ratings/tags HTTP/1.1" 200
+2020-12-11 16:25:30,932 INFO h11_impl.py[ln:454] 127.0.0.1:62476 - "GET /shopping/restaurant/1?latitude=31.178139&longitude=121.422717&extras[]=activities&extras[]=album&extras[]=license&extras[]=identification&extras[]=statistics HTTP/1.1" 200
+2020-12-11 16:25:30,972 INFO h11_impl.py[ln:454] 127.0.0.1:62480 - "GET /shopping/v2/menu?restaurant_id=1 HTTP/1.1" 200
+2020-12-11 16:25:31,011 INFO h11_impl.py[ln:454] 127.0.0.1:62484 - "GET /ugc/v2/restaurants/1/ratings?has_content=true&offset=0&limit=10&tag_name= HTTP/1.1" 200
+2020-12-11 16:25:31,039 INFO h11_impl.py[ln:454] 127.0.0.1:62488 - "GET /ugc/v2/restaurants/1/ratings/scores HTTP/1.1" 200
+2020-12-11 16:25:31,066 INFO h11_impl.py[ln:454] 127.0.0.1:62492 - "GET /ugc/v2/restaurants/1/ratings/tags HTTP/1.1" 200
+2020-12-11 16:29:33,871 INFO h11_impl.py[ln:454] 127.0.0.1:62976 - "GET /shopping/restaurant/2?latitude=31.178139&longitude=121.422717&extras[]=activities&extras[]=album&extras[]=license&extras[]=identification&extras[]=statistics HTTP/1.1" 200
+2020-12-11 16:29:33,907 INFO h11_impl.py[ln:454] 127.0.0.1:62980 - "GET /shopping/v2/menu?restaurant_id=2 HTTP/1.1" 200
+2020-12-11 16:29:33,936 INFO h11_impl.py[ln:454] 127.0.0.1:62984 - "GET /ugc/v2/restaurants/2/ratings?has_content=true&offset=0&limit=10&tag_name= HTTP/1.1" 200
+2020-12-11 16:29:33,960 INFO h11_impl.py[ln:454] 127.0.0.1:62988 - "GET /ugc/v2/restaurants/2/ratings/scores HTTP/1.1" 200
+2020-12-11 16:29:33,986 INFO h11_impl.py[ln:454] 127.0.0.1:62992 - "GET /ugc/v2/restaurants/2/ratings/tags HTTP/1.1" 200
+2020-12-11 16:38:58,498 INFO h11_impl.py[ln:454] 127.0.0.1:64156 - "POST /v1/carts/checkout HTTP/1.1" 404
+2020-12-11 16:42:55,377 INFO h11_impl.py[ln:454] 127.0.0.1:64617 - "GET /shopping/restaurant/2?latitude=31.178139&longitude=121.422717&extras[]=activities&extras[]=album&extras[]=license&extras[]=identification&extras[]=statistics HTTP/1.1" 200
+2020-12-11 16:42:55,424 INFO h11_impl.py[ln:454] 127.0.0.1:64621 - "GET /shopping/v2/menu?restaurant_id=2 HTTP/1.1" 200
+2020-12-11 16:42:55,462 INFO h11_impl.py[ln:454] 127.0.0.1:64625 - "GET /ugc/v2/restaurants/2/ratings?has_content=true&offset=0&limit=10&tag_name= HTTP/1.1" 200
+2020-12-11 16:42:55,489 INFO h11_impl.py[ln:454] 127.0.0.1:64629 - "GET /ugc/v2/restaurants/2/ratings/scores HTTP/1.1" 200
+2020-12-11 16:42:55,519 INFO h11_impl.py[ln:454] 127.0.0.1:64633 - "GET /ugc/v2/restaurants/2/ratings/tags HTTP/1.1" 200
+2020-12-11 16:50:34,972 INFO main.py[ln:397] Started server process [37772]
+2020-12-11 16:50:34,973 INFO on.py[ln:22] Waiting for application startup.
+2020-12-11 16:50:34,975 INFO on.py[ln:34] Application startup complete.
+2020-12-11 16:55:41,139 INFO main.py[ln:397] Started server process [40572]
+2020-12-11 16:55:41,141 INFO on.py[ln:22] Waiting for application startup.
+2020-12-11 16:55:41,142 INFO on.py[ln:34] Application startup complete.
+2020-12-11 16:55:46,463 INFO h11_impl.py[ln:454] 127.0.0.1:49733 - "GET /shopping/restaurant/1?latitude=31.178139&longitude=121.422717&extras[]=activities&extras[]=album&extras[]=license&extras[]=identification&extras[]=statistics HTTP/1.1" 200
+2020-12-11 16:55:46,516 INFO h11_impl.py[ln:454] 127.0.0.1:49737 - "GET /shopping/v2/menu?restaurant_id=1 HTTP/1.1" 200
+2020-12-11 16:55:46,583 INFO h11_impl.py[ln:454] 127.0.0.1:49741 - "GET /ugc/v2/restaurants/1/ratings?has_content=true&offset=0&limit=10&tag_name= HTTP/1.1" 200
+2020-12-11 16:55:46,659 INFO h11_impl.py[ln:454] 127.0.0.1:49745 - "GET /ugc/v2/restaurants/1/ratings/scores HTTP/1.1" 200
+2020-12-11 16:55:46,736 INFO h11_impl.py[ln:454] 127.0.0.1:49749 - "GET /ugc/v2/restaurants/1/ratings/tags HTTP/1.1" 200
+2020-12-11 16:56:19,176 INFO main.py[ln:397] Started server process [8648]
+2020-12-11 16:56:19,177 INFO on.py[ln:22] Waiting for application startup.
+2020-12-11 16:56:19,179 INFO on.py[ln:34] Application startup complete.
+2020-12-11 16:56:21,735 INFO h11_impl.py[ln:454] 127.0.0.1:49830 - "GET /v1/carts/checkout HTTP/1.1" 404
+2020-12-11 16:56:26,465 INFO h11_impl.py[ln:454] 127.0.0.1:49843 - "GET /v1/carts/checkout HTTP/1.1" 404
+2020-12-11 16:56:53,822 INFO main.py[ln:397] Started server process [12080]
+2020-12-11 16:56:53,824 INFO on.py[ln:22] Waiting for application startup.
+2020-12-11 16:56:53,825 INFO on.py[ln:34] Application startup complete.
+2020-12-11 16:56:53,906 INFO h11_impl.py[ln:454] 127.0.0.1:49920 - "GET /v1/cart/checkout HTTP/1.1" 404
+2020-12-11 16:56:59,877 INFO h11_impl.py[ln:454] 127.0.0.1:49921 - "GET /v1/carts/checkout HTTP/1.1" 405
+2020-12-11 16:57:07,642 INFO h11_impl.py[ln:454] 127.0.0.1:49946 - "POST /v1/carts/checkout HTTP/1.1" 200
+2020-12-11 16:57:27,233 INFO main.py[ln:397] Started server process [50068]
+2020-12-11 16:57:27,234 INFO on.py[ln:22] Waiting for application startup.
+2020-12-11 16:57:27,236 INFO on.py[ln:34] Application startup complete.
+2020-12-11 16:57:27,273 INFO h11_impl.py[ln:454] 127.0.0.1:49982 - "GET /shopping/restaurant/1?latitude=31.178139&longitude=121.422717&extras[]=activities&extras[]=album&extras[]=license&extras[]=identification&extras[]=statistics HTTP/1.1" 200
+2020-12-11 16:57:27,304 INFO h11_impl.py[ln:454] 127.0.0.1:49988 - "GET /shopping/v2/menu?restaurant_id=1 HTTP/1.1" 200
+2020-12-11 16:57:27,344 INFO h11_impl.py[ln:454] 127.0.0.1:49992 - "GET /ugc/v2/restaurants/1/ratings?has_content=true&offset=0&limit=10&tag_name= HTTP/1.1" 200
+2020-12-11 16:57:27,408 INFO h11_impl.py[ln:454] 127.0.0.1:49996 - "GET /ugc/v2/restaurants/1/ratings/scores HTTP/1.1" 200
+2020-12-11 16:57:27,502 INFO h11_impl.py[ln:454] 127.0.0.1:50000 - "GET /ugc/v2/restaurants/1/ratings/tags HTTP/1.1" 200
+2020-12-11 17:38:16,344 INFO main.py[ln:397] Started server process [46668]
+2020-12-11 17:38:16,345 INFO on.py[ln:22] Waiting for application startup.
+2020-12-11 17:38:16,346 INFO on.py[ln:34] Application startup complete.
+2020-12-11 17:39:39,923 INFO main.py[ln:397] Started server process [22400]
+2020-12-11 17:39:39,924 INFO on.py[ln:22] Waiting for application startup.
+2020-12-11 17:39:39,926 INFO on.py[ln:34] Application startup complete.
+2020-12-11 17:40:08,630 INFO main.py[ln:397] Started server process [40940]
+2020-12-11 17:40:08,631 INFO on.py[ln:22] Waiting for application startup.
+2020-12-11 17:40:08,632 INFO on.py[ln:34] Application startup complete.
+2020-12-11 17:40:17,387 INFO main.py[ln:397] Started server process [10808]
+2020-12-11 17:40:17,388 INFO on.py[ln:22] Waiting for application startup.
+2020-12-11 17:40:17,390 INFO on.py[ln:34] Application startup complete.
+2020-12-11 17:40:26,244 INFO main.py[ln:397] Started server process [67064]
+2020-12-11 17:40:26,246 INFO on.py[ln:22] Waiting for application startup.
+2020-12-11 17:40:26,248 INFO on.py[ln:34] Application startup complete.
+2020-12-11 17:41:13,509 INFO main.py[ln:397] Started server process [7976]
+2020-12-11 17:41:13,510 INFO on.py[ln:22] Waiting for application startup.
+2020-12-11 17:41:13,512 INFO on.py[ln:34] Application startup complete.
+2020-12-11 17:42:10,601 INFO main.py[ln:397] Started server process [59624]
+2020-12-11 17:42:10,602 INFO on.py[ln:22] Waiting for application startup.
+2020-12-11 17:42:10,603 INFO on.py[ln:34] Application startup complete.
+2020-12-11 17:45:22,428 INFO main.py[ln:397] Started server process [5348]
+2020-12-11 17:45:22,430 INFO on.py[ln:22] Waiting for application startup.
+2020-12-11 17:45:22,431 INFO on.py[ln:34] Application startup complete.
+2020-12-11 17:46:05,730 INFO main.py[ln:397] Started server process [40400]
+2020-12-11 17:46:05,731 INFO on.py[ln:22] Waiting for application startup.
+2020-12-11 17:46:05,732 INFO on.py[ln:34] Application startup complete.
+2020-12-11 17:50:59,876 INFO main.py[ln:397] Started server process [54536]
+2020-12-11 17:50:59,877 INFO on.py[ln:22] Waiting for application startup.
+2020-12-11 17:50:59,878 INFO on.py[ln:34] Application startup complete.
+2020-12-11 17:51:36,806 INFO main.py[ln:397] Started server process [40976]
+2020-12-11 17:51:36,807 INFO on.py[ln:22] Waiting for application startup.
+2020-12-11 17:51:36,808 INFO on.py[ln:34] Application startup complete.
+2020-12-11 17:52:28,510 INFO main.py[ln:397] Started server process [54944]
+2020-12-11 17:52:28,511 INFO on.py[ln:22] Waiting for application startup.
+2020-12-11 17:52:28,512 INFO on.py[ln:34] Application startup complete.
+2020-12-11 17:52:37,430 INFO main.py[ln:397] Started server process [38892]
+2020-12-11 17:52:37,432 INFO on.py[ln:22] Waiting for application startup.
+2020-12-11 17:52:37,434 INFO on.py[ln:34] Application startup complete.
+2020-12-11 17:53:17,369 INFO main.py[ln:397] Started server process [27540]
+2020-12-11 17:53:17,370 INFO on.py[ln:22] Waiting for application startup.
+2020-12-11 17:53:17,372 INFO on.py[ln:34] Application startup complete.
+2020-12-11 18:31:48,007 INFO main.py[ln:397] Started server process [43012]
+2020-12-11 18:31:48,009 INFO on.py[ln:22] Waiting for application startup.
+2020-12-11 18:31:48,010 INFO on.py[ln:34] Application startup complete.
+2020-12-11 18:31:56,125 INFO h11_impl.py[ln:454] 127.0.0.1:61035 - "POST /v1/carts/checkout HTTP/1.1" 200
+2020-12-11 18:32:07,881 INFO h11_impl.py[ln:454] 127.0.0.1:61062 - "GET /shopping/restaurant/1?latitude=31.178139&longitude=121.422717&extras[]=activities&extras[]=album&extras[]=license&extras[]=identification&extras[]=statistics HTTP/1.1" 200
+2020-12-11 18:32:07,956 INFO h11_impl.py[ln:454] 127.0.0.1:61066 - "GET /shopping/v2/menu?restaurant_id=1 HTTP/1.1" 200
+2020-12-11 18:32:08,055 INFO h11_impl.py[ln:454] 127.0.0.1:61070 - "GET /ugc/v2/restaurants/1/ratings?has_content=true&offset=0&limit=10&tag_name= HTTP/1.1" 200
+2020-12-11 18:32:08,130 INFO h11_impl.py[ln:454] 127.0.0.1:61074 - "GET /ugc/v2/restaurants/1/ratings/scores HTTP/1.1" 200
+2020-12-11 18:32:08,188 INFO h11_impl.py[ln:454] 127.0.0.1:61078 - "GET /ugc/v2/restaurants/1/ratings/tags HTTP/1.1" 200
+2020-12-11 18:32:17,201 INFO main.py[ln:397] Started server process [23408]
+2020-12-11 18:32:17,205 INFO on.py[ln:22] Waiting for application startup.
+2020-12-11 18:32:17,206 INFO on.py[ln:34] Application startup complete.
